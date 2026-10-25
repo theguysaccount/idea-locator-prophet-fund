@@ -1,0 +1,40 @@
+# Reusable keep-alive, called by every scheduled workflow. GitHub disables scheduled workflows in public repos
+# after 60 days without repository activity: re-enable them through the API, and push a heartbeat commit when
+# the repository has been quiet for 40+ days.
+name: Keep-alive
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Keep scheduled workflows enabled
+        run: |
+          for wf in $(ls .github/workflows/*.yml | xargs -n1 basename); do
+            gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$wf/enable" >/dev/null 2>&1 && echo "enabled $wf" || echo "could not enable $wf"
+          done
+      - name: Heartbeat commit after 40 quiet days
+        run: |
+          git pull --quiet --ff-only || true
+          last=$(git log -1 --format=%ct)
+          days=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "last commit $days days ago"
+          if [ "$days" -ge 40 ]; then
+            date -u +%Y-%m-%dT%H:%M:%SZ > .github/heartbeat
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .github/heartbeat
+            git commit -m "Keep-alive heartbeat"
+            git push
+          fi

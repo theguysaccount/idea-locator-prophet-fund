@@ -52,3 +52,8 @@ jobs:
         run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref "${{ github.ref_name }}"
       - name: Alert on sources failing for more than four weeks
         run: python scripts/health.py stale
+
+  keepalive:
+    needs: refresh
+    if: always()
+    uses: ./.github/workflows/keepalive.yml

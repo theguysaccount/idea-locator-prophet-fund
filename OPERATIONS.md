@@ -41,11 +41,13 @@ Everything that runs, how each job fails safely, what to watch, and the keys a h
   - the live ledger verifies and is a prefix of the repo ledger;
   - the last data refresh is under 9 days old.
 - **Source links:** every cited URL still resolves. Bot walls (401/403/429) and sec.gov (which refuses automated clients without an email) are not counted. The job fails if more than 15% (minimum 3) are broken; fewer is listed in the run summary as content work.
-- **Keep-alive** (runs even if the checks fail):
-  - re-enables `refresh.yml`, `selftest.yml`, `deploy.yml` and `ci.yml` through the API;
-  - if the last commit is 40 or more days old, pushes a heartbeat commit (`.github/heartbeat`). GitHub disables schedules after 60 days of no activity.
+- **Keep-alive** (runs even if the checks fail): see `keepalive.yml` below.
 
-  Weekly refreshes normally commit `data/live/runs.json`, so the heartbeat rarely fires.
+### `keepalive.yml`: called by every scheduled workflow (`refresh.yml` and `selftest.yml`), or by hand
+- Re-enables every workflow in `.github/workflows/` through the API.
+- If the last commit is 40 or more days old, pushes a heartbeat commit (`.github/heartbeat`). GitHub disables schedules in public repos after 60 days without activity.
+
+Weekly refreshes normally commit `data/live/runs.json`, so the heartbeat rarely fires.
 
 ### `ci.yml`: tests on every push and pull request
 Python 3.9 and 3.12, the build, and the Node tests of the browser scripts.

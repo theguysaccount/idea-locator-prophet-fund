@@ -22,7 +22,8 @@ Also on the site:
 |---|---|---|---|
 | Refresh metrics (FRED, World Bank, OWID), the Federal Register calendar and ClinicalTrials.gov; resolve calls whose rule can now be decided; commit; redeploy | `refresh.yml` | Mondays 06:17 UTC | each source fails independently and keeps its last good data; tests run before any commit |
 | Test, guard the ledger, build, render share images, deploy to Pages, ping IndexNow | `deploy.yml` | on content or code changes, after a refresh, or by hand | tests, the build or the ledger guard failing stops the job; Pages keeps the last good deploy |
-| Live health check, source link check, tests on main, keep-alive | `selftest.yml` | Thursdays 05:41 UTC | read-only checks; keep-alive re-enables schedules and pushes a heartbeat after 40 quiet days |
+| Live health check, source link check, tests on main | `selftest.yml` | Thursdays 05:41 UTC | read-only checks |
+| Keep-alive: re-enable schedules, heartbeat commit after 40 quiet days | `keepalive.yml` | called by every scheduled workflow | runs even when the calling job fails |
 | Tests on every push and pull request (Python 3.9 and 3.12) | `ci.yml` | every push | n/a |
 
 Details, alerts and the keys a human can turn later: [OPERATIONS.md](OPERATIONS.md).
