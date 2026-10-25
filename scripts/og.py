@@ -45,6 +45,7 @@ def shoot(binary, html, png):
 
 
 def main(dist):
+    dist = os.path.abspath(dist)  # Chrome needs absolute file:// URLs and output paths
     src = os.path.join(dist, "_og")
     out = os.path.join(dist, "og")
     os.makedirs(out, exist_ok=True)
