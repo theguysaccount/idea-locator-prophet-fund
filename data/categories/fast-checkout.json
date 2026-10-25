@@ -1,0 +1,45 @@
+{
+ "slug": "fast-checkout",
+ "name": "Fast (one-click checkout)",
+ "kind": "myth",
+ "title": "Was Fast too early? No: the slot was already taken",
+ "question": "Was Fast's one-click checkout too early?",
+ "answer": "Fast raised over $120M for one-click checkout and shut down in April 2022; its 2021 revenue was reported at about $600,000. One-click buying already existed at scale through Amazon and Shopify's Shop Pay. Nothing was missing from the market; Fast was missing distribution.",
+ "verdict": "not-timing",
+ "verdict_reason": "Shop Pay and Amazon already offered one-click checkout at scale.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Fast",
+   "founded": null,
+   "died": 2022,
+   "raised_usd_m": null,
+   "how": "Shut down in April 2022 after raising over $120M; reported 2021 revenue was about $600K",
+   "source": "https://www.npr.org/2022/04/05/1091077398/checkout-startup-fast-is-shutting-down-after-burning-through-investors-money",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Shop Pay (Shopify)",
+   "founded": 2017,
+   "note": "accelerated checkout across Shopify stores",
+   "source": "https://en.wikipedia.org/wiki/Shopify"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "checkout",
+  "payments",
+  "one-click",
+  "ecommerce payments",
+  "fintech"
+ ],
+ "related": [],
+ "updated": "2026-10-25"
+}

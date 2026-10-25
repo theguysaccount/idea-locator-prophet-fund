@@ -1,0 +1,53 @@
+{
+ "slug": "online-used-cars",
+ "name": "Shift and Vroom (online used cars)",
+ "kind": "myth",
+ "title": "Did Shift and Vroom fail on timing? No: Carvana grew",
+ "question": "Were online used-car retailers like Shift and Vroom too early?",
+ "answer": "Shift filed for bankruptcy in October 2023 and Vroom shut its e-commerce business in January 2024. Carvana sold used cars online through the same years, survived a near-death 2022-23, and grew again. Same market, same date: not a timing failure.",
+ "verdict": "not-timing",
+ "verdict_reason": "Carvana sold cars online through the same period and grew.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Shift Technologies",
+   "founded": 2013,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Chapter 11, October 2023",
+   "source": "https://en.wikipedia.org/wiki/Shift_Technologies_(online_marketplace)",
+   "conf": "M"
+  },
+  {
+   "name": "Vroom (e-commerce)",
+   "founded": 2013,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "Wound down its e-commerce operations, January 2024",
+   "source": "https://en.wikipedia.org/wiki/Vroom_(company)",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Carvana",
+   "founded": 2012,
+   "note": "online used-car retail",
+   "source": "https://en.wikipedia.org/wiki/Carvana"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "used cars",
+  "auto retail",
+  "car marketplace",
+  "automotive ecommerce"
+ ],
+ "related": [],
+ "updated": "2026-10-25"
+}

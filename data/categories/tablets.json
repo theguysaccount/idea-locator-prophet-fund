@@ -1,0 +1,50 @@
+{
+ "slug": "tablets",
+ "name": "Tablet computers",
+ "kind": "history",
+ "title": "Why GO Corporation failed, and when tablets became viable",
+ "question": "Why did GO Corporation's pen computers fail, and when did tablets become viable?",
+ "answer": "GO Corporation (1987) built PenPoint, an operating system for pen tablets, and was sold to AT&T in 1994 before being shut down. Pen recognition, weight and battery life were not good enough for a general computer. The iPad (2010) used capacitive multitouch, an ARM chip and a lithium-ion battery: the stack the iPhone had just proved.",
+ "verdict": "formed",
+ "verdict_reason": "The iPhone's multitouch and ARM stack (2007) made the iPad (2010) possible.",
+ "enabler": "E3",
+ "constraint": {
+  "name": "Touch input and battery life",
+  "detail": "Pen recognition of the early 1990s was error-prone, and the hardware was heavy with short battery life."
+ },
+ "crossing": {
+  "date": "2007",
+  "text": "Capacitive multitouch and ARM SoCs proven in phones."
+ },
+ "graveyard": [
+  {
+   "name": "GO Corporation",
+   "founded": 1987,
+   "died": 1994,
+   "raised_usd_m": null,
+   "how": "Sold to AT&T in 1994, then shut down",
+   "source": "https://en.wikipedia.org/wiki/GO_Corporation",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "iPad (Apple)",
+   "founded": 2010,
+   "note": "launched April 2010",
+   "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation)"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "tablet",
+  "pen computing",
+  "slate",
+  "handwriting",
+  "touchscreen device"
+ ],
+ "related": [
+  "smartphones"
+ ],
+ "updated": "2026-10-25"
+}

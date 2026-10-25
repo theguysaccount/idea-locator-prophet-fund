@@ -1,0 +1,91 @@
+{
+ "slug": "driverless-trucking",
+ "name": "Driverless trucking",
+ "kind": "live",
+ "title": "Driverless trucking after Embark and TuSimple: viable now?",
+ "question": "Is driverless trucking viable again after Embark, Starsky and TuSimple?",
+ "answer": "Starsky Robotics shut down in 2020, Embark Trucks wound down in 2023, and TuSimple closed its US business and later left trucking altogether. Aurora began running driverless trucks commercially in Texas in 2025. Federal rules for driverless trucks are still unsettled: FMCSA's rulemaking on automated commercial vehicles (RIN 2126-AC17) has no final rule. That rule is the trigger the board watches.",
+ "verdict": "pending",
+ "verdict_reason": "One operator runs driverless freight; the federal rule that would make it routine is not final.",
+ "enabler": "E7+E5",
+ "constraint": {
+  "name": "Driverless reliability and federal operating rules",
+  "detail": "The software must be safe without a driver, and federal trucking rules (inspections, warning devices) assume a human in the cab."
+ },
+ "crossing": {
+  "date": "pending",
+  "text": "Final FMCSA rule for ADS-equipped commercial vehicles not yet published."
+ },
+ "graveyard": [
+  {
+   "name": "Starsky Robotics",
+   "founded": 2016,
+   "died": 2020,
+   "raised_usd_m": null,
+   "how": "Ceased operations in 2020 after failing to raise money",
+   "source": "https://en.wikipedia.org/wiki/Starsky_Robotics",
+   "conf": "M"
+  },
+  {
+   "name": "Embark Trucks",
+   "founded": null,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Wound down in March 2023, laying off 70% of staff, about 16 months after going public via SPAC",
+   "source": "https://www.freightwaves.com/news/embark-trucks-laying-off-70-of-employees-winding-down-business",
+   "conf": "M"
+  },
+  {
+   "name": "TuSimple (US trucking)",
+   "founded": 2015,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "Closed its US business, then pivoted to AI gaming as CreateAI (December 2024)",
+   "source": "https://en.wikipedia.org/wiki/TuSimple",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Aurora Innovation",
+   "founded": 2017,
+   "note": "commercial driverless trucking in Texas from 2025",
+   "source": "https://en.wikipedia.org/wiki/Aurora_Innovation"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2023-02-01",
+   "text": "FMCSA notice on the Safe Integration of Automated Driving Systems-Equipped Commercial Motor Vehicles (RIN 2126-AC17).",
+   "source": "https://www.federalregister.gov/d/2023-02073",
+   "conf": "H"
+  }
+ ],
+ "fr": [
+  {
+   "term": "\"automated driving systems\"",
+   "agencies": [
+    "federal-motor-carrier-safety-administration",
+    "national-highway-traffic-safety-administration"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE",
+    "NOTICE"
+   ]
+  }
+ ],
+ "keywords": [
+  "autonomous trucking",
+  "self-driving trucks",
+  "freight",
+  "logistics",
+  "autonomous vehicles",
+  "trucking"
+ ],
+ "related": [
+  "software-freight-brokerage",
+  "cruise-robotaxi"
+ ],
+ "updated": "2026-10-25"
+}

@@ -1,0 +1,94 @@
+{
+ "slug": "satellite-broadband",
+ "name": "Low-orbit satellite broadband",
+ "kind": "history",
+ "title": "Why Teledesic failed, and when satellite broadband became viable",
+ "question": "Why did Teledesic fail, and when did low-orbit satellite internet become viable?",
+ "answer": "Teledesic (1990), backed by Craig McCaw and Bill Gates, planned hundreds of low-orbit satellites for global internet and suspended work in 2002. At Space Shuttle-era launch prices, about $54,500 per kilogram by NASA's estimate, a constellation could not pay back. Falcon 9 advertised about $2,720/kg; SpaceX started Starlink in 2015.",
+ "verdict": "formed",
+ "verdict_reason": "Reusable-era launch prices fell about 20x; Starlink followed.",
+ "enabler": "E1",
+ "constraint": {
+  "name": "Launch cost per kilogram",
+  "detail": "A broadband constellation needs thousands of satellites replaced every few years; launch cost decides whether it pays."
+ },
+ "crossing": {
+  "date": "2010",
+  "text": "Falcon 9 first flight; advertised price about $2,720/kg to LEO."
+ },
+ "metric": {
+  "label": "Cost to launch one kilogram to low Earth orbit (NASA estimate, 2018)",
+  "short": "Launch cost to LEO",
+  "unit": "$/kg",
+  "direction": "down",
+  "log": true,
+  "source": {
+   "kind": "manual",
+   "points": [
+    {
+     "date": "1981",
+     "value": "54500",
+     "source": "https://ntrs.nasa.gov/citations/20200001093",
+     "source_name": "NASA (Jones 2018)"
+    },
+    {
+     "date": "2010",
+     "value": "2720",
+     "source": "https://ntrs.nasa.gov/citations/20200001093",
+     "source_name": "NASA (Jones 2018)"
+    }
+   ]
+  },
+  "marks": [
+   {
+    "date": "2002",
+    "label": "Teledesic stops"
+   },
+   {
+    "date": "2015",
+    "label": "Starlink begins"
+   }
+  ],
+  "note": "Two points from one NASA paper: Space Shuttle (first flight 1981) at about $54,500/kg and Falcon 9 (first flight 2010) at its advertised $2,720/kg. Advertised prices are list prices, not audited costs."
+ },
+ "graveyard": [
+  {
+   "name": "Teledesic",
+   "founded": 1990,
+   "died": 2002,
+   "raised_usd_m": null,
+   "how": "Suspended satellite construction in 2002",
+   "source": "https://en.wikipedia.org/wiki/Teledesic",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Starlink (SpaceX)",
+   "founded": 2015,
+   "note": "constellation programme announced 2015; service from 2020",
+   "source": "https://en.wikipedia.org/wiki/Starlink"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2018",
+   "text": "NASA: the Space Shuttle cost about $54,500/kg to LEO; Falcon 9 advertises $2,720/kg, a factor of 20.",
+   "source": "https://ntrs.nasa.gov/citations/20200001093",
+   "conf": "H"
+  }
+ ],
+ "keywords": [
+  "satellite",
+  "broadband",
+  "constellation",
+  "space internet",
+  "leo",
+  "connectivity"
+ ],
+ "related": [
+  "satellite-phones",
+  "starship-priced-space"
+ ],
+ "updated": "2026-10-25"
+}

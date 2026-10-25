@@ -1,0 +1,46 @@
+{
+ "slug": "myspace",
+ "name": "MySpace",
+ "kind": "myth",
+ "title": "Was MySpace too early? No: it lost head-to-head",
+ "question": "Was MySpace too early?",
+ "answer": "MySpace launched before Facebook opened to the public, passed 100 million accounts, and was bought by News Corp for $580M in 2005. It lost to Facebook head-to-head on the same broadband and the same browsers and was sold for about $35M in 2011. Same date, same enablers, different outcome: not timing.",
+ "verdict": "not-timing",
+ "verdict_reason": "Facebook won in the same years with the same enablers.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "MySpace",
+   "founded": 2003,
+   "died": 2011,
+   "raised_usd_m": null,
+   "how": "Sold by News Corp for about $35M in 2011, after a $580M purchase in 2005",
+   "source": "https://en.wikipedia.org/wiki/Myspace",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Facebook",
+   "founded": 2004,
+   "note": "overtook MySpace in 2008",
+   "source": "https://en.wikipedia.org/wiki/Facebook"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "social network",
+  "music community",
+  "profiles"
+ ],
+ "related": [
+  "social-networking",
+  "friendster"
+ ],
+ "updated": "2026-10-25"
+}

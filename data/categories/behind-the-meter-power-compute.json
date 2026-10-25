@@ -1,0 +1,69 @@
+{
+ "slug": "behind-the-meter-power-compute",
+ "name": "Behind-the-meter power for compute",
+ "kind": "live",
+ "title": "Behind-the-meter power for data centers: ripe, or not yet?",
+ "question": "Is behind-the-meter power for data centers ripe?",
+ "answer": "Grid interconnection queues stretch for years while compute demand surges, and stationary storage prices fell sharply in 2025, to about $70/kWh by BloombergNEF's survey as cited in 2026 research. Siting generation and storage at the data center sidesteps the queue. The open check: the companies said to have died trying this in the 2010s, at $400+/kWh storage, are asserted but not yet named.",
+ "verdict": "check",
+ "verdict_reason": "The crossing looks real; the graveyard is asserted at cohort level and must be enumerated before a ripe call.",
+ "enabler": "E1+E5",
+ "constraint": {
+  "name": "Storage cost and grid access",
+  "detail": "On-site generation needs cheap storage to be firm, and it is only worth the trouble when grid connection is slow or scarce."
+ },
+ "crossing": {
+  "date": "2025-12",
+  "text": "Storage price survey: about $70/kWh, down about 45% in a year (BloombergNEF, as cited in 2026 research)."
+ },
+ "graveyard": [],
+ "graveyard_note": "Asserted, not enumerated: the 2026-08-01 research names 'the 2010s microgrid cohort' and demand-response firms. Until named, funded companies that died on storage cost are sourced, this cannot be called ripe.",
+ "winners": [],
+ "evidence": [
+  {
+   "date": "2025-12",
+   "text": "Stationary storage price about $70/kWh, down about 45% year on year (BloombergNEF survey, as cited in the 2026-08-01 research; not independently checked).",
+   "unlinked": "BloombergNEF data is not redistributable; figure as cited in research notes",
+   "conf": "M"
+  }
+ ],
+ "fr": [
+  {
+   "term": "\"co-located load\"",
+   "agencies": [
+    "federal-energy-regulatory-commission"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE",
+    "NOTICE"
+   ]
+  },
+  {
+   "term": "\"large load\" interconnection",
+   "agencies": [
+    "federal-energy-regulatory-commission"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE"
+   ]
+  }
+ ],
+ "keywords": [
+  "data center power",
+  "behind the meter",
+  "microgrid",
+  "energy storage",
+  "onsite generation",
+  "grid interconnection",
+  "ai infrastructure",
+  "compute power"
+ ],
+ "related": [
+  "advanced-nuclear-smr",
+  "lfp-batteries",
+  "cloud-infrastructure"
+ ],
+ "updated": "2026-10-25"
+}

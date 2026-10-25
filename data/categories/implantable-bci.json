@@ -1,0 +1,66 @@
+{
+ "slug": "implantable-bci",
+ "name": "Implantable brain-computer interfaces",
+ "kind": "live",
+ "title": "Implantable brain-computer interfaces: is a pivotal trial next?",
+ "question": "Are implantable brain-computer interfaces close to approval for patients?",
+ "answer": "Cyberkinetics took the BrainGate implant into its first human trial and sold off its BrainGate business and assets in 2008-2009 without a path to market. Synchron, Neuralink, Paradromics and Precision Neuroscience now have implants in human studies. The dated trigger is a pivotal trial, the last step before FDA approval; the board watches ClinicalTrials.gov for one.",
+ "verdict": "pending",
+ "verdict_reason": "Early feasibility studies are running; no pivotal trial is registered yet.",
+ "enabler": "E5",
+ "constraint": {
+  "name": "A regulatory path for permanent implants",
+  "detail": "A BCI needs proof of long-term safety and benefit in a pivotal trial before premarket approval; feasibility studies are not enough."
+ },
+ "crossing": {
+  "date": "pending",
+  "text": "First pivotal trial of a permanent BCI implant registered."
+ },
+ "graveyard": [
+  {
+   "name": "Cyberkinetics Neurotechnology Systems",
+   "founded": null,
+   "died": 2009,
+   "raised_usd_m": null,
+   "how": "Sold its BrainGate business and other assets in 2008-2009",
+   "source": "https://en.wikipedia.org/wiki/Cyberkinetics",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Synchron",
+   "founded": null,
+   "note": "endovascular implant; completed the COMMAND early feasibility study",
+   "source": "https://www.massdevice.com/synchron-command-study-results-stentrode-bci-implant/"
+  },
+  {
+   "name": "Neuralink",
+   "founded": 2016,
+   "note": "implant in human studies since 2024",
+   "source": "https://en.wikipedia.org/wiki/Neuralink"
+  }
+ ],
+ "evidence": [],
+ "trials": {
+  "sponsors": [
+   "Synchron",
+   "Neuralink",
+   "Paradromics",
+   "Precision Neuroscience"
+  ]
+ },
+ "keywords": [
+  "brain computer interface",
+  "bci",
+  "neurotech",
+  "neural implant",
+  "neuroprosthetic",
+  "paralysis",
+  "brain implant"
+ ],
+ "related": [
+  "prescription-digital-therapeutics"
+ ],
+ "updated": "2026-10-25"
+}

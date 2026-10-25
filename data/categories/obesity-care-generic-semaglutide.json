@@ -1,0 +1,75 @@
+{
+ "slug": "obesity-care-generic-semaglutide",
+ "name": "Obesity care on generic semaglutide (outside the US)",
+ "kind": "live",
+ "title": "Obesity care on generic semaglutide: a check decides it",
+ "question": "Is obesity care built on generic semaglutide viable outside the US?",
+ "answer": "Weight-loss drugs before GLP-1s failed commercially: Orexigen filed for Chapter 11 in 2018 and Vivus in 2020. Semaglutide works, at branded prices. Its compound patent protection lapses during 2026 in several large markets, including India, Canada, China, Brazil and Turkey. Whether secondary patents delay real generic launches there is the check, and call C1 is on the ledger.",
+ "verdict": "check",
+ "verdict_reason": "The compound patents lapse in 2026; the secondary-patent thicket check has not been run.",
+ "enabler": "E5",
+ "constraint": {
+  "name": "Drug price, set by patent protection",
+  "detail": "Care built around a drug only works at scale when the drug is cheap; that depends on the last blocking patent, not the headline expiry."
+ },
+ "crossing": {
+  "date": "2026",
+  "text": "Semaglutide compound protection lapses in several large markets (2026-08-01 research)."
+ },
+ "graveyard": [
+  {
+   "name": "Orexigen Therapeutics",
+   "founded": 2002,
+   "died": 2018,
+   "raised_usd_m": null,
+   "how": "Chapter 11, March 2018 (Contrave)",
+   "source": "https://en.wikipedia.org/wiki/Orexigen_Therapeutics",
+   "conf": "M"
+  },
+  {
+   "name": "Vivus",
+   "founded": null,
+   "died": 2020,
+   "raised_usd_m": null,
+   "how": "Filed for bankruptcy protection in 2020 (Qsymia)",
+   "source": "https://en.wikipedia.org/wiki/Vivus_Inc.",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [
+  {
+   "date": "2016-12",
+   "text": "Humira precedent: the compound patent expired in 2016 but US biosimilars launched only in January 2023, after secondary patents and settlements.",
+   "source": "https://en.wikipedia.org/wiki/Adalimumab",
+   "conf": "M"
+  }
+ ],
+ "fr": [
+  {
+   "term": "semaglutide",
+   "agencies": [
+    "food-and-drug-administration"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE",
+    "NOTICE"
+   ]
+  }
+ ],
+ "keywords": [
+  "obesity",
+  "weight loss",
+  "glp-1",
+  "semaglutide",
+  "diabetes",
+  "metabolic health",
+  "telehealth weight",
+  "generics"
+ ],
+ "related": [
+  "prescription-digital-therapeutics"
+ ],
+ "updated": "2026-10-25"
+}

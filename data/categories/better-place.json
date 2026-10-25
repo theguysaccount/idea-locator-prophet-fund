@@ -1,0 +1,47 @@
+{
+ "slug": "better-place",
+ "name": "Better Place",
+ "kind": "myth",
+ "title": "Was Better Place too early? No: coordination failure",
+ "question": "Was Better Place too early for battery swapping?",
+ "answer": "Better Place raised hundreds of millions of dollars to build battery-swap stations and went bankrupt in May 2013 with one car model that used them. Swapping needed carmakers to standardise their battery packs, and they would not. NIO later made swapping work in China by being the carmaker itself. It was available at any date to a differently structured company.",
+ "verdict": "not-timing",
+ "verdict_reason": "It needed rival carmakers to standardise on its pack.",
+ "enabler": "E6",
+ "myth_test": "coordination",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Better Place",
+   "founded": 2007,
+   "died": 2013,
+   "raised_usd_m": null,
+   "how": "Bankruptcy, May 2013",
+   "source": "https://en.wikipedia.org/wiki/Better_Place_(company)",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "NIO (battery swap)",
+   "founded": 2014,
+   "note": "swaps its own packs in its own stations",
+   "source": "https://en.wikipedia.org/wiki/Nio_Inc."
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "ev charging",
+  "battery swapping",
+  "electric vehicle",
+  "charging network",
+  "mobility"
+ ],
+ "related": [
+  "lfp-batteries"
+ ],
+ "updated": "2026-10-25"
+}

@@ -1,0 +1,53 @@
+{
+ "slug": "consumer-vr",
+ "name": "Consumer virtual reality",
+ "kind": "history",
+ "title": "Why early VR failed, and when consumer VR became viable",
+ "question": "Why did early virtual reality fail, and when did consumer VR become viable?",
+ "answer": "VPL Research (1984), Jaron Lanier's company, sold the first commercial VR gloves and headsets; it went bankrupt in 1990 and its patents were later bought by Sun Microsystems. Rendering and displays cost tens of thousands of dollars. Oculus (2012) built a headset from phone-grade displays and gaming GPUs; Facebook bought it for about $2B in 2014.",
+ "verdict": "formed",
+ "verdict_reason": "Phone displays and consumer GPUs made a few-hundred-dollar headset possible in 2012.",
+ "enabler": "E1",
+ "constraint": {
+  "name": "GPU and display cost",
+  "detail": "Convincing VR needs high-resolution displays and fast rendering; both cost workstation money until smartphones and gaming GPUs."
+ },
+ "crossing": {
+  "date": "2012",
+  "text": "Phone-panel displays and consumer GPUs make the Oculus Rift prototype possible."
+ },
+ "graveyard": [
+  {
+   "name": "VPL Research",
+   "founded": 1984,
+   "died": 1990,
+   "raised_usd_m": null,
+   "how": "Bankruptcy, 1990; patents later sold to Sun Microsystems",
+   "source": "https://en.wikipedia.org/wiki/VPL_Research",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Oculus",
+   "founded": 2012,
+   "note": "acquired by Facebook for about $2B in 2014",
+   "source": "https://en.wikipedia.org/wiki/Oculus_VR"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "virtual reality",
+  "vr",
+  "headset",
+  "immersive",
+  "metaverse",
+  "augmented reality",
+  "xr"
+ ],
+ "related": [
+  "camera-glasses",
+  "display-less-ai-glasses-apps"
+ ],
+ "updated": "2026-10-25"
+}

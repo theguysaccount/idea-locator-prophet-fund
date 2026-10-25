@@ -1,0 +1,47 @@
+{
+ "slug": "cruise-robotaxi",
+ "name": "Cruise (robotaxis)",
+ "kind": "myth",
+ "title": "Was Cruise too early? No: Waymo ran rides meanwhile",
+ "question": "Was Cruise too early for robotaxis?",
+ "answer": "Cruise, owned by GM, ran driverless rides in San Francisco until a 2023 crash and suspension; in December 2024 GM said it would stop funding robotaxi development. Through the same years Waymo ran paid driverless rides and expanded to more cities. A competitor scaling in the same window means the enabler had crossed.",
+ "verdict": "not-timing",
+ "verdict_reason": "Waymo ran and expanded paid driverless service in the same years.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Cruise",
+   "founded": 2013,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "GM ended robotaxi funding, December 2024",
+   "source": "https://en.wikipedia.org/wiki/Cruise_(autonomous_vehicle)",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Waymo",
+   "founded": 2009,
+   "note": "paid driverless rides in several US cities",
+   "source": "https://en.wikipedia.org/wiki/Waymo"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "robotaxi",
+  "autonomous vehicles",
+  "self-driving",
+  "ride hailing",
+  "mobility"
+ ],
+ "related": [
+  "driverless-trucking"
+ ],
+ "updated": "2026-10-25"
+}

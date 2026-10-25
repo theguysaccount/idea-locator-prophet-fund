@@ -1,0 +1,86 @@
+{
+ "slug": "evtol-air-taxis",
+ "name": "Electric air taxis (eVTOL)",
+ "kind": "live",
+ "title": "Electric air taxis after Lilium and Volocopter: the board abstains",
+ "question": "Are electric air taxis viable after Lilium and Volocopter failed?",
+ "answer": "The FAA finished its rules for powered-lift aircraft and pilots in late 2024, the regulatory piece air taxis had waited for. Within months Lilium entered insolvency and Volocopter filed for insolvency in December 2024. When the named blocker crosses and leading companies still fail, it was not the binding constraint; battery energy and certification cost are likelier, and the board abstains.",
+ "verdict": "unknown",
+ "verdict_reason": "The regulatory blocker crossed and leaders still failed, so the rule abstains.",
+ "enabler": "E5+E1",
+ "constraint": {
+  "name": "Powered-lift rules (named, but not binding)",
+  "detail": "The FAA powered-lift framework crossed in 2024; certification cost and battery energy density did not visibly move."
+ },
+ "graveyard": [
+  {
+   "name": "Lilium",
+   "founded": 2015,
+   "died": 2025,
+   "raised_usd_m": null,
+   "how": "Insolvency proceedings, late 2024 and again in 2025",
+   "source": "https://en.wikipedia.org/wiki/Lilium_GmbH",
+   "conf": "M"
+  },
+  {
+   "name": "Volocopter",
+   "founded": 2011,
+   "died": 2025,
+   "raised_usd_m": null,
+   "how": "Filed for insolvency, December 2024; assets sold in 2025",
+   "source": "https://en.wikipedia.org/wiki/Volocopter",
+   "conf": "M"
+  },
+  {
+   "name": "Kitty Hawk",
+   "founded": 2010,
+   "died": 2022,
+   "raised_usd_m": null,
+   "how": "Shut down, September 2022",
+   "source": "https://en.wikipedia.org/wiki/Kitty_Hawk_Corporation",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Joby Aviation",
+   "founded": 2009,
+   "note": "in FAA type certification",
+   "source": "https://en.wikipedia.org/wiki/Joby_Aviation"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2025-01-03",
+   "text": "FAA final rule amendments: Integration of Powered-Lift: Pilot Certification and Operations.",
+   "source": "https://www.federalregister.gov/d/2024-30331",
+   "conf": "H"
+  }
+ ],
+ "fr": [
+  {
+   "term": "\"powered-lift\"",
+   "agencies": [
+    "federal-aviation-administration"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE"
+   ]
+  }
+ ],
+ "keywords": [
+  "evtol",
+  "air taxi",
+  "urban air mobility",
+  "electric aircraft",
+  "flying car",
+  "advanced air mobility",
+  "aviation"
+ ],
+ "related": [
+  "drone-delivery",
+  "supersonic-passenger-flight"
+ ],
+ "updated": "2026-10-25"
+}

@@ -1,0 +1,47 @@
+{
+ "slug": "segway",
+ "name": "Segway",
+ "kind": "myth",
+ "title": "Was Segway too early? No: a different product won",
+ "question": "Was Segway too early for personal transport?",
+ "answer": "Segway launched in 2001 with predictions it would reshape cities, sold far fewer units than hoped, and in June 2020 its maker said it would stop making the original. Short urban trips did go electric, but through cheap shared kick scooters (2017 onward), a different product and model. Being right about the need is not being early with the product.",
+ "verdict": "not-timing",
+ "verdict_reason": "Short trips went electric through a different, cheaper product.",
+ "enabler": "E6",
+ "myth_test": "wrong-product",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Segway PT",
+   "founded": 2001,
+   "died": 2020,
+   "raised_usd_m": null,
+   "how": "Its maker announced the end of Segway PT production in June 2020",
+   "source": "https://en.wikipedia.org/wiki/Segway",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Shared e-scooters (Lime and others)",
+   "founded": 2017,
+   "note": "dockless shared scooters",
+   "source": "https://en.wikipedia.org/wiki/Lime_(transportation_company)"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "personal transport",
+  "micromobility",
+  "scooter",
+  "electric vehicle",
+  "mobility"
+ ],
+ "related": [
+  "scooter-sharing"
+ ],
+ "updated": "2026-10-25"
+}

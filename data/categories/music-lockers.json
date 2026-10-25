@@ -1,0 +1,56 @@
+{
+ "slug": "music-lockers",
+ "name": "Cloud music lockers",
+ "kind": "history",
+ "title": "Why MP3.com's music locker failed, and when it came back",
+ "question": "Why did MP3.com's cloud music locker fail, and when did lockers become viable?",
+ "answer": "MP3.com's My.MP3.com (2000) let people stream CDs they already owned from the internet. The labels sued, a federal court ruled against MP3.com in 2000, and Vivendi bought the company in 2001. The same product returned in 2011 as iTunes Match and Google Music, this time with label licences.",
+ "verdict": "formed",
+ "verdict_reason": "Licensed lockers launched in 2011, eleven years after the lawsuit.",
+ "enabler": "E5",
+ "constraint": {
+  "name": "Label licences for cloud copies",
+  "detail": "Storing one copy per song for many users was ruled infringing without a licence."
+ },
+ "crossing": {
+  "date": "2011",
+  "text": "iTunes Match and Google Music launch with label deals."
+ },
+ "graveyard": [
+  {
+   "name": "MP3.com",
+   "founded": 1997,
+   "died": 2001,
+   "raised_usd_m": null,
+   "how": "Lost UMG v. MP3.com (2000); acquired by Vivendi Universal in 2001",
+   "source": "https://en.wikipedia.org/wiki/MP3.com",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "iTunes Match (Apple)",
+   "founded": 2011,
+   "note": "licensed cloud locker",
+   "source": "https://en.wikipedia.org/wiki/ITunes_Match"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2000",
+   "text": "UMG Recordings, Inc. v. MP3.com, Inc. (S.D.N.Y. 2000) found My.MP3.com infringing.",
+   "source": "https://en.wikipedia.org/wiki/UMG_Recordings,_Inc._v._MP3.com,_Inc.",
+   "conf": "H"
+  }
+ ],
+ "keywords": [
+  "music locker",
+  "cloud storage for music",
+  "media library",
+  "music cloud"
+ ],
+ "related": [
+  "music-streaming"
+ ],
+ "updated": "2026-10-25"
+}

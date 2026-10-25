@@ -1,0 +1,40 @@
+{
+ "slug": "theranos",
+ "name": "Theranos",
+ "kind": "myth",
+ "title": "Was Theranos too early? No: it was fraud",
+ "question": "Was Theranos too early for finger-prick blood testing?",
+ "answer": "Theranos claimed to run hundreds of tests from a finger-prick of blood, raised hundreds of millions of dollars, and dissolved in 2018. The claims were false; its founder was convicted of fraud in 2022. Calling it 'too early' treats a fraud as a forecast.",
+ "verdict": "not-timing",
+ "verdict_reason": "The core claims were false; the founder was convicted of fraud.",
+ "enabler": "E6",
+ "myth_test": "fraud",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Theranos",
+   "founded": 2003,
+   "died": 2018,
+   "raised_usd_m": null,
+   "how": "Dissolved in 2018; founder convicted of fraud in 2022",
+   "source": "https://en.wikipedia.org/wiki/Theranos",
+   "conf": "H"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "blood testing",
+  "diagnostics",
+  "lab testing",
+  "health tech",
+  "medtech"
+ ],
+ "related": [
+  "clinical-genetic-testing"
+ ],
+ "updated": "2026-10-25"
+}

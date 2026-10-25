@@ -1,0 +1,155 @@
+{
+ "slug": "online-grocery-delivery",
+ "name": "Online grocery delivery",
+ "kind": "history",
+ "title": "Why Webvan failed, and when online grocery became viable",
+ "question": "Why did Webvan fail, and when did online grocery become viable?",
+ "answer": "Webvan built its own automated warehouses and truck fleet, lost over $800M, and filed for bankruptcy in July 2001. The business that later worked, Instacart (2012), owned neither: it sent gig shoppers to existing stores, dispatched by smartphone. The missing piece was a cheap way to dispatch labour, not demand.",
+ "verdict": "formed",
+ "verdict_reason": "Smartphone ownership passed 45% of US adults in 2012, the year Instacart was founded.",
+ "enabler": "E3+E4",
+ "constraint": {
+  "name": "Smartphone dispatch and gig labour",
+  "detail": "Without phones in shoppers' and drivers' pockets, delivery needed owned warehouses and salaried drivers: fixed costs that grocery margins could not cover."
+ },
+ "crossing": {
+  "date": "2012",
+  "text": "Smartphone ownership passes 45% of US adults (Pew); gig labour supply at scale."
+ },
+ "metric": {
+  "label": "US adults who own a smartphone (Pew Research Center)",
+  "short": "US smartphone ownership",
+  "unit": "%",
+  "direction": "up",
+  "source": {
+   "kind": "manual",
+   "points": [
+    {
+     "date": "2011-05",
+     "value": "35",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2012-04",
+     "value": "46",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2013-05",
+     "value": "56",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2015-07",
+     "value": "68",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2016-11",
+     "value": "77",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2019-02",
+     "value": "81",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2021-02",
+     "value": "85",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2023-09",
+     "value": "90",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2024-06",
+     "value": "91",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2026-06",
+     "value": "91",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    }
+   ]
+  },
+  "marks": [
+   {
+    "date": "2012-06",
+    "label": "Instacart founded"
+   }
+  ],
+  "note": "Pew changed survey mode in 2023 and 2024; treat the last points as approximately comparable."
+ },
+ "graveyard": [
+  {
+   "name": "Webvan",
+   "founded": 1996,
+   "died": 2001,
+   "raised_usd_m": 800,
+   "how": "Filed for bankruptcy in July 2001 and laid off 2,000 staff",
+   "source": "https://en.wikipedia.org/wiki/Webvan",
+   "conf": "M",
+   "raised_note": "lost over $800M"
+  },
+  {
+   "name": "HomeGrocer",
+   "founded": 1997,
+   "died": 2000,
+   "raised_usd_m": null,
+   "how": "Merged into Webvan in 2000, months before Webvan failed",
+   "source": "https://en.wikipedia.org/wiki/HomeGrocer",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Instacart",
+   "founded": 2012,
+   "note": "dispatches gig shoppers to existing stores; IPO 2023",
+   "source": "https://en.wikipedia.org/wiki/Instacart"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "1989",
+   "text": "Peapod started home grocery delivery in 1989 and survived the dot-com crash at small scale inside a grocer (Ahold), so demand was real; the cost structure was the problem.",
+   "source": "https://en.wikipedia.org/wiki/Peapod",
+   "conf": "M"
+  },
+  {
+   "date": "2012-04",
+   "text": "Pew: 46% of US adults own a smartphone, up from 35% a year earlier.",
+   "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+   "conf": "H"
+  }
+ ],
+ "keywords": [
+  "grocery",
+  "groceries",
+  "online grocery",
+  "grocery delivery",
+  "supermarket delivery",
+  "e-grocery",
+  "food delivery to home",
+  "meal delivery"
+ ],
+ "related": [
+  "on-demand-local-delivery",
+  "ultrafast-grocery-delivery"
+ ],
+ "updated": "2026-10-25"
+}

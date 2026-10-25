@@ -1,0 +1,75 @@
+{
+ "slug": "lfp-batteries",
+ "name": "LFP battery cells",
+ "kind": "history",
+ "title": "Why A123 Systems went bankrupt, and when LFP batteries won",
+ "question": "Why did A123 Systems go bankrupt, and when did LFP batteries become viable?",
+ "answer": "A123 Systems (2001) commercialised lithium iron phosphate (LFP) cells, went public in 2009 and received a $249M federal grant, then filed for bankruptcy in October 2012 when electric-car demand lagged. CATL (2011) scaled LFP into the EV boom. World EV sales went from tens of thousands in 2011 to millions a year.",
+ "verdict": "formed",
+ "verdict_reason": "EV volume crossed the scale cell makers needed in the mid-2010s.",
+ "enabler": "E3",
+ "constraint": {
+  "name": "Electric-vehicle production volume",
+  "detail": "Cell factories need volume to reach their costs; in 2012 there were not enough EVs to fill them."
+ },
+ "crossing": {
+  "date": "2015",
+  "text": "World EV sales pass about half a million a year (IEA via OWID)."
+ },
+ "metric": {
+  "label": "Electric cars sold worldwide per year (IEA, via Our World in Data)",
+  "short": "World EV sales",
+  "unit": "cars",
+  "direction": "up",
+  "log": true,
+  "then": "2012",
+  "source": {
+   "kind": "owid",
+   "slug": "electric-car-sales",
+   "column": "ev_sales",
+   "entity": "World"
+  },
+  "source_page": "https://ourworldindata.org/grapher/electric-car-sales",
+  "marks": [
+   {
+    "date": "2012-10",
+    "label": "A123 Ch. 11"
+   }
+  ]
+ },
+ "graveyard": [
+  {
+   "name": "A123 Systems",
+   "founded": 2001,
+   "died": 2012,
+   "raised_usd_m": null,
+   "how": "Chapter 11, October 2012; assets bought by Wanxiang",
+   "source": "https://en.wikipedia.org/wiki/A123_Systems",
+   "conf": "M",
+   "raised_note": "included a 2009 IPO and a $249M US grant"
+  }
+ ],
+ "winners": [
+  {
+   "name": "CATL",
+   "founded": 2011,
+   "note": "the largest EV battery maker; major LFP supplier",
+   "source": "https://en.wikipedia.org/wiki/CATL"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "battery",
+  "batteries",
+  "lithium",
+  "lfp",
+  "energy storage",
+  "cells",
+  "electric vehicle"
+ ],
+ "related": [
+  "behind-the-meter-power-compute",
+  "aquion-energy"
+ ],
+ "updated": "2026-10-25"
+}

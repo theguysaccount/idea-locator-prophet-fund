@@ -1,0 +1,48 @@
+{
+ "slug": "excite-at-home",
+ "name": "Excite@Home",
+ "kind": "myth",
+ "title": "Was Excite@Home too early? No: the cable firms took it",
+ "question": "Was Excite@Home too early for broadband?",
+ "answer": "@Home sold broadband internet over cable lines from 1996, acquired Excite in 1999 and filed for bankruptcy in 2001. The missing pieces, the cable lines, belonged to its distribution partners, who took broadband service in-house once it was proven. Broadband boomed; the middleman did not. That is enabler-owner capture.",
+ "verdict": "not-timing",
+ "verdict_reason": "The cable operators owned the pipes and took the market.",
+ "enabler": "E6",
+ "myth_test": "capture",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Excite@Home",
+   "founded": 1996,
+   "died": 2001,
+   "raised_usd_m": null,
+   "how": "Chapter 11, 2001",
+   "source": "https://en.wikipedia.org/wiki/Excite@Home",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Comcast (cable broadband)",
+   "founded": 1963,
+   "note": "ran broadband itself",
+   "source": "https://en.wikipedia.org/wiki/Comcast"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "broadband",
+  "isp",
+  "internet access",
+  "portal",
+  "telecom"
+ ],
+ "related": [
+  "tivo",
+  "third-party-api-clients"
+ ],
+ "updated": "2026-10-25"
+}

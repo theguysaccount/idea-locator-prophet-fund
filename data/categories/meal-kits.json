@@ -1,0 +1,47 @@
+{
+ "slug": "meal-kits",
+ "name": "Blue Apron (meal kits)",
+ "kind": "myth",
+ "title": "Was Blue Apron too early? No: HelloFresh grew",
+ "question": "Was Blue Apron too early for meal kits?",
+ "answer": "Blue Apron went public in 2017 and was sold to Wonder in 2023 for about $103M, a fraction of its IPO value. HelloFresh sold meal kits in the same markets over the same years and became the category leader. Meal kits worked; one company's customer economics did not.",
+ "verdict": "not-timing",
+ "verdict_reason": "HelloFresh grew in the same market over the same years.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Blue Apron",
+   "founded": 2012,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Sold to Wonder for about $103M in 2023",
+   "source": "https://en.wikipedia.org/wiki/Blue_Apron",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "HelloFresh",
+   "founded": 2011,
+   "note": "the largest meal-kit company",
+   "source": "https://en.wikipedia.org/wiki/HelloFresh"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "meal kit",
+  "food subscription",
+  "cooking",
+  "groceries",
+  "dtc food"
+ ],
+ "related": [
+  "online-grocery-delivery"
+ ],
+ "updated": "2026-10-25"
+}

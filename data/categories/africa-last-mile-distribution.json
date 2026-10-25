@@ -1,0 +1,43 @@
+{
+ "slug": "africa-last-mile-distribution",
+ "name": "Rural last-mile retail distribution in Africa",
+ "kind": "live",
+ "title": "Rural e-commerce distribution in Africa after Copia: no-go",
+ "question": "Is rural last-mile retail distribution in Africa viable again after Copia?",
+ "answer": "Copia Global built rural e-commerce in Kenya through village agents, raised over $100M, and entered administration in May 2024 after failing to raise more money; layoffs of more than 1,000 staff followed. Physical distribution needs a longer runway than venture funds offer, and that gap has not closed.",
+ "verdict": "nogo",
+ "verdict_reason": "The capital-duration mismatch that killed it has not changed.",
+ "enabler": "E8",
+ "constraint": {
+  "name": "Patient capital",
+  "detail": "Building physical distribution takes longer than a venture fund's life; the money ran out before the network paid."
+ },
+ "graveyard": [
+  {
+   "name": "Copia Global",
+   "founded": null,
+   "died": 2024,
+   "raised_usd_m": 123,
+   "how": "Entered administration, May 2024, after failing to raise new funding",
+   "source": "https://techcabal.com/2024/05/24/copia-enters-into-administration-after-failing-to-secure-funding/",
+   "conf": "M",
+   "raised_note": "$123M across eight rounds (TechCabal); others report over $100M"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "africa",
+  "emerging markets",
+  "rural commerce",
+  "agent network",
+  "last mile",
+  "distribution",
+  "kenya",
+  "informal retail"
+ ],
+ "related": [
+  "ultrafast-grocery-delivery"
+ ],
+ "updated": "2026-10-25"
+}

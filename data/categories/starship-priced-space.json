@@ -1,0 +1,66 @@
+{
+ "slug": "starship-priced-space",
+ "name": "Businesses priced off Starship launch costs",
+ "kind": "live",
+ "title": "Space businesses priced off Starship: no-go until it is measured",
+ "question": "Can you build a space business priced off Starship's launch costs yet?",
+ "answer": "Many space business plans assume launch below $200 per kilogram once Starship flies commercially. That is a target, not a price anyone can buy today. The last measured step was Falcon 9, which NASA put at about $2,720/kg advertised. Until third parties buy Starship launches at a published price, a plan priced off it is priced off a forecast.",
+ "verdict": "nogo",
+ "verdict_reason": "No one can buy launch at the assumed price yet; announced is not measured.",
+ "enabler": "E1",
+ "constraint": {
+  "name": "Measured, purchasable launch price",
+  "detail": "Vendor targets lead measured prices by years; only a price third parties pay counts as a crossing."
+ },
+ "metric": {
+  "label": "Cost to launch one kilogram to low Earth orbit (NASA estimate, 2018)",
+  "short": "Launch cost to LEO",
+  "unit": "$/kg",
+  "direction": "down",
+  "log": true,
+  "source": {
+   "kind": "manual",
+   "points": [
+    {
+     "date": "1981",
+     "value": "54500",
+     "source": "https://ntrs.nasa.gov/citations/20200001093",
+     "source_name": "NASA (Jones 2018)"
+    },
+    {
+     "date": "2010",
+     "value": "2720",
+     "source": "https://ntrs.nasa.gov/citations/20200001093",
+     "source_name": "NASA (Jones 2018)"
+    }
+   ]
+  },
+  "marks": [],
+  "note": "Two points from one NASA paper: Space Shuttle (first flight 1981) at about $54,500/kg and Falcon 9 (first flight 2010) at its advertised $2,720/kg. Advertised prices are list prices, not audited costs."
+ },
+ "graveyard": [],
+ "graveyard_note": "The relevant graveyard is historical (Teledesic, Iridium) and lives on their pages. This entry is a warning against pricing off announced numbers.",
+ "winners": [],
+ "evidence": [
+  {
+   "date": "2018",
+   "text": "NASA estimate: Falcon 9 advertised $2,720/kg to LEO.",
+   "source": "https://ntrs.nasa.gov/citations/20200001093",
+   "conf": "H"
+  }
+ ],
+ "keywords": [
+  "space",
+  "launch",
+  "satellites",
+  "in-space manufacturing",
+  "space station",
+  "orbital",
+  "space logistics"
+ ],
+ "related": [
+  "satellite-broadband",
+  "satellite-phones"
+ ],
+ "updated": "2026-10-25"
+}

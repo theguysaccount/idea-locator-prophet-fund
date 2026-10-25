@@ -1,0 +1,42 @@
+{
+ "slug": "solyndra",
+ "name": "Solyndra",
+ "kind": "myth",
+ "title": "Was Solyndra too early? No: a cost-curve inversion",
+ "question": "Was Solyndra too early for solar?",
+ "answer": "Solyndra made cylindrical thin-film panels that only beat conventional silicon panels while polysilicon was expensive. Polysilicon prices then collapsed, conventional panels got cheaper, and Solyndra filed for bankruptcy in September 2011 despite a $535M federal loan guarantee. Solar went on to boom using the technology it bet against. Waiting made it worse, the inverse of too early.",
+ "verdict": "not-timing",
+ "verdict_reason": "Its edge required a rival input to stay expensive; it got cheaper.",
+ "enabler": "E1",
+ "myth_test": "inversion",
+ "constraint": {
+  "name": "Bet that polysilicon stays expensive",
+  "detail": "An advantage that depends on a competitor's input staying costly disappears when that input gets cheap."
+ },
+ "graveyard": [
+  {
+   "name": "Solyndra",
+   "founded": 2005,
+   "died": 2011,
+   "raised_usd_m": null,
+   "how": "Chapter 11, September 2011",
+   "source": "https://en.wikipedia.org/wiki/Solyndra",
+   "conf": "H",
+   "raised_note": "plus a $535M federal loan guarantee"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "solar",
+  "photovoltaic",
+  "clean energy",
+  "renewables",
+  "thin film"
+ ],
+ "related": [
+  "aquion-energy",
+  "indoor-vertical-farming"
+ ],
+ "updated": "2026-10-25"
+}

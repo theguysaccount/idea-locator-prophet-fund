@@ -1,0 +1,75 @@
+{
+ "slug": "online-video",
+ "name": "Online video",
+ "kind": "history",
+ "title": "Why Pseudo.com failed, and when online video became viable",
+ "question": "Why did early internet TV like Pseudo.com fail, and when did online video become viable?",
+ "answer": "Pseudo.com (1993) ran internet TV channels in the late 1990s; its parent went bankrupt after the dot-com crash and its assets were sold in 2001. Most US homes were still on dial-up. YouTube (2005) launched as broadband passed 17 lines per 100 people and browser video (Flash) worked without a download; Google bought it in 2006 for $1.65B.",
+ "verdict": "formed",
+ "verdict_reason": "Broadband passed 17 per 100 in 2005, the year YouTube launched.",
+ "enabler": "E2",
+ "constraint": {
+  "name": "Broadband and in-browser video",
+  "detail": "Video over dial-up was a postage stamp that buffered; it needed broadband and a player that just worked."
+ },
+ "crossing": {
+  "date": "2005",
+  "text": "US broadband reaches 17 per 100 (World Bank); Flash video plays in the browser."
+ },
+ "metric": {
+  "label": "Fixed broadband subscriptions per 100 people, United States (ITU via World Bank)",
+  "short": "US broadband per 100",
+  "unit": "per 100",
+  "direction": "up",
+  "then": "2000",
+  "source": {
+   "kind": "worldbank",
+   "country": "USA",
+   "indicator": "IT.NET.BBND.P2"
+  },
+  "source_page": "https://data.worldbank.org/indicator/IT.NET.BBND.P2?locations=US",
+  "marks": [
+   {
+    "date": "2000",
+    "label": "Pseudo.com collapses"
+   },
+   {
+    "date": "2005-02",
+    "label": "YouTube"
+   }
+  ]
+ },
+ "graveyard": [
+  {
+   "name": "Pseudo.com",
+   "founded": 1993,
+   "died": 2001,
+   "raised_usd_m": null,
+   "how": "Parent company went bankrupt after the dot-com crash; assets sold to INTV in 2001",
+   "source": "https://en.wikipedia.org/wiki/Pseudo.com",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "YouTube",
+   "founded": 2005,
+   "note": "acquired by Google for $1.65B in 2006",
+   "source": "https://en.wikipedia.org/wiki/YouTube"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "online video",
+  "streaming video",
+  "internet tv",
+  "video platform",
+  "creator video",
+  "ott"
+ ],
+ "related": [
+  "algorithmic-news-feeds",
+  "quibi"
+ ],
+ "updated": "2026-10-25"
+}

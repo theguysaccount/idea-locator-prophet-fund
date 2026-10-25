@@ -1,0 +1,89 @@
+{
+ "slug": "satellite-phones",
+ "name": "Satellite phones",
+ "kind": "history",
+ "title": "Why Iridium went bankrupt, and why its satellites still fly",
+ "question": "Why did Iridium go bankrupt, and what changed for satellite communications?",
+ "answer": "Iridium, spun out of Motorola, launched a 66-satellite network for phone calls anywhere and filed for bankruptcy in August 1999, nine months after service began, with billions invested. Handsets were bulky and calls expensive. Investors bought the network out of bankruptcy for $25M in 2001, erasing over $4B of debt; it still operates, which is the signature of an idea that was early rather than wrong.",
+ "verdict": "formed",
+ "verdict_reason": "The network outlived its financing; cheaper launch and smaller radios made satellite service a business.",
+ "enabler": "E1",
+ "constraint": {
+  "name": "Launch cost and handset size",
+  "detail": "The network cost billions to build and launch, and early handsets were large and expensive."
+ },
+ "crossing": {
+  "date": "2010",
+  "text": "Commercial launch prices fall about 20x (NASA estimate)."
+ },
+ "metric": {
+  "label": "Cost to launch one kilogram to low Earth orbit (NASA estimate, 2018)",
+  "short": "Launch cost to LEO",
+  "unit": "$/kg",
+  "direction": "down",
+  "log": true,
+  "source": {
+   "kind": "manual",
+   "points": [
+    {
+     "date": "1981",
+     "value": "54500",
+     "source": "https://ntrs.nasa.gov/citations/20200001093",
+     "source_name": "NASA (Jones 2018)"
+    },
+    {
+     "date": "2010",
+     "value": "2720",
+     "source": "https://ntrs.nasa.gov/citations/20200001093",
+     "source_name": "NASA (Jones 2018)"
+    }
+   ]
+  },
+  "marks": [
+   {
+    "date": "1999-08",
+    "label": "Iridium Ch. 11"
+   }
+  ],
+  "note": "Two points from one NASA paper: Space Shuttle (first flight 1981) at about $54,500/kg and Falcon 9 (first flight 2010) at its advertised $2,720/kg. Advertised prices are list prices, not audited costs."
+ },
+ "graveyard": [
+  {
+   "name": "Iridium SSC",
+   "founded": null,
+   "died": 1999,
+   "raised_usd_m": null,
+   "how": "Chapter 11, August 1999, nine months after service began; sold for $25M in 2001",
+   "source": "https://en.wikipedia.org/wiki/Iridium_Communications",
+   "conf": "M",
+   "raised_note": "over $4B of debt erased in the sale"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Iridium Communications",
+   "founded": 2000,
+   "note": "the same network, bought out of bankruptcy",
+   "source": "https://en.wikipedia.org/wiki/Iridium_Communications"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2010",
+   "text": "Falcon 9 first flight; NASA later estimated its advertised price at $2,720/kg.",
+   "source": "https://ntrs.nasa.gov/citations/20200001093",
+   "conf": "H"
+  }
+ ],
+ "keywords": [
+  "satellite phone",
+  "satellite communications",
+  "global coverage",
+  "iot connectivity",
+  "satellite messaging"
+ ],
+ "related": [
+  "satellite-broadband"
+ ],
+ "updated": "2026-10-25"
+}

@@ -1,0 +1,86 @@
+{
+ "slug": "population-genomics",
+ "name": "Population genomics",
+ "kind": "history",
+ "title": "Why deCODE went bankrupt, and when genomics got cheap enough",
+ "question": "Why did deCODE genetics go bankrupt, and when did genome sequencing get cheap enough?",
+ "answer": "deCODE (1996) set out to read the genetics of a nation, Iceland. It filed for Chapter 11 in 2009 and Amgen bought it in 2012 for $415M. NHGRI measured the cost of sequencing a genome at about $95M in 2001, about $70,000 in 2009 and a few hundred dollars by 2022. 23andMe (2006) built a consumer business on the same curve, then filed for bankruptcy itself in 2025.",
+ "verdict": "formed",
+ "verdict_reason": "Sequencing cost collapsed after 2008; population genomics became routine.",
+ "enabler": "E1",
+ "constraint": {
+  "name": "Cost of reading DNA",
+  "detail": "At millions of dollars per genome, population-scale genetics could not pay back."
+ },
+ "crossing": {
+  "date": "2008",
+  "text": "Next-generation sequencing cuts NHGRI's cost per genome from $7.1M (2007) to $342,500 (2008)."
+ },
+ "metric": {
+  "label": "Cost to sequence a human genome (NHGRI, via Our World in Data)",
+  "short": "Cost per genome",
+  "unit": "$",
+  "direction": "down",
+  "log": true,
+  "source": {
+   "kind": "owid",
+   "slug": "cost-of-sequencing-a-full-human-genome",
+   "column": "cost_per_genome",
+   "entity": "World"
+  },
+  "source_page": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+  "source_note": "NHGRI measured cost, not vendor list prices",
+  "marks": [
+   {
+    "date": "2009",
+    "label": "deCODE Ch. 11"
+   },
+   {
+    "date": "2012",
+    "label": "Amgen buys deCODE"
+   }
+  ],
+  "then": "2009"
+ },
+ "graveyard": [
+  {
+   "name": "deCODE genetics",
+   "founded": 1996,
+   "died": 2009,
+   "raised_usd_m": null,
+   "how": "Chapter 11, November 2009; acquired by Amgen for $415M in 2012",
+   "source": "https://en.wikipedia.org/wiki/DeCODE_genetics",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "23andMe",
+   "founded": 2006,
+   "note": "consumer genotyping; filed for Chapter 11 in March 2025",
+   "source": "https://en.wikipedia.org/wiki/23andMe"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2025-03",
+   "text": "23andMe filed for Chapter 11: a formed category is not the same as a durable company.",
+   "source": "https://en.wikipedia.org/wiki/23andMe",
+   "conf": "M"
+  }
+ ],
+ "keywords": [
+  "genomics",
+  "genetics",
+  "dna",
+  "sequencing",
+  "genome",
+  "biobank",
+  "precision medicine"
+ ],
+ "related": [
+  "consumer-genomics-subscriptions",
+  "clinical-genetic-testing"
+ ],
+ "updated": "2026-10-25"
+}

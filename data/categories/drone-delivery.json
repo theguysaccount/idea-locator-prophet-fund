@@ -1,0 +1,82 @@
+{
+ "slug": "drone-delivery",
+ "name": "Drone delivery (US)",
+ "kind": "live",
+ "title": "Drone delivery in the US: waiting on FAA Part 108",
+ "question": "Is drone delivery about to become viable in the US?",
+ "answer": "US drone delivery has been capped by waivers: each operator needs FAA exemptions to fly beyond the pilot's line of sight. The FAA proposed Part 108 to make those flights routine in August 2025 (RIN 2120-AL82), and a June 2025 executive order told it to finish quickly. As of 25 October 2026 no final rule has been published, so the trigger is pending.",
+ "verdict": "pending",
+ "verdict_reason": "The enabling rule is proposed but not final. The board resolves its call automatically from the Federal Register.",
+ "enabler": "E5",
+ "constraint": {
+  "name": "Routine beyond-visual-line-of-sight flight",
+  "detail": "Without a standing rule, every delivery network needs case-by-case exemptions, which caps scale."
+ },
+ "crossing": {
+  "date": "pending",
+  "text": "Final rule for 14 CFR part 108 (RIN 2120-AL82) not yet published."
+ },
+ "graveyard": [],
+ "graveyard_note": "Not enumerated yet. Before calling this category ripe, the board needs named, funded drone-delivery companies that died on the waiver regime, with sources.",
+ "winners": [
+  {
+   "name": "Zipline",
+   "founded": 2014,
+   "note": "long-range medical and retail delivery, operating under FAA approvals",
+   "source": "https://en.wikipedia.org/wiki/Zipline_(drone_delivery)"
+  },
+  {
+   "name": "Wing (Alphabet)",
+   "founded": null,
+   "note": "residential delivery under FAA approvals; first deliveries 2014",
+   "source": "https://en.wikipedia.org/wiki/Wing_(company)"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2025-06-11",
+   "text": "Executive Order 14307, Unleashing American Drone Dominance, directs the FAA to finalise BVLOS rules.",
+   "source": "https://www.federalregister.gov/d/2025-10814",
+   "conf": "H"
+  },
+  {
+   "date": "2025-08-07",
+   "text": "FAA and TSA propose 'Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations' (new part 108).",
+   "source": "https://www.federalregister.gov/d/2025-14992",
+   "conf": "H"
+  },
+  {
+   "date": "2026-01-28",
+   "text": "FAA reopens the comment period on the BVLOS proposal.",
+   "source": "https://www.federalregister.gov/d/2026-01644",
+   "conf": "H"
+  }
+ ],
+ "fr": [
+  {
+   "term": "\"beyond visual line of sight\"",
+   "agencies": [
+    "federal-aviation-administration"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE"
+   ]
+  }
+ ],
+ "keywords": [
+  "drone",
+  "drones",
+  "uav",
+  "unmanned aircraft",
+  "drone delivery",
+  "bvlos",
+  "aerial delivery",
+  "uas"
+ ],
+ "related": [
+  "supersonic-passenger-flight",
+  "evtol-air-taxis"
+ ],
+ "updated": "2026-10-25"
+}

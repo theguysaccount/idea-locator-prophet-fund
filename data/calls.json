@@ -1,0 +1,217 @@
+[
+ {
+  "id": "C1-sema-thicket",
+  "category": "obesity-care-generic-semaglutide",
+  "p_pct": 60,
+  "resolves_on": "2027-12-31",
+  "statement": "No secondary-patent thicket materially delays generic semaglutide beyond 2026 in at least three of the five 2026-expiry markets (India, Canada, China, Brazil, Turkey).",
+  "resolver": {
+   "kind": "manual",
+   "how": "Count the five markets with at least one generic or biosimilar semaglutide approved and commercially launched on the resolution date, from national regulator registries."
+  },
+  "falsifier": "Fewer than three of the five markets have a launched generic by 31 December 2027. Settlement-capped volumes count only if the product is purchasable at retail.",
+  "rationale": "Not higher than 60% because two of four patent-expiry entry dates in the slip corpus moved by years even though the legal date held, and the check that would settle it has not been run.",
+  "first_stated": "2026-08-01"
+ },
+ {
+  "id": "C2-eu-ai-act-slips-again",
+  "topic": "slips",
+  "p_pct": 55,
+  "resolves_on": "2028-01-31",
+  "statement": "The EU AI Act's high-risk obligations slip again beyond the December 2027 date set by the Digital Omnibus, or are materially narrowed before taking effect.",
+  "resolver": {
+   "kind": "manual",
+   "how": "Compare the applicable EU instrument in force on the resolution date with the Digital Omnibus consolidated version."
+  },
+  "falsifier": "The high-risk obligations take effect in December 2027 substantially as drafted, with no further postponement and no material narrowing of Annex III.",
+  "rationale": "A live test of the slip corpus, where 88% of decided regulatory (S3) dates moved and every move was late. Only 55% because a second slip may carry a higher political cost.",
+  "first_stated": "2026-08-01"
+ },
+ {
+  "id": "C3-us-credits-pulled-forward",
+  "topic": "slips",
+  "p_pct": 30,
+  "resolves_on": "2027-12-31",
+  "statement": "At least one more US clean-energy tax credit deadline (sections 45X, 45Y, 48E, 45V or 45Z) is pulled forward or tightened, rather than extended, by enacted legislation before 31 December 2027.",
+  "resolver": {
+   "kind": "manual",
+   "how": "Enacted federal legislation amending sections 45X, 45Y, 48E, 45V or 45Z."
+  },
+  "falsifier": "No enacted change, or every enacted change extends or loosens a deadline.",
+  "rationale": "Tests the corpus finding that statutory sunsets moved early. Only 30% because all four early moves came from one 2025 bill: one event, not four.",
+  "first_stated": "2026-08-01"
+ },
+ {
+  "id": "C4-btm-power-crowded",
+  "category": "behind-the-meter-power-compute",
+  "p_pct": 45,
+  "resolves_on": "2027-12-31",
+  "statement": "By 31 December 2027, at least three well-capitalised companies or incumbent programmes have announced, contracted behind-the-meter generation serving third-party compute loads above 20 MW.",
+  "resolver": {
+   "kind": "manual",
+   "how": "Count distinct companies with announced, contracted behind-the-meter generation for third-party compute load above 20 MW."
+  },
+  "falsifier": "Fewer than three such companies on the resolution date.",
+  "rationale": "Tests whether the low-occupancy read behind the category is right. Below even odds because the window opened in 2025 and incumbents move slowly on contracted generation.",
+  "first_stated": "2026-08-01"
+ },
+ {
+  "id": "C5-rule-beats-naive",
+  "topic": "method",
+  "p_pct": 20,
+  "resolves_on": "2028-08-01",
+  "statement": "Scored in 2028, the board's admission rule applied to the six candidates on the 2026-08-01 board does better than the naive rule 'admit anything with a dated crossing'.",
+  "resolver": {
+   "kind": "manual",
+   "how": "Score both rules retrospectively against the same six candidates on the resolution date."
+  },
+  "falsifier": "The naive rule performs as well or better.",
+  "rationale": "The call against the instrument itself. 20% because six candidates over two years is badly underpowered, and saying so in advance is the only way the result means anything.",
+  "first_stated": "2026-08-01"
+ },
+ {
+  "id": "C12-faa-bvlos-final-rule",
+  "category": "drone-delivery",
+  "p_pct": 70,
+  "resolves_on": "2027-06-30",
+  "statement": "The FAA publishes a final rule for beyond-visual-line-of-sight drone operations (RIN 2120-AL82, new 14 CFR part 108) in the Federal Register by 30 June 2027.",
+  "resolver": {
+   "kind": "federal_register",
+   "rin": "2120-AL82",
+   "type": "RULE",
+   "since": "2026-10-25"
+  },
+  "falsifier": "No final rule under RIN 2120-AL82 is published in the Federal Register by 30 June 2027.",
+  "rationale": "An executive order demands it and the proposal has been out since August 2025, but the rule already missed the order's timeline, and in the slip corpus most regulatory dates moved late."
+ },
+ {
+  "id": "C13-supersonic-final-rule",
+  "category": "supersonic-passenger-flight",
+  "p_pct": 50,
+  "resolves_on": "2027-12-31",
+  "statement": "The FAA publishes a final rule enabling civil supersonic flight over land (RIN 2120-AM15) in the Federal Register by 31 December 2027.",
+  "resolver": {
+   "kind": "federal_register",
+   "rin": "2120-AM15",
+   "type": "RULE",
+   "since": "2026-10-25"
+  },
+  "falsifier": "No final rule under RIN 2120-AM15 is published by 31 December 2027.",
+  "rationale": "Strong political backing, but the proposal only appeared in July 2026 and noise rules draw heavy comment; 18 months from proposal to final is fast for a contested aviation rule."
+ },
+ {
+  "id": "C14-medicare-dmht-codes-2027",
+  "category": "prescription-digital-therapeutics",
+  "p_pct": 92,
+  "resolves_on": "2027-01-31",
+  "statement": "CMS publishes the CY 2027 Medicare Physician Fee Schedule final rule in the Federal Register by 31 January 2027, and it references HCPCS code G0552 (digital mental health treatment devices).",
+  "resolver": {
+   "kind": "federal_register",
+   "term": "G0552",
+   "agency": "centers-for-medicare-medicaid-services",
+   "type": "RULE",
+   "since": "2026-10-25",
+   "title_contains": [
+    "CY 2027",
+    "Physician Fee Schedule"
+   ]
+  },
+  "falsifier": "No CY 2027 Physician Fee Schedule final rule referencing G0552 is published by 31 January 2027.",
+  "rationale": "The codes appeared in both the CY 2025 and CY 2026 final rules, and the fee schedule final rule is published every November or December. The residual risk is the codes being dropped or the rule being late."
+ },
+ {
+  "id": "C15-electricity-keeps-rising",
+  "category": "indoor-vertical-farming",
+  "p_pct": 80,
+  "resolves_on": "2027-10-31",
+  "statement": "The US city-average retail electricity price for September 2027 (BLS series APU000072610) is higher than for September 2026.",
+  "resolver": {
+   "kind": "fred",
+   "series": "APU000072610",
+   "op": "gt",
+   "left": {
+    "date": "2027-09-01"
+   },
+   "right": {
+    "date": "2026-09-01"
+   }
+  },
+  "falsifier": "The September 2027 value is equal to or lower than the September 2026 value.",
+  "rationale": "Retail electricity has risen year on year in most months since 2021, with data-centre load growth adding demand. That is the no-go for vertical farming, stated as a falsifiable number."
+ },
+ {
+  "id": "C16-truckload-recovery-holds",
+  "category": "software-freight-brokerage",
+  "p_pct": 65,
+  "resolves_on": "2027-04-30",
+  "statement": "The average of the BLS truckload producer price index (PCU484121484121) for January-March 2027 is at least 5% above its January-March 2026 average.",
+  "resolver": {
+   "kind": "fred",
+   "series": "PCU484121484121",
+   "op": "ge",
+   "left": {
+    "avg": [
+     "2027-01-01",
+     "2027-03-01"
+    ]
+   },
+   "right": {
+    "avg": [
+     "2026-01-01",
+     "2026-03-01"
+    ]
+   },
+   "right_scale": "1.05"
+  },
+  "falsifier": "The January-March 2027 average is less than 1.05 times the January-March 2026 average.",
+  "rationale": "The index was about 18% above its March 2026 level by September 2026. Freight rates mean-revert and the spike may be seasonal, so the call is well short of certain."
+ },
+ {
+  "id": "C17-zero-rates-return",
+  "category": "ultrafast-grocery-delivery",
+  "p_pct": 5,
+  "resolves_on": "2028-01-31",
+  "statement": "The effective federal funds rate for December 2027 (FRED series FEDFUNDS) is below 1.00%.",
+  "resolver": {
+   "kind": "fred",
+   "series": "FEDFUNDS",
+   "op": "lt",
+   "left": {
+    "date": "2027-12-01"
+   },
+   "right": {
+    "value": "1.00"
+   }
+  },
+  "falsifier": "The December 2027 monthly average is 1.00% or higher.",
+  "rationale": "The rate is 3.75% in September 2026. A return below 1% within 15 months would take a deep recession; that is what 15-minute delivery would need to come back as it was."
+ },
+ {
+  "id": "C19-glasses-open-app-channel",
+  "category": "display-less-ai-glasses-apps",
+  "p_pct": 55,
+  "resolves_on": "2027-12-31",
+  "statement": "By 31 December 2027, Meta makes generally available a developer toolkit that lets any third-party developer publish an app that uses the camera of Ray-Ban Meta glasses, without per-developer approval.",
+  "resolver": {
+   "kind": "manual",
+   "how": "Check Meta's developer documentation and announcements on the resolution date: the toolkit must be generally available (not a preview or waitlist) and open to any registered developer."
+  },
+  "falsifier": "On 31 December 2027 camera access for third-party apps is unavailable, in preview, waitlisted, or limited to approved partners.",
+  "rationale": "An open app channel is the difference between an app ecosystem and the Apollo trap. Platform owners have opened camera access before, but usually slowly and on their own terms, so a little better than even."
+ },
+ {
+  "id": "C18-bci-pivotal-trial",
+  "category": "implantable-bci",
+  "p_pct": 45,
+  "resolves_on": "2027-12-31",
+  "statement": "Synchron registers an interventional study with 'pivotal' in its title on ClinicalTrials.gov, first posted between 25 October 2026 and 31 December 2027.",
+  "resolver": {
+   "kind": "clinicaltrials",
+   "sponsor": "Synchron",
+   "title_contains": "pivotal",
+   "first_posted_after": "2026-10-25"
+  },
+  "falsifier": "No such Synchron study is first posted by 31 December 2027.",
+  "rationale": "Synchron has said it is preparing a pivotal trial, but device pivotal trials often slip, and the registered title may not use the word 'pivotal', which this resolver requires."
+ }
+]

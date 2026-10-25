@@ -1,0 +1,74 @@
+{
+ "slug": "algorithmic-news-feeds",
+ "name": "Personalised news feeds",
+ "kind": "history",
+ "title": "Why PointCast failed, and when personalised feeds became viable",
+ "question": "Why did PointCast fail, and when did personalised feeds become viable?",
+ "answer": "PointCast (1992) pushed personalised news to desktop screens from 1996, reportedly turned down a $450M offer from News Corp in 1997, and was sold for a small fraction of that in 1999. Its constant updates clogged dial-up lines and office networks. Facebook's News Feed (2006) ran on always-on broadband, which had passed 20 lines per 100 Americans.",
+ "verdict": "formed",
+ "verdict_reason": "Always-on broadband (about 20 per 100 in 2006) made a constantly updating feed cheap to deliver.",
+ "enabler": "E2",
+ "constraint": {
+  "name": "Always-on broadband",
+  "detail": "A feed that updates all day needs a connection that is always on and not metered by the minute."
+ },
+ "crossing": {
+  "date": "2006",
+  "text": "US fixed broadband reaches about 20 lines per 100 people (World Bank)."
+ },
+ "metric": {
+  "label": "Fixed broadband subscriptions per 100 people, United States (ITU via World Bank)",
+  "short": "US broadband per 100",
+  "unit": "per 100",
+  "direction": "up",
+  "then": "1999",
+  "source": {
+   "kind": "worldbank",
+   "country": "USA",
+   "indicator": "IT.NET.BBND.P2"
+  },
+  "source_page": "https://data.worldbank.org/indicator/IT.NET.BBND.P2?locations=US",
+  "marks": [
+   {
+    "date": "1999",
+    "label": "PointCast sold"
+   },
+   {
+    "date": "2006-09",
+    "label": "News Feed"
+   }
+  ]
+ },
+ "graveyard": [
+  {
+   "name": "PointCast",
+   "founded": 1992,
+   "died": 1999,
+   "raised_usd_m": null,
+   "how": "Sold in 1999 after rejecting a reported $450M offer",
+   "source": "https://en.wikipedia.org/wiki/PointCast_(dotcom)",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Facebook News Feed",
+   "founded": 2006,
+   "note": "launched September 2006",
+   "source": "https://en.wikipedia.org/wiki/Feed_(Facebook)"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "news feed",
+  "personalized news",
+  "content feed",
+  "push notifications",
+  "news aggregator",
+  "media"
+ ],
+ "related": [
+  "social-networking"
+ ],
+ "updated": "2026-10-25"
+}

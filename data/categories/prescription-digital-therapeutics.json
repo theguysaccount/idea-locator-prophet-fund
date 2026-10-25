@@ -1,0 +1,94 @@
+{
+ "slug": "prescription-digital-therapeutics",
+ "name": "Prescription digital therapeutics",
+ "kind": "live",
+ "title": "Prescription digital therapeutics after Pear: ripe again?",
+ "question": "Are prescription digital therapeutics viable again after Pear Therapeutics went bankrupt?",
+ "answer": "Pear Therapeutics had FDA-authorised apps that doctors prescribed, and filed for bankruptcy in April 2023, saying payers would not reimburse them. Medicare had no code to pay for prescription software. CMS created three: HCPCS G0552-G0554 for digital mental health treatment devices took effect on 1 January 2025, 21 months after Pear filed.",
+ "verdict": "ripe",
+ "verdict_reason": "The payment code that was missing took effect 1 January 2025, and three funded companies died proving demand.",
+ "enabler": "E5",
+ "constraint": {
+  "name": "A Medicare payment code for prescription software",
+  "detail": "A doctor could prescribe an FDA-authorised app, but Medicare had no billing code for supplying it or managing the patient on it."
+ },
+ "crossing": {
+  "date": "2025-01-01",
+  "text": "CY 2025 Physician Fee Schedule final rule: HCPCS G0552, G0553, G0554 for digital mental health treatment devices."
+ },
+ "graveyard": [
+  {
+   "name": "Pear Therapeutics",
+   "founded": null,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Chapter 11, 7 April 2023, with a plan to sell its assets",
+   "source": "https://www.sec.gov/Archives/edgar/data/1835567/000183556723000020/peartherapeuticsfilesforch.htm",
+   "conf": "H"
+  },
+  {
+   "name": "Akili",
+   "founded": null,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "Sold to Virtual Therapeutics for about $34M in July 2024, after struggling to win insurance coverage",
+   "source": "https://www.mddionline.com/augmented-virtual-reality/akili-to-go-private-through-merger-with-virtual-therapeutics",
+   "conf": "M",
+   "note": "valued at about $1B at its 2022 SPAC listing"
+  },
+  {
+   "name": "Better Therapeutics",
+   "founded": null,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "Shut down operations and terminated employees, March 2024",
+   "source": "https://www.fiercebiotech.com/medtech/digital-diabetes-app-maker-better-therapeutics-shutters-operations-lays-staff",
+   "conf": "M"
+  }
+ ],
+ "graveyard_note": "Capital is left blank where we could not confirm a figure from a stable source; the companies, dates and outcomes are sourced.",
+ "winners": [],
+ "evidence": [
+  {
+   "date": "2024-12-09",
+   "text": "CMS publishes the CY 2025 Physician Fee Schedule final rule creating G0552-G0554, effective 1 January 2025.",
+   "source": "https://www.federalregister.gov/d/2024-25382",
+   "conf": "H"
+  },
+  {
+   "date": "2025-11-05",
+   "text": "The CY 2026 Physician Fee Schedule final rule addresses the same codes again.",
+   "source": "https://www.federalregister.gov/d/2025-19787",
+   "conf": "H"
+  }
+ ],
+ "fr": [
+  {
+   "term": "\"digital mental health treatment\"",
+   "agencies": [
+    "centers-for-medicare-medicaid-services"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE"
+   ]
+  }
+ ],
+ "keywords": [
+  "digital therapeutics",
+  "dtx",
+  "prescription app",
+  "software as a medical device",
+  "samd",
+  "digital health",
+  "mental health app",
+  "fda cleared app",
+  "behavioral health software",
+  "remote therapy"
+ ],
+ "related": [
+  "clinical-genetic-testing",
+  "consumer-genomics-subscriptions"
+ ],
+ "updated": "2026-10-25"
+}

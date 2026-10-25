@@ -1,0 +1,84 @@
+{
+ "slug": "social-networking",
+ "name": "Social networking",
+ "kind": "history",
+ "title": "Why SixDegrees failed, and when social networks became viable",
+ "question": "Why did SixDegrees fail, and when did social networks become viable?",
+ "answer": "SixDegrees.com (1997) had the social graph first: profiles, friend lists and messaging. It was sold in 1999 and shut in 2001. Few people had broadband or digital photos, so there was little to share and slow pages to share it on. Friendster, MySpace and Facebook (2002-2004) arrived as US broadband passed 7-13 lines per 100 people.",
+ "verdict": "formed",
+ "verdict_reason": "Broadband and digital photos crossed around 2003; three social networks launched within two years.",
+ "enabler": "E2",
+ "constraint": {
+  "name": "Broadband and digital photo upload",
+  "detail": "A social network is mostly photos and frequent visits; on dial-up neither works."
+ },
+ "crossing": {
+  "date": "2003",
+  "text": "US fixed broadband passes 9 lines per 100 people (World Bank); digital cameras go mainstream."
+ },
+ "metric": {
+  "label": "Fixed broadband subscriptions per 100 people, United States (ITU via World Bank)",
+  "short": "US broadband per 100",
+  "unit": "per 100",
+  "direction": "up",
+  "then": "2001",
+  "source": {
+   "kind": "worldbank",
+   "country": "USA",
+   "indicator": "IT.NET.BBND.P2"
+  },
+  "source_page": "https://data.worldbank.org/indicator/IT.NET.BBND.P2?locations=US",
+  "marks": [
+   {
+    "date": "2001",
+    "label": "SixDegrees shuts"
+   },
+   {
+    "date": "2004",
+    "label": "Facebook"
+   }
+  ]
+ },
+ "graveyard": [
+  {
+   "name": "SixDegrees.com",
+   "founded": 1997,
+   "died": 2001,
+   "raised_usd_m": null,
+   "how": "Sold to YouthStream Media for $125M in 1999; shut in 2001",
+   "source": "https://en.wikipedia.org/wiki/SixDegrees.com",
+   "conf": "M",
+   "raised_note": "exit price $125M (1999)"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Facebook",
+   "founded": 2004,
+   "note": "launched at Harvard in February 2004",
+   "source": "https://en.wikipedia.org/wiki/Facebook"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2003",
+   "text": "MySpace launched in 2003 and grew past 100 million accounts; the enabler was in place before Facebook.",
+   "source": "https://en.wikipedia.org/wiki/Myspace",
+   "conf": "M"
+  }
+ ],
+ "keywords": [
+  "social network",
+  "social media",
+  "friends",
+  "profiles",
+  "social graph",
+  "community platform"
+ ],
+ "related": [
+  "friendster",
+  "myspace",
+  "algorithmic-news-feeds"
+ ],
+ "updated": "2026-10-25"
+}

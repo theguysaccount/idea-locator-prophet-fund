@@ -1,0 +1,54 @@
+# Weekly: refresh constraint metrics, the regulatory calendar and trial registrations from public sources,
+# resolve calls whose rule can now be decided, commit the data and the ledger, and redeploy.
+# Fails safe: a failed source keeps its last good data (marked stale) and never blocks the others; tests run
+# before anything is committed; the deploy has its own guard. A source failing for 4+ weeks fails the run
+# (after deploying) so GitHub emails the repository owner.
+name: Refresh data
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch public data and resolve due calls
+        run: python -m il.refresh
+      - name: Tests (ledger integrity included)
+        run: python -m unittest discover -s tests -t .
+      - name: Commit data and ledger
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live ledger/chain.jsonl
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes."
+          else
+            git commit -m "Refresh data $(date -u +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Redeploy the site
+        if: steps.commit.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref "${{ github.ref_name }}"
+      - name: Alert on sources failing for more than four weeks
+        run: python scripts/health.py stale

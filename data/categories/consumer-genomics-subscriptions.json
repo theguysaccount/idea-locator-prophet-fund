@@ -1,0 +1,78 @@
+{
+ "slug": "consumer-genomics-subscriptions",
+ "name": "Consumer genomics and health testing",
+ "kind": "live",
+ "title": "Consumer genomics after 23andMe and Arivale: the board abstains",
+ "question": "Is consumer genomics viable again after 23andMe and Arivale?",
+ "answer": "Reading a whole genome cost about $95M in 2001 and a few hundred dollars by 2022 (NHGRI). Yet Arivale, a genome-based wellness subscription, closed in 2019, and 23andMe filed for bankruptcy in March 2025. When the named constraint has fallen by a factor of 100,000 and the category still dies, cost was not the binding constraint, and the board does not know what is.",
+ "verdict": "unknown",
+ "verdict_reason": "The named constraint crossed long ago and the category died anyway, so the rule abstains.",
+ "enabler": "E1",
+ "constraint": {
+  "name": "Cost of sequencing (named, but not binding)",
+  "detail": "Cost was the obvious blocker and it collapsed. Repeat purchase and clinical usefulness are the likelier blockers, and neither has a public metric."
+ },
+ "metric": {
+  "label": "Cost to sequence a human genome (NHGRI, via Our World in Data)",
+  "short": "Cost per genome",
+  "unit": "$",
+  "direction": "down",
+  "log": true,
+  "source": {
+   "kind": "owid",
+   "slug": "cost-of-sequencing-a-full-human-genome",
+   "column": "cost_per_genome",
+   "entity": "World"
+  },
+  "source_page": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+  "source_note": "NHGRI measured cost, not vendor list prices",
+  "marks": [
+   {
+    "date": "2019-04",
+    "label": "Arivale closes"
+   },
+   {
+    "date": "2025-03",
+    "label": "23andMe Ch. 11"
+   }
+  ],
+  "then": "2015"
+ },
+ "graveyard": [
+  {
+   "name": "Arivale",
+   "founded": null,
+   "died": 2019,
+   "raised_usd_m": 50,
+   "how": "Closed abruptly in April 2019, saying its service cost more than customers would pay",
+   "source": "https://www.geekwire.com/2019/scientific-wellness-startup-arivale-closes-abruptly-tragic-end-vision-transform-personal-health/",
+   "conf": "M",
+   "raised_note": "about $50M or more"
+  },
+  {
+   "name": "23andMe",
+   "founded": 2006,
+   "died": 2025,
+   "raised_usd_m": null,
+   "how": "Chapter 11, March 2025",
+   "source": "https://en.wikipedia.org/wiki/23andMe",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "consumer genomics",
+  "dna test",
+  "genetic testing",
+  "wellness",
+  "health testing",
+  "personal genome",
+  "longevity"
+ ],
+ "related": [
+  "population-genomics",
+  "clinical-genetic-testing"
+ ],
+ "updated": "2026-10-25"
+}

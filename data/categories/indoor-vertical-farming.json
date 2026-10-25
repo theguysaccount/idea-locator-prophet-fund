@@ -1,0 +1,101 @@
+{
+ "slug": "indoor-vertical-farming",
+ "name": "Indoor vertical farming",
+ "kind": "live",
+ "title": "Vertical farming after AeroFarms and Bowery: still a no-go",
+ "question": "Is indoor vertical farming viable again?",
+ "answer": "AeroFarms, AppHarvest, Bowery, Plenty and Kalera raised billions and filed for bankruptcy or shut down in 2023-25. Lighting a crop indoors costs electricity the sun gives a field for free, so the model needs power to get much cheaper. US retail electricity has risen instead: the BLS city average went from about 13 cents per kWh in 2019 to about 20 cents in 2026.",
+ "verdict": "nogo",
+ "verdict_reason": "The killing input, electricity, got more expensive. Waiting makes it worse.",
+ "enabler": "E1",
+ "constraint": {
+  "name": "Electricity price versus free sunlight",
+  "detail": "Indoor farms replace sunlight with LEDs; the business closes only if power costs fall far enough to beat field-grown produce."
+ },
+ "metric": {
+  "label": "Average US retail electricity price, city average (BLS, via FRED)",
+  "short": "US electricity price",
+  "unit": "$/kWh",
+  "direction": "down",
+  "then": "2019-12",
+  "source": {
+   "kind": "fred",
+   "series": "APU000072610",
+   "from": "2010-01-01"
+  },
+  "source_page": "https://fred.stlouisfed.org/series/APU000072610",
+  "marks": [
+   {
+    "date": "2023-06",
+    "label": "AeroFarms Ch. 11"
+   },
+   {
+    "date": "2024-11",
+    "label": "Bowery shuts"
+   }
+  ]
+ },
+ "graveyard": [
+  {
+   "name": "AeroFarms",
+   "founded": 2004,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Chapter 11, June 2023; emerged smaller in September 2023",
+   "source": "https://en.wikipedia.org/wiki/AeroFarms",
+   "conf": "M"
+  },
+  {
+   "name": "AppHarvest",
+   "founded": 2017,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Chapter 11, July 2023; greenhouses sold off",
+   "source": "https://en.wikipedia.org/wiki/AppHarvest",
+   "conf": "M",
+   "note": "greenhouses rather than vertical racks"
+  },
+  {
+   "name": "Bowery Farming",
+   "founded": 2015,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "Shut down, November 2024",
+   "source": "https://en.wikipedia.org/wiki/Bowery_Farming",
+   "conf": "M"
+  },
+  {
+   "name": "Plenty",
+   "founded": null,
+   "died": 2025,
+   "raised_usd_m": null,
+   "how": "Chapter 11, March 2025",
+   "source": "https://producebluebook.com/2025/03/24/plenty-files-chapter-11-receives-20-7mm-in-debtor-financing",
+   "conf": "M"
+  },
+  {
+   "name": "Kalera",
+   "founded": null,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Chapter 11, April 2023; assets later sold",
+   "source": "https://www.thepacker.com/news/packer-tech/vertical-farmer-kalera-files-chapter-11-bankruptcy",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "vertical farming",
+  "indoor farming",
+  "agtech",
+  "controlled environment agriculture",
+  "cea",
+  "greenhouse",
+  "hydroponics"
+ ],
+ "related": [
+  "solyndra"
+ ],
+ "updated": "2026-10-25"
+}

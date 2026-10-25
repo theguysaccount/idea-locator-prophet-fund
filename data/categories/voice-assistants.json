@@ -1,0 +1,51 @@
+{
+ "slug": "voice-assistants",
+ "name": "Voice assistants",
+ "kind": "history",
+ "title": "Why early voice assistants failed, and when they became viable",
+ "question": "Why did early voice assistants fail, and when did they become viable?",
+ "answer": "Wildfire Communications (1992) sold a speech-based electronic secretary from 1994 that answered calls and took voice commands; Orange bought it for $142M in 2000 and ended the product in 2005 for lack of use. Speech recognition before deep learning made too many errors for open-ended requests. Deep neural networks cut recognition errors sharply from 2012, and Siri (2011) and Alexa (2014) followed.",
+ "verdict": "formed",
+ "verdict_reason": "Deep-learning speech recognition (2012) made open-ended voice commands usable.",
+ "enabler": "E7",
+ "constraint": {
+  "name": "Speech recognition accuracy",
+  "detail": "A voice assistant fails if it mishears a large share of requests; pre-2012 recognisers did."
+ },
+ "crossing": {
+  "date": "2012",
+  "text": "Deep neural networks adopted for speech recognition in production systems."
+ },
+ "graveyard": [
+  {
+   "name": "Wildfire Communications",
+   "founded": 1992,
+   "died": 2005,
+   "raised_usd_m": null,
+   "how": "Bought by Orange for $142M in 2000; Orange ended the product in 2005",
+   "source": "https://en.wikipedia.org/wiki/Wildfire_Communications",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Amazon Alexa",
+   "founded": 2014,
+   "note": "launched with the Echo, November 2014",
+   "source": "https://en.wikipedia.org/wiki/Amazon_Alexa"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "voice assistant",
+  "speech recognition",
+  "voice interface",
+  "conversational ai",
+  "virtual assistant",
+  "voice"
+ ],
+ "related": [
+  "smartphones"
+ ],
+ "updated": "2026-10-25"
+}

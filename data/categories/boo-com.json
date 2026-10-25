@@ -1,0 +1,49 @@
+{
+ "slug": "boo-com",
+ "name": "Boo.com",
+ "kind": "myth",
+ "title": "Was Boo.com too early? No: Net-a-Porter won the same year",
+ "question": "Was Boo.com too early for online fashion?",
+ "answer": "Boo.com spent about $135M in six months building a heavy 3D fashion store and collapsed in May 2000. Net-a-Porter launched online luxury fashion that same year, on the same bandwidth, and became a lasting business. The enabler existed; the execution did not.",
+ "verdict": "not-timing",
+ "verdict_reason": "Net-a-Porter launched online fashion in 2000 and succeeded.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Boo.com",
+   "founded": 1998,
+   "died": 2000,
+   "raised_usd_m": 135,
+   "how": "Collapsed in May 2000",
+   "source": "https://en.wikipedia.org/wiki/Boo.com",
+   "conf": "M",
+   "raised_note": "about $135M, as widely reported"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Net-a-Porter",
+   "founded": 2000,
+   "note": "online luxury fashion, founded 2000",
+   "source": "https://en.wikipedia.org/wiki/Net-a-Porter"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "fashion",
+  "ecommerce",
+  "apparel",
+  "online store",
+  "luxury"
+ ],
+ "related": [
+  "etoys",
+  "pets-com"
+ ],
+ "updated": "2026-10-25"
+}

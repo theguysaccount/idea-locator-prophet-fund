@@ -1,0 +1,46 @@
+{
+ "slug": "friendster",
+ "name": "Friendster",
+ "kind": "myth",
+ "title": "Was Friendster too early? No: execution, not timing",
+ "question": "Was Friendster too early?",
+ "answer": "Friendster (2002) pioneered the modern social network and grew to millions of users, but its pages slowed to a crawl as it grew. MySpace (2003) scaled past it in the same years, on the same broadband, and won. When a competitor succeeds at the same time with the same enablers, the enabler existed: this was execution.",
+ "verdict": "not-timing",
+ "verdict_reason": "MySpace succeeded in the same window with the same technology.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Friendster",
+   "founded": 2002,
+   "died": 2015,
+   "raised_usd_m": null,
+   "how": "Lost US users to MySpace by 2005; shut in 2015",
+   "source": "https://en.wikipedia.org/wiki/Friendster",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "MySpace",
+   "founded": 2003,
+   "note": "passed 100 million accounts",
+   "source": "https://en.wikipedia.org/wiki/Myspace"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "social network",
+  "friends",
+  "profiles"
+ ],
+ "related": [
+  "social-networking",
+  "myspace"
+ ],
+ "updated": "2026-10-25"
+}

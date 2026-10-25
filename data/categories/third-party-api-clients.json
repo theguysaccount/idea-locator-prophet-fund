@@ -1,0 +1,52 @@
+{
+ "slug": "third-party-api-clients",
+ "name": "Third-party clients on someone else's platform",
+ "kind": "live",
+ "title": "Third-party apps on a platform API: still a no-go",
+ "question": "Is building a third-party client on someone else's platform API viable?",
+ "answer": "Apollo, a popular Reddit client, shut down on 30 June 2023 after Reddit's new API pricing would have cost it about $20M a year; Tweetbot and Twitterrific died the same way when Twitter cut off third-party clients in January 2023. Nothing about the apps changed. When the platform owns the enabler, it can take the market the moment you prove it.",
+ "verdict": "nogo",
+ "verdict_reason": "The platform owner controls the enabler and has used that control; nothing has changed it.",
+ "enabler": "E8",
+ "constraint": {
+  "name": "Platform owner controls API access",
+  "detail": "The app's existence depends on terms the platform can change in a memo."
+ },
+ "graveyard": [
+  {
+   "name": "Apollo for Reddit",
+   "founded": null,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Shut down 30 June 2023 after Reddit API pricing changes",
+   "source": "https://en.wikipedia.org/wiki/Apollo_(app)",
+   "conf": "M"
+  },
+  {
+   "name": "Tweetbot",
+   "founded": 2011,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Shut down January 2023 after Twitter ended third-party client access",
+   "source": "https://en.wikipedia.org/wiki/Tweetbot",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "api",
+  "third party app",
+  "client app",
+  "platform",
+  "developer ecosystem",
+  "social media client",
+  "integration"
+ ],
+ "related": [
+  "excite-at-home",
+  "tivo",
+  "display-less-ai-glasses-apps"
+ ],
+ "updated": "2026-10-25"
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "display-less-ai-glasses-apps",
+ "name": "Apps for AI camera glasses",
+ "kind": "live",
+ "title": "Apps for AI camera glasses: big enough, but who owns the channel?",
+ "question": "Is building apps for AI camera glasses ripe now?",
+ "answer": "Camera glasses failed as a product for a decade; then EssilorLuxottica sold 7 million Meta glasses in 2025 alone. About 10 million units a year is roughly where third-party app ecosystems have appeared before, so the install base is close. The open check is the TiVo and Apollo trap: the platform owner controls the app channel and can take any category an app proves.",
+ "verdict": "check",
+ "verdict_reason": "The install base is growing fast; platform-owner capture is the unpriced risk.",
+ "enabler": "E3",
+ "constraint": {
+  "name": "Install base, and access to it",
+  "detail": "An app layer needs enough devices and an open channel to them; the platform owner decides the second."
+ },
+ "graveyard": [
+  {
+   "name": "North (Focals)",
+   "founded": 2012,
+   "died": 2020,
+   "raised_usd_m": null,
+   "how": "Acquired by Google in June 2020; Focals discontinued",
+   "source": "https://www.cnbc.com/2020/06/30/google-acquires-north-augmented-reality-glasses-start-up.html",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Ray-Ban Meta",
+   "founded": 2023,
+   "note": "the volume leader in camera glasses",
+   "source": "https://en.wikipedia.org/wiki/Ray-Ban_Meta"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2026-02",
+   "text": "EssilorLuxottica: 7 million Ray-Ban and Oakley Meta smart glasses sold in 2025.",
+   "source": "https://uploadvr.com/meta-essilorluxottica-sold-7-million-smart-glasses-in-2025/",
+   "conf": "M"
+  }
+ ],
+ "keywords": [
+  "smart glasses",
+  "ar apps",
+  "wearable apps",
+  "ai glasses",
+  "camera glasses",
+  "wearables",
+  "spatial computing"
+ ],
+ "related": [
+  "camera-glasses",
+  "third-party-api-clients"
+ ],
+ "updated": "2026-10-25"
+}

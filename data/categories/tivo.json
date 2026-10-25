@@ -1,0 +1,41 @@
+{
+ "slug": "tivo",
+ "name": "TiVo",
+ "kind": "myth",
+ "title": "Was TiVo too early? No: operators bundled their own DVRs",
+ "question": "Was TiVo too early for digital video recording?",
+ "answer": "TiVo launched the consumer DVR in 1999 and defined the category, but cable and satellite operators bundled their own DVRs into set-top boxes, and TiVo sold itself to Rovi in 2016. It was on time for DVRs; the operators controlled distribution. That is capture, not timing.",
+ "verdict": "not-timing",
+ "verdict_reason": "Cable and satellite operators bundled DVRs and controlled distribution.",
+ "enabler": "E6",
+ "myth_test": "capture",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "TiVo",
+   "founded": 1997,
+   "died": 2016,
+   "raised_usd_m": null,
+   "how": "Acquired by Rovi for about $1.1B in 2016",
+   "source": "https://en.wikipedia.org/wiki/TiVo_Corporation",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "dvr",
+  "tv",
+  "set-top box",
+  "media device",
+  "streaming device"
+ ],
+ "related": [
+  "excite-at-home",
+  "third-party-api-clients"
+ ],
+ "updated": "2026-10-25"
+}

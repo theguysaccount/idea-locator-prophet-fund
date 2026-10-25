@@ -1,0 +1,59 @@
+{
+ "slug": "smartphones",
+ "name": "Smartphones (pocket communicators)",
+ "kind": "history",
+ "title": "Why General Magic failed, and when the smartphone became viable",
+ "question": "Why did General Magic fail, and when did the smartphone become viable?",
+ "answer": "General Magic (1990) designed a pocket communicator with apps, email and software agents. Its Magic Cap devices shipped in 1994 and sold poorly; the company ceased operations in 2002 and was liquidated in 2004. The parts it needed (capacitive multitouch, efficient ARM chips, 3G data) arrived together around 2007, the year the iPhone launched; General Magic alumni helped build both the iPhone and Android.",
+ "verdict": "formed",
+ "verdict_reason": "Multitouch, low-power ARM chips and 3G converged in 2007.",
+ "enabler": "E3",
+ "constraint": {
+  "name": "Multitouch, low-power chips and mobile data",
+  "detail": "1994 hardware could not run a pocket computer with a usable screen, a full day of battery and a data connection."
+ },
+ "crossing": {
+  "date": "2007",
+  "text": "iPhone ships with capacitive multitouch on an ARM system-on-chip; 3G networks spread."
+ },
+ "graveyard": [
+  {
+   "name": "General Magic",
+   "founded": 1990,
+   "died": 2002,
+   "raised_usd_m": null,
+   "how": "Ceased operations in September 2002; liquidated in 2004",
+   "source": "https://en.wikipedia.org/wiki/General_Magic",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "iPhone (Apple)",
+   "founded": 2007,
+   "note": "launched June 2007",
+   "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2008",
+   "text": "Android (co-founded by General Magic alumnus Andy Rubin) shipped its first phone in 2008.",
+   "source": "https://en.wikipedia.org/wiki/Andy_Rubin",
+   "conf": "M"
+  }
+ ],
+ "keywords": [
+  "smartphone",
+  "mobile computer",
+  "handheld",
+  "pda",
+  "communicator",
+  "mobile device"
+ ],
+ "related": [
+  "tablets",
+  "voice-assistants"
+ ],
+ "updated": "2026-10-25"
+}

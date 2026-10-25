@@ -1,0 +1,47 @@
+{
+ "slug": "scooter-sharing",
+ "name": "Bird (scooter sharing)",
+ "kind": "myth",
+ "title": "Was Bird too early? No: Lime made it work",
+ "question": "Was Bird too early for scooter sharing?",
+ "answer": "Bird grew faster than almost any startup in 2018 and filed for bankruptcy in December 2023. Its rival Lime ran the same dockless scooters in the same cities and reported a profitable year in 2023. Same product, same cities, same years: the difference was execution and cost, not timing.",
+ "verdict": "not-timing",
+ "verdict_reason": "Lime ran the same model in the same years and reached profitability.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Bird",
+   "founded": 2017,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Chapter 11, December 2023",
+   "source": "https://en.wikipedia.org/wiki/Bird_Global",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Lime",
+   "founded": 2017,
+   "note": "dockless scooters and bikes",
+   "source": "https://en.wikipedia.org/wiki/Lime_(transportation_company)"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "scooters",
+  "micromobility",
+  "bike sharing",
+  "mobility",
+  "electric scooter"
+ ],
+ "related": [
+  "segway"
+ ],
+ "updated": "2026-10-25"
+}

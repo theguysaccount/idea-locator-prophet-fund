@@ -1,0 +1,59 @@
+{
+ "slug": "music-streaming",
+ "name": "Licensed music streaming",
+ "kind": "history",
+ "title": "Why Napster failed, and when music streaming became viable",
+ "question": "Why did Napster fail, and when did music streaming become viable?",
+ "answer": "Napster (1999) proved that tens of millions of people wanted any song, instantly. Courts shut it down in 2001 because it had no licences. Spotify (2006) waited for licences: it launched in Sweden in 2008 and in the US in July 2011 after deals with the major labels. The binding constraint was legal permission, not technology.",
+ "verdict": "formed",
+ "verdict_reason": "Label licences for on-demand streaming arrived 2008-2011; Spotify launched as they did.",
+ "enabler": "E5",
+ "constraint": {
+  "name": "Label licences for on-demand streaming",
+  "detail": "The technology worked in 1999; the right to stream the catalogue did not exist."
+ },
+ "crossing": {
+  "date": "2011",
+  "text": "Spotify signs the major US labels and launches in the US in July 2011."
+ },
+ "graveyard": [
+  {
+   "name": "Napster",
+   "founded": 1999,
+   "died": 2001,
+   "raised_usd_m": null,
+   "how": "Shut by court injunction, July 2001 (A&M Records v. Napster)",
+   "source": "https://en.wikipedia.org/wiki/Napster",
+   "conf": "H"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Spotify",
+   "founded": 2006,
+   "note": "Sweden 2008, US July 2011",
+   "source": "https://en.wikipedia.org/wiki/Spotify"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2001",
+   "text": "The Ninth Circuit upheld the injunction in A&M Records, Inc. v. Napster, Inc. (2001).",
+   "source": "https://en.wikipedia.org/wiki/A%26M_Records,_Inc._v._Napster,_Inc.",
+   "conf": "H"
+  }
+ ],
+ "keywords": [
+  "music",
+  "streaming",
+  "audio",
+  "songs",
+  "music licensing",
+  "peer to peer",
+  "p2p"
+ ],
+ "related": [
+  "music-lockers"
+ ],
+ "updated": "2026-10-25"
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "aquion-energy",
+ "name": "Aquion Energy",
+ "kind": "myth",
+ "title": "Was Aquion Energy too early? No: lithium got cheaper",
+ "question": "Was Aquion Energy too early for grid batteries?",
+ "answer": "Aquion Energy made saltwater (aqueous sodium-ion) batteries for grid storage and filed for bankruptcy in March 2017. Its pitch was being cheaper and safer than lithium-ion, and lithium-ion then fell steeply in price. Like Solyndra, it was a cost-curve inversion: a later date would have been worse.",
+ "verdict": "not-timing",
+ "verdict_reason": "Its pitch depended on lithium-ion staying expensive.",
+ "enabler": "E1",
+ "myth_test": "inversion",
+ "constraint": {
+  "name": "Bet that lithium-ion stays expensive",
+  "detail": "Cheaper lithium-ion removed the reason to buy a different chemistry."
+ },
+ "graveyard": [
+  {
+   "name": "Aquion Energy",
+   "founded": 2008,
+   "died": 2017,
+   "raised_usd_m": null,
+   "how": "Chapter 11, March 2017",
+   "source": "https://en.wikipedia.org/wiki/Aquion_Energy",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "battery",
+  "grid storage",
+  "energy storage",
+  "sodium",
+  "batteries"
+ ],
+ "related": [
+  "solyndra",
+  "lfp-batteries"
+ ],
+ "updated": "2026-10-25"
+}

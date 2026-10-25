@@ -1,0 +1,75 @@
+{
+ "slug": "camera-glasses",
+ "name": "Camera glasses",
+ "kind": "history",
+ "title": "Why Google Glass failed, and why camera glasses sell now",
+ "question": "Why did Google Glass fail, and when did camera glasses start selling?",
+ "answer": "Google Glass sold to consumers as a $1,500 Explorer Edition from 2013 and stopped in January 2015 amid a privacy backlash; the enterprise edition ended in 2023. North, maker of Focals, was bought by Google in 2020. Ray-Ban Meta glasses (2023), with a camera and an assistant but no display, passed 2 million sales by February 2025, and EssilorLuxottica sold 7 million Meta glasses in 2025 alone.",
+ "verdict": "formed",
+ "verdict_reason": "Social acceptance of always-present cameras and cheap on-device AI arrived by 2023.",
+ "enabler": "E6",
+ "constraint": {
+  "name": "Social norm around face-worn cameras",
+  "detail": "Glass named its own blocker: people around the wearer objected. A product that looks like ordinary glasses changed that."
+ },
+ "crossing": {
+  "date": "2023",
+  "text": "Ray-Ban Meta launches in late 2023; over 2 million sold by February 2025 (EssilorLuxottica)."
+ },
+ "graveyard": [
+  {
+   "name": "Google Glass (consumer)",
+   "founded": 2013,
+   "died": 2015,
+   "raised_usd_m": null,
+   "how": "Consumer sales ended January 2015; enterprise edition ended 2023",
+   "source": "https://en.wikipedia.org/wiki/Google_Glass",
+   "conf": "M",
+   "note": "a product line, not a startup"
+  },
+  {
+   "name": "North (Focals)",
+   "founded": 2012,
+   "died": 2020,
+   "raised_usd_m": null,
+   "how": "Acquired by Google in June 2020; Focals discontinued",
+   "source": "https://www.cnbc.com/2020/06/30/google-acquires-north-augmented-reality-glasses-start-up.html",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Ray-Ban Meta",
+   "founded": 2023,
+   "note": "camera, audio and assistant, no display",
+   "source": "https://en.wikipedia.org/wiki/Ray-Ban_Meta"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2025-02",
+   "text": "EssilorLuxottica: over 2 million Ray-Ban Meta glasses sold since the late-2023 launch.",
+   "source": "https://www.uploadvr.com/ray-ban-meta-glasses-sold-2-units-production-to-be-vastly-increased/",
+   "conf": "M"
+  },
+  {
+   "date": "2026-02",
+   "text": "EssilorLuxottica: 7 million Ray-Ban and Oakley Meta smart glasses sold in 2025, more than triple 2024.",
+   "source": "https://uploadvr.com/meta-essilorluxottica-sold-7-million-smart-glasses-in-2025/",
+   "conf": "M"
+  }
+ ],
+ "keywords": [
+  "smart glasses",
+  "wearable",
+  "camera glasses",
+  "ar glasses",
+  "head mounted",
+  "wearables"
+ ],
+ "related": [
+  "display-less-ai-glasses-apps",
+  "consumer-vr"
+ ],
+ "updated": "2026-10-25"
+}

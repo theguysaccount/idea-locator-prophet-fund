@@ -1,0 +1,3640 @@
+{
+ "status": "ok",
+ "fetched": "2026-10-25T21:44:06Z",
+ "errors": [],
+ "items": [
+  {
+   "document_number": "2026-21801",
+   "title": "NRC Reviews of Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-10-26",
+   "effective_on": "2026-11-25",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21801/nrc-reviews-of-reactor-designs-previously-authorized-by-us-department-of-energy-or-department-of-war",
+   "rins": [
+    "3150-AL60"
+   ],
+   "dockets": [
+    "NRC-2025-1503"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-21794",
+   "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-10-26",
+   "effective_on": null,
+   "comments_close_on": "2026-11-25",
+   "html_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+   "rins": [
+    "2127-AM70"
+   ],
+   "dockets": [
+    "Docket No. NHTSA-2026-1519"
+   ],
+   "significant": true,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-20516",
+   "title": "NHTSA Safety Research Portfolio Public Meeting: Fall 2026, and Automated Driving Systems Workshop",
+   "type": "Notice",
+   "action": "Notice of a public meeting.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-10-07",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20516/nhtsa-safety-research-portfolio-public-meeting-fall-2026-and-automated-driving-systems-workshop",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-1618"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-19964",
+   "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-09-30",
+   "effective_on": "2026-11-30",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
+   "rins": [
+    "2127-AM76"
+   ],
+   "dockets": [
+    "NHTSA-2025-0491"
+   ],
+   "significant": true,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-19568",
+   "title": "Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight",
+   "type": "Proposed Rule",
+   "action": "Proposed rule and draft regulatory guides; request for comment.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-09-24",
+   "effective_on": null,
+   "comments_close_on": "2026-11-09",
+   "html_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19568/regulatory-enhancements-for-reactor-licensing-decommissioning-and-operational-oversight",
+   "rins": [
+    "3150-AL45"
+   ],
+   "dockets": [
+    "PRM-50-110, PRM-50-116, NRC-2025-1138, NRC-2020-0036, NRC-2018-0201, and NRC-2015-0028"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-19584",
+   "title": "Flight Operations: Pilot requirements; Use of oxygen",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM).",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-09-24",
+   "effective_on": null,
+   "comments_close_on": "2026-11-23",
+   "html_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19584/flight-operations-pilot-requirements-use-of-oxygen",
+   "rins": [
+    "2120-AM24"
+   ],
+   "dockets": [
+    "Docket No. FAA-2026-12145",
+    "Notice No. 26-17"
+   ],
+   "significant": null,
+   "categories": [
+    "supersonic-passenger-flight"
+   ]
+  },
+  {
+   "document_number": "2026-19242",
+   "title": "Federal Motor Vehicle Safety Standards; Denial of a Petition for Rulemaking",
+   "type": "Proposed Rule",
+   "action": "Denial of petition for rulemaking.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-09-21",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/09/21/2026-19242/federal-motor-vehicle-safety-standards-denial-of-a-petition-for-rulemaking",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-2047"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-18776",
+   "title": "Sport Pilot Practical Test Standards Alignment",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-09-14",
+   "effective_on": "2026-09-14",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/09/14/2026-18776/sport-pilot-practical-test-standards-alignment",
+   "rins": [
+    "2120-AM12"
+   ],
+   "dockets": [
+    "Docket No.: FAA-2025-3519",
+    "Amendment No. 61-161"
+   ],
+   "significant": false,
+   "categories": [
+    "evtol-air-taxis"
+   ]
+  },
+  {
+   "document_number": "2026-18504",
+   "title": "In Situ Recovery Monitoring and Decommissioning Timeliness",
+   "type": "Proposed Rule",
+   "action": "Proposed rule and draft guidance; request for comment.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-09-10",
+   "effective_on": null,
+   "comments_close_on": "2026-10-13",
+   "html_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18504/in-situ-recovery-monitoring-and-decommissioning-timeliness",
+   "rins": [
+    "3150-AL48"
+   ],
+   "dockets": [
+    "NRC-2025-1204"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-17893",
+   "title": "Fees for the Unified Carrier Registration Plan and Agreement",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "publication_date": "2026-09-01",
+   "effective_on": "2026-10-01",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/09/01/2026-17893/fees-for-the-unified-carrier-registration-plan-and-agreement",
+   "rins": [
+    "2126-AC72"
+   ],
+   "dockets": [
+    "Docket No. FMCSA-2025-0655"
+   ],
+   "significant": false,
+   "categories": [
+    "software-freight-brokerage"
+   ]
+  },
+  {
+   "document_number": "2026-17741",
+   "title": "AV Framework Updates and Request for Comments on Interim Guidance; Extension of Comment Period",
+   "type": "Notice",
+   "action": "Extension of comment period.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-08-31",
+   "effective_on": null,
+   "comments_close_on": "2026-09-30",
+   "html_url": "https://www.federalregister.gov/documents/2026/08/31/2026-17741/av-framework-updates-and-request-for-comments-on-interim-guidance-extension-of-comment-period",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-1552"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-15485",
+   "title": "Zoox-Grant of Temporary Exemption From Portions of Various Requirements of the Federal Motor Vehicle Safety Standards for an Automated Driving System-Equipped Vehicle",
+   "type": "Notice",
+   "action": "Notice of grant of application for temporary exemption from portions of eight Federal Motor Vehicle Safety Standards (FMVSS).",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-07-31",
+   "effective_on": "2026-07-31",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15485/zoox-grant-of-temporary-exemption-from-portions-of-various-requirements-of-the-federal-motor-vehicle",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2025-0523"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-15484",
+   "title": "Updating and Expanding Guidance on Safe Development and Deployment of Automated Driving Systems",
+   "type": "Notice",
+   "action": "Notice of public availability and request for public comment.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-07-31",
+   "effective_on": null,
+   "comments_close_on": "2027-07-31",
+   "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15484/updating-and-expanding-guidance-on-safe-development-and-deployment-of-automated-driving-systems",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-1520"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-15483",
+   "title": "AV Framework Updates and Request for Comments on Interim Guidance",
+   "type": "Notice",
+   "action": "Notice of updates; request for comments.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-07-31",
+   "effective_on": null,
+   "comments_close_on": "2026-08-31",
+   "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15483/av-framework-updates-and-request-for-comments-on-interim-guidance",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-1552"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-15585",
+   "title": "Requirements for Interference-Tolerant Radio Altimeter Systems",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-07-31",
+   "effective_on": "2026-09-29",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15585/requirements-for-interference-tolerant-radio-altimeter-systems",
+   "rins": [
+    "2120-AM21"
+   ],
+   "dockets": [
+    "Docket No.: FAA-2025-5666",
+    "Amdt Nos. 91-384, 121-396 and 129-56"
+   ],
+   "significant": null,
+   "categories": [
+    "drone-delivery"
+   ]
+  },
+  {
+   "document_number": "2026-15285",
+   "title": "Product-Specific Guidances; Revised Draft Guidances for Industry; Availability",
+   "type": "Notice",
+   "action": "Notice of availability.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2026-07-29",
+   "effective_on": null,
+   "comments_close_on": "2026-09-28",
+   "html_url": "https://www.federalregister.gov/documents/2026/07/29/2026-15285/product-specific-guidances-revised-draft-guidances-for-industry-availability",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2007-D-0369"
+   ],
+   "significant": null,
+   "categories": [
+    "obesity-care-generic-semaglutide"
+   ]
+  },
+  {
+   "document_number": "2026-15213",
+   "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors; Correction",
+   "type": "Rule",
+   "action": "Correcting amendments.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-07-28",
+   "effective_on": "2026-07-28",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/07/28/2026-15213/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors-correction",
+   "rins": [
+    "3150-AK31"
+   ],
+   "dockets": [
+    "NRC-2019-0062"
+   ],
+   "significant": true,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-14701",
+   "title": "General Technical, Organizational, Conforming, and Correcting Amendments to the Federal Motor Carrier Safety Regulations",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "publication_date": "2026-07-21",
+   "effective_on": "2026-07-21",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/07/21/2026-14701/general-technical-organizational-conforming-and-correcting-amendments-to-the-federal-motor-carrier",
+   "rins": [
+    "2126-AC75"
+   ],
+   "dockets": [
+    "Docket No. FMCSA-2025-0754"
+   ],
+   "significant": false,
+   "categories": [
+    "software-freight-brokerage"
+   ]
+  },
+  {
+   "document_number": "2026-14341",
+   "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices",
+   "type": "Proposed Rule",
+   "action": "Proposed rule and guidance; request for comment.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-07-16",
+   "effective_on": null,
+   "comments_close_on": "2026-08-31",
+   "html_url": "https://www.federalregister.gov/documents/2026/07/16/2026-14341/modernizing-reactor-licensing-safety-oversight-and-siting-practices",
+   "rins": [
+    "3150-AL44"
+   ],
+   "dockets": [
+    "NRC-2025-0975"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-14298",
+   "title": "Accepted Consensus Standards for Light-Sport Category Aircraft: Airplane, Glider, Powered Lift, and Gyroplane",
+   "type": "Rule",
+   "action": "Notification of Availability (NOA).",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-07-16",
+   "effective_on": "2026-07-16",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/07/16/2026-14298/accepted-consensus-standards-for-light-sport-category-aircraft-airplane-glider-powered-lift-and",
+   "rins": [],
+   "dockets": [
+    "Docket No. FAA-2026-6965"
+   ],
+   "significant": null,
+   "categories": [
+    "evtol-air-taxis"
+   ]
+  },
+  {
+   "document_number": "2026-14208",
+   "title": "Reforming and Modernizing the NRC's Radiation Protection Framework",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-07-15",
+   "effective_on": null,
+   "comments_close_on": "2026-08-31",
+   "html_url": "https://www.federalregister.gov/documents/2026/07/15/2026-14208/reforming-and-modernizing-the-nrcs-radiation-protection-framework",
+   "rins": [
+    "3150-AL47"
+   ],
+   "dockets": [
+    "NRC-2025-1140"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-13687",
+   "title": "Implementation of the National Environmental Policy Act",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-07-07",
+   "effective_on": null,
+   "comments_close_on": "2026-08-21",
+   "html_url": "https://www.federalregister.gov/documents/2026/07/07/2026-13687/implementation-of-the-national-environmental-policy-act",
+   "rins": [
+    "3150-AL38"
+   ],
+   "dockets": [
+    "NRC-2025-0478"
+   ],
+   "significant": true,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-13440",
+   "title": "Enabling Supersonic Overland Flight",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM).",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-07-02",
+   "effective_on": null,
+   "comments_close_on": "2026-08-17",
+   "html_url": "https://www.federalregister.gov/documents/2026/07/02/2026-13440/enabling-supersonic-overland-flight",
+   "rins": [
+    "2120-AM15"
+   ],
+   "dockets": [
+    "Docket No.: FAA-2026-6935",
+    "Notice No. 26-07"
+   ],
+   "significant": true,
+   "categories": [
+    "drone-delivery",
+    "supersonic-passenger-flight"
+   ]
+  },
+  {
+   "document_number": "2026-13302",
+   "title": "Integrated Low-Level Radioactive Waste Disposal",
+   "type": "Proposed Rule",
+   "action": "Proposed rule and draft guidance; public meeting; request for comment.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-07-01",
+   "effective_on": null,
+   "comments_close_on": "2026-08-17",
+   "html_url": "https://www.federalregister.gov/documents/2026/07/01/2026-13302/integrated-low-level-radioactive-waste-disposal",
+   "rins": [
+    "3150-AI92"
+   ],
+   "dockets": [
+    "NRC-2011-0012, NRC-2015-0003, and NRC-2017-0081"
+   ],
+   "significant": false,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-12989",
+   "title": "Modernizing Security Requirements",
+   "type": "Proposed Rule",
+   "action": "Proposed rule and draft guidance; request for comment.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-06-26",
+   "effective_on": null,
+   "comments_close_on": "2026-07-27",
+   "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12989/modernizing-security-requirements",
+   "rins": [
+    "3150-AL53"
+   ],
+   "dockets": [
+    "PRM-26-4",
+    "PRM-26-7",
+    "PRM-26-8",
+    "NRC-2012-0079",
+    "and NRC-2025-1303"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-12981",
+   "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 135 To Accommodate ADS-Equipped Vehicles",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-06-26",
+   "effective_on": null,
+   "comments_close_on": "2026-07-27",
+   "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12981/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-135-to-accommodate-ads-equipped",
+   "rins": [
+    "2127-AN00"
+   ],
+   "dockets": [
+    "Docket No. NHTSA-2026-0728"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-12980",
+   "title": "ADS-Equipped Vehicle Safety, Transparency, and Evaluation Program; Withdrawal",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking; withdrawal.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-06-26",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12980/ads-equipped-vehicle-safety-transparency-and-evaluation-program-withdrawal",
+   "rins": [
+    "2127-AM60"
+   ],
+   "dockets": [
+    "Docket No. NHTSA-2024-0100"
+   ],
+   "significant": false,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-12937",
+   "title": "List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act; Extension of Comment Period",
+   "type": "Notice",
+   "action": "Notice; extension of comment period.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2026-06-26",
+   "effective_on": null,
+   "comments_close_on": "2026-05-01",
+   "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12937/list-of-bulk-drug-substances-for-which-there-is-a-clinical-need-under-section-503b-of-the-federal",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2018-N-3240"
+   ],
+   "significant": null,
+   "categories": [
+    "obesity-care-generic-semaglutide"
+   ]
+  },
+  {
+   "document_number": "2026-12702",
+   "title": "Modernizing Materials Licensing",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-06-24",
+   "effective_on": null,
+   "comments_close_on": "2026-08-10",
+   "html_url": "https://www.federalregister.gov/documents/2026/06/24/2026-12702/modernizing-materials-licensing",
+   "rins": [
+    "3150-AL56"
+   ],
+   "dockets": [
+    "NRC-2025-1370"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-12067",
+   "title": "Fee Schedules; Fee Recovery for Fiscal Year 2026",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-06-16",
+   "effective_on": "2026-08-17",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12067/fee-schedules-fee-recovery-for-fiscal-year-2026",
+   "rins": [
+    "3150-AL12"
+   ],
+   "dockets": [
+    "NRC-2023-0212"
+   ],
+   "significant": true,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-10363",
+   "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Incident Reporting for Automated Driving Systems (ADS) and Level 2 Advanced Driver Assistance Systems (ADAS)",
+   "type": "Notice",
+   "action": "Notice and request for comments on a reinstatement of a previously approved information collection with modifications.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-05-26",
+   "effective_on": null,
+   "comments_close_on": "2026-06-25",
+   "html_url": "https://www.federalregister.gov/documents/2026/05/26/2026-10363/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-0529"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-09849",
+   "title": "Event Data Recorders",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-05-18",
+   "effective_on": "2026-06-17",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/05/18/2026-09849/event-data-recorders",
+   "rins": [
+    "2127-AM78"
+   ],
+   "dockets": [
+    "Docket No. NHTSA-2025-0050"
+   ],
+   "significant": false,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-08943",
+   "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a Fixed Site Facility",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM).",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-05-06",
+   "effective_on": null,
+   "comments_close_on": "2026-07-06",
+   "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility",
+   "rins": [
+    "2120-AL33"
+   ],
+   "dockets": [
+    "Docket No. FAA-2026-4558",
+    "Notice No. 26-03"
+   ],
+   "significant": true,
+   "categories": [
+    "drone-delivery"
+   ]
+  },
+  {
+   "document_number": "2026-08550",
+   "title": "Licensing Requirements for Microreactors and Other Reactors With Comparable Risk Profiles",
+   "type": "Proposed Rule",
+   "action": "Proposed rule; guidance; and request for comment.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-05-01",
+   "effective_on": null,
+   "comments_close_on": "2026-06-15",
+   "html_url": "https://www.federalregister.gov/documents/2026/05/01/2026-08550/licensing-requirements-for-microreactors-and-other-reactors-with-comparable-risk-profiles",
+   "rins": [
+    "3150-AL36"
+   ],
+   "dockets": [
+    "NRC-2025-0379"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-08552",
+   "title": "List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act",
+   "type": "Notice",
+   "action": "Notice.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2026-05-01",
+   "effective_on": null,
+   "comments_close_on": "2026-06-30",
+   "html_url": "https://www.federalregister.gov/documents/2026/05/01/2026-08552/list-of-bulk-drug-substances-for-which-there-is-a-clinical-need-under-section-503b-of-the-federal",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2018-N-3240"
+   ],
+   "significant": null,
+   "categories": [
+    "obesity-care-generic-semaglutide"
+   ]
+  },
+  {
+   "document_number": "2026-08498",
+   "title": "Fees for the Unified Carrier Registration Plan and Agreement",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM); extension of comment period.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "publication_date": "2026-05-01",
+   "effective_on": null,
+   "comments_close_on": "2026-05-26",
+   "html_url": "https://www.federalregister.gov/documents/2026/05/01/2026-08498/fees-for-the-unified-carrier-registration-plan-and-agreement",
+   "rins": [
+    "2126-AC72"
+   ],
+   "dockets": [
+    "Docket No. FMCSA-2025-0655"
+   ],
+   "significant": false,
+   "categories": [
+    "software-freight-brokerage"
+   ]
+  },
+  {
+   "document_number": "2026-08435",
+   "title": "Determination That OZEMPIC (Semaglutide) Solution, 2 Milligrams Per 1.5 Milliliters Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+   "type": "Notice",
+   "action": "Notice.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2026-04-30",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/04/30/2026-08435/determination-that-ozempic-semaglutide-solution-2-milligrams-per-15-milliliters-was-not-withdrawn",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2025-P-3849"
+   ],
+   "significant": null,
+   "categories": [
+    "obesity-care-generic-semaglutide"
+   ]
+  },
+  {
+   "document_number": "2026-08015",
+   "title": "Generic Environmental Impact Statement for Licensing of New Nuclear Reactors",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-04-24",
+   "effective_on": "2026-05-26",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/04/24/2026-08015/generic-environmental-impact-statement-for-licensing-of-new-nuclear-reactors",
+   "rins": [
+    "3150-AK55"
+   ],
+   "dockets": [
+    "NRC-2020-0101"
+   ],
+   "significant": true,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-07090",
+   "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors; Correction",
+   "type": "Rule",
+   "action": "Final rule; correction.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-04-13",
+   "effective_on": "2026-04-29",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/04/13/2026-07090/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors-correction",
+   "rins": [
+    "3150-AK31"
+   ],
+   "dockets": [
+    "NRC-2019-0062"
+   ],
+   "significant": true,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-06726",
+   "title": "Fees for the Unified Carrier Registration Plan and Agreement",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM).",
+   "agencies": [
+    "Transportation Department",
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "publication_date": "2026-04-07",
+   "effective_on": null,
+   "comments_close_on": "2026-05-07",
+   "html_url": "https://www.federalregister.gov/documents/2026/04/07/2026-06726/fees-for-the-unified-carrier-registration-plan-and-agreement",
+   "rins": [
+    "2126-AC72"
+   ],
+   "dockets": [
+    "Docket No. FMCSA-2025-0655"
+   ],
+   "significant": false,
+   "categories": [
+    "software-freight-brokerage"
+   ]
+  },
+  {
+   "document_number": "2026-06254",
+   "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 110 To Accommodate ADS-Equipped Vehicles",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-04-01",
+   "effective_on": null,
+   "comments_close_on": "2026-05-01",
+   "html_url": "https://www.federalregister.gov/documents/2026/04/01/2026-06254/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-110-to-accommodate-ads-equipped",
+   "rins": [
+    "2127-AM96"
+   ],
+   "dockets": [
+    "Docket No. NHTSA-2026-0630"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-06049",
+   "title": "Categorical Exclusions From Environmental Review",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-03-30",
+   "effective_on": "2026-04-29",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/03/30/2026-06049/categorical-exclusions-from-environmental-review",
+   "rins": [
+    "3150-AK54"
+   ],
+   "dockets": [
+    "NRC-2018-0300"
+   ],
+   "significant": false,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-06048",
+   "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-03-30",
+   "effective_on": "2026-04-29",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/03/30/2026-06048/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors",
+   "rins": [
+    "3150-AK31"
+   ],
+   "dockets": [
+    "NRC-2019-0062"
+   ],
+   "significant": true,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-05024",
+   "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 102 To Accommodate ADS-Equipped Vehicles",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-03-16",
+   "effective_on": null,
+   "comments_close_on": "2026-04-15",
+   "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05024/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-102-to-accommodate-ads-equipped",
+   "rins": [
+    "2127-AM72"
+   ],
+   "dockets": [
+    "Docket No. NHTSA-2026-0628"
+   ],
+   "significant": true,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-05023",
+   "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 103 and FMVSS No. 104 To Accommodate ADS-Equipped Vehicles; Incorporation by Reference",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-03-16",
+   "effective_on": null,
+   "comments_close_on": "2026-04-15",
+   "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05023/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-103-and-fmvss-no-104-to-accommodate",
+   "rins": [
+    "2127-AM71"
+   ],
+   "dockets": [
+    "Docket No. NHTSA-2026-0629"
+   ],
+   "significant": true,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-04823",
+   "title": "Fee Schedules; Fee Recovery for Fiscal Year 2026",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-03-12",
+   "effective_on": null,
+   "comments_close_on": "2026-04-13",
+   "html_url": "https://www.federalregister.gov/documents/2026/03/12/2026-04823/fee-schedules-fee-recovery-for-fiscal-year-2026",
+   "rins": [
+    "3150-AL12"
+   ],
+   "dockets": [
+    "NRC-2023-0212"
+   ],
+   "significant": true,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-04797",
+   "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program; Correction",
+   "type": "Rule",
+   "action": "Correcting amendments.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Centers for Medicare & Medicaid Services"
+   ],
+   "publication_date": "2026-03-12",
+   "effective_on": "2026-03-12",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/03/12/2026-04797/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+   "rins": [
+    "0938-AV50"
+   ],
+   "dockets": [
+    "CMS-1832-F2"
+   ],
+   "significant": true,
+   "categories": [
+    "prescription-digital-therapeutics"
+   ]
+  },
+  {
+   "document_number": "2026-04240",
+   "title": "Agency Information Collection Activities; Notice and Request for Comment; Incident Reporting for Automated Driving Systems (ADS) and Level 2 Advanced Driver Assistance Systems (ADAS)",
+   "type": "Notice",
+   "action": "Notice and request for comments on a request for extension of a currently approved information collection with modifications.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-03-04",
+   "effective_on": null,
+   "comments_close_on": "2026-05-04",
+   "html_url": "https://www.federalregister.gov/documents/2026/03/04/2026-04240/agency-information-collection-activities-notice-and-request-for-comment-incident-reporting-for",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-0529"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-03951",
+   "title": "Combined Notice of Filings #1",
+   "type": "Notice",
+   "action": null,
+   "agencies": [
+    "Energy Department",
+    "Federal Energy Regulatory Commission"
+   ],
+   "publication_date": "2026-02-27",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/02/27/2026-03951/combined-notice-of-filings-1",
+   "rins": [],
+   "dockets": [],
+   "significant": null,
+   "categories": [
+    "behind-the-meter-power-compute"
+   ]
+  },
+  {
+   "document_number": "2026-03963",
+   "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+   "type": "Notice",
+   "action": "Notice of availability.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2026-02-27",
+   "effective_on": null,
+   "comments_close_on": "2026-04-28",
+   "html_url": "https://www.federalregister.gov/documents/2026/02/27/2026-03963/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2007-D-0369"
+   ],
+   "significant": null,
+   "categories": [
+    "obesity-care-generic-semaglutide"
+   ]
+  },
+  {
+   "document_number": "2026-03865",
+   "title": "Regulatory Framework for Fusion Machines",
+   "type": "Proposed Rule",
+   "action": "Proposed rule; guidance; and request for comment.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-02-26",
+   "effective_on": null,
+   "comments_close_on": "2026-05-27",
+   "html_url": "https://www.federalregister.gov/documents/2026/02/26/2026-03865/regulatory-framework-for-fusion-machines",
+   "rins": [
+    "3150-AL00"
+   ],
+   "dockets": [
+    "NRC-2023-0071"
+   ],
+   "significant": false,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2026-03854",
+   "title": "Notice and Request for Comment; Proposal for a New United Nations Global Technical Regulation on Automated Driving Systems (ADS)",
+   "type": "Notice",
+   "action": "Notice and request for comments on a proposed Global Technical Regulation (GTR) for Automated Driving Systems; extension of comment period.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-02-26",
+   "effective_on": null,
+   "comments_close_on": "2026-03-10",
+   "html_url": "https://www.federalregister.gov/documents/2026/02/26/2026-03854/notice-and-request-for-comment-proposal-for-a-new-united-nations-global-technical-regulation-on",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-0034"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-03266",
+   "title": "Removal of Obsolete References to “Water Carriers”",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "publication_date": "2026-02-19",
+   "effective_on": "2026-03-23",
+   "comments_close_on": "2026-03-23",
+   "html_url": "https://www.federalregister.gov/documents/2026/02/19/2026-03266/removal-of-obsolete-references-to-water-carriers",
+   "rins": [
+    "2126-AC86"
+   ],
+   "dockets": [
+    "Docket No. FMCSA-2025-0112"
+   ],
+   "significant": false,
+   "categories": [
+    "software-freight-brokerage"
+   ]
+  },
+  {
+   "document_number": "2026-02786",
+   "title": "Jeremy Spencer Brown: Final Debarment Order",
+   "type": "Notice",
+   "action": "Notice.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2026-02-12",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/02/12/2026-02786/jeremy-spencer-brown-final-debarment-order",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2025-N-0435"
+   ],
+   "significant": null,
+   "categories": [
+    "obesity-care-generic-semaglutide"
+   ]
+  },
+  {
+   "document_number": "2026-02649",
+   "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period; Denial of Extension",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM); Reopening of comment period; Denial of extension.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-02-10",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/02/10/2026-02649/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
+   "rins": [
+    "2120-AL82"
+   ],
+   "dockets": [
+    "Docket No. FAA-2025-1908",
+    "Notice No. 25-07C"
+   ],
+   "significant": true,
+   "categories": [
+    "drone-delivery"
+   ]
+  },
+  {
+   "document_number": "2026-02503",
+   "title": "NHTSA Automated Vehicle Safety Public Meeting: March 2026",
+   "type": "Notice",
+   "action": "Notice of a public meeting.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-02-09",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/02/09/2026-02503/nhtsa-automated-vehicle-safety-public-meeting-march-2026",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-0265"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-01644",
+   "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking; reopening of comment period.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-01-28",
+   "effective_on": null,
+   "comments_close_on": "2026-02-11",
+   "html_url": "https://www.federalregister.gov/documents/2026/01/28/2026-01644/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
+   "rins": [
+    "2120-AL82"
+   ],
+   "dockets": [
+    "Docket No. FAA-FAA-2025-1908",
+    "Notice No. 25-07B"
+   ],
+   "significant": true,
+   "categories": [
+    "drone-delivery"
+   ]
+  },
+  {
+   "document_number": "2026-01274",
+   "title": "Notice and Request for Comment; Proposal for a New United Nations Global Technical Regulation on Automated Driving Systems (ADS)",
+   "type": "Notice",
+   "action": "Notice and request for comments on a proposed Global Technical Regulation (GTR) for Automated Driving Systems.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-01-23",
+   "effective_on": null,
+   "comments_close_on": "2026-02-23",
+   "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01274/notice-and-request-for-comment-proposal-for-a-new-united-nations-global-technical-regulation-on",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-0034"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-01272",
+   "title": "Request for Comment on Vestigial Vehicle Safety Regulations",
+   "type": "Notice",
+   "action": "Request for comments (RFC).",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-01-23",
+   "effective_on": null,
+   "comments_close_on": "2026-03-24",
+   "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01272/request-for-comment-on-vestigial-vehicle-safety-regulations",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-0133"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-01226",
+   "title": "Flight Restrictions in the Vicinity of Ronald Reagan Washington National Airport (DCA)",
+   "type": "Rule",
+   "action": "Interim final rule with request for comments.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-01-23",
+   "effective_on": "2026-01-23",
+   "comments_close_on": "2026-02-23",
+   "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01226/flight-restrictions-in-the-vicinity-of-ronald-reagan-washington-national-airport-dca",
+   "rins": [
+    "2120-AM14"
+   ],
+   "dockets": [
+    "Docket No. FAA-2026-0199",
+    "Amdt. No. 93-105"
+   ],
+   "significant": false,
+   "categories": [
+    "evtol-air-taxis"
+   ]
+  },
+  {
+   "document_number": "2026-00051",
+   "title": "Requirements for Interference-Tolerant Radio Altimeter Systems",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM).",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-01-07",
+   "effective_on": null,
+   "comments_close_on": "2026-03-09",
+   "html_url": "https://www.federalregister.gov/documents/2026/01/07/2026-00051/requirements-for-interference-tolerant-radio-altimeter-systems",
+   "rins": [
+    "2120-AM21"
+   ],
+   "dockets": [
+    "Docket No.: FAA-2025-5666",
+    "Notice No. 26-02"
+   ],
+   "significant": null,
+   "categories": [
+    "evtol-air-taxis"
+   ]
+  },
+  {
+   "document_number": "2025-22220",
+   "title": "Sport Pilot Practical Test Standards Alignment",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM).",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2025-12-08",
+   "effective_on": null,
+   "comments_close_on": "2026-01-07",
+   "html_url": "https://www.federalregister.gov/documents/2025/12/08/2025-22220/sport-pilot-practical-test-standards-alignment",
+   "rins": [
+    "2120-AM12"
+   ],
+   "dockets": [
+    "Docket No.: FAA-2025-3519",
+    "Notice No. 26-01"
+   ],
+   "significant": false,
+   "categories": [
+    "evtol-air-taxis"
+   ]
+  },
+  {
+   "document_number": "2025-22131",
+   "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+   "type": "Notice",
+   "action": "Notice of availability.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2025-12-05",
+   "effective_on": null,
+   "comments_close_on": "2026-02-03",
+   "html_url": "https://www.federalregister.gov/documents/2025/12/05/2025-22131/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2007-D-0369"
+   ],
+   "significant": null,
+   "categories": [
+    "obesity-care-generic-semaglutide"
+   ]
+  },
+  {
+   "document_number": "2025-21784",
+   "title": "The Sunset Rule",
+   "type": "Rule",
+   "action": "Direct final rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2025-12-03",
+   "effective_on": "2026-01-08",
+   "comments_close_on": "2026-01-02",
+   "html_url": "https://www.federalregister.gov/documents/2025/12/03/2025-21784/the-sunset-rule",
+   "rins": [
+    "3150-AL39"
+   ],
+   "dockets": [
+    "NRC-2025-0479"
+   ],
+   "significant": true,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2025-20907",
+   "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; Quality Reporting Programs; Overall Hospital Quality Star Rating; Hospital Price Transparency; and Notice of Closure of a Teaching Hospital and Opportunity To Apply for Available Slots",
+   "type": "Rule",
+   "action": "Final rule with comment period.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Centers for Medicare & Medicaid Services"
+   ],
+   "publication_date": "2025-11-25",
+   "effective_on": "2026-01-01",
+   "comments_close_on": "2026-01-20",
+   "html_url": "https://www.federalregister.gov/documents/2025/11/25/2025-20907/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+   "rins": [
+    "0938-AV51"
+   ],
+   "dockets": [
+    "CMS-1834-FC"
+   ],
+   "significant": true,
+   "categories": [
+    "prescription-digital-therapeutics"
+   ]
+  },
+  {
+   "document_number": "2025-19787",
+   "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Centers for Medicare & Medicaid Services"
+   ],
+   "publication_date": "2025-11-05",
+   "effective_on": "2026-01-01",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2025/11/05/2025-19787/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+   "rins": [
+    "0938-AV50"
+   ],
+   "dockets": [
+    "CMS-1832-F"
+   ],
+   "significant": true,
+   "categories": [
+    "prescription-digital-therapeutics"
+   ]
+  },
+  {
+   "document_number": "2025-19345",
+   "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+   "type": "Notice",
+   "action": "Notice of availability.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2025-10-02",
+   "effective_on": null,
+   "comments_close_on": "2025-12-01",
+   "html_url": "https://www.federalregister.gov/documents/2025/10/02/2025-19345/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2007-D-0369"
+   ],
+   "significant": null,
+   "categories": [
+    "obesity-care-generic-semaglutide"
+   ]
+  },
+  {
+   "document_number": "2025-18873",
+   "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Denial of Extension of Comment Period",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM); Denial of extension of comment period.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration",
+    "Homeland Security Department",
+    "Transportation Security Administration"
+   ],
+   "publication_date": "2025-09-29",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2025/09/29/2025-18873/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-denial-of-extension-of",
+   "rins": [
+    "1652-AA80",
+    "2120-AL82"
+   ],
+   "dockets": [
+    "Docket No. FAA-2025-1908",
+    "Notice No. 25-07A"
+   ],
+   "significant": true,
+   "categories": [
+    "drone-delivery"
+   ]
+  },
+  {
+   "document_number": "2025-18239",
+   "title": "Regulation Identification Number 0910-AJ05 Medical Devices; Laboratory Developed Tests; Implementation of Vacatur",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Food and Drug Administration"
+   ],
+   "publication_date": "2025-09-19",
+   "effective_on": "2025-09-19",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2025/09/19/2025-18239/regulation-identification-number-0910-aj05-medical-devices-laboratory-developed-tests-implementation",
+   "rins": [],
+   "dockets": [
+    "Docket No. FDA-2025-N-1730"
+   ],
+   "significant": null,
+   "categories": [
+    "clinical-genetic-testing"
+   ]
+  },
+  {
+   "document_number": "2025-14992",
+   "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM)",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration",
+    "Homeland Security Department",
+    "Transportation Security Administration"
+   ],
+   "publication_date": "2025-08-07",
+   "effective_on": null,
+   "comments_close_on": "2025-10-06",
+   "html_url": "https://www.federalregister.gov/documents/2025/08/07/2025-14992/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations",
+   "rins": [
+    "1652-AA80",
+    "2120-AL82"
+   ],
+   "dockets": [
+    "Docket No. FAA-2025-1908",
+    "Notice No. 25-07"
+   ],
+   "significant": true,
+   "categories": [
+    "drone-delivery",
+    "evtol-air-taxis"
+   ]
+  },
+  {
+   "document_number": "2025-13972",
+   "title": "Modernization of Special Airworthiness Certification",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2025-07-24",
+   "effective_on": "2025-10-22",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2025/07/24/2025-13972/modernization-of-special-airworthiness-certification",
+   "rins": [
+    "2120-AL50"
+   ],
+   "dockets": [
+    "Docket No. FAA-2023-1377",
+    "Amdt. Nos. 1-80, 21-109, 22-1, 36-55, 43-63, 45-32, 61-159, 65-66, 91-381, 119-22, and 147-10"
+   ],
+   "significant": false,
+   "categories": [
+    "evtol-air-taxis"
+   ]
+  },
+  {
+   "document_number": "2025-13817",
+   "title": "Alternative Method for Calculating Embrittlement for Steel Reactor Vessels",
+   "type": "Proposed Rule",
+   "action": "Petition for rulemaking; denial.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2025-07-23",
+   "effective_on": null,
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2025/07/23/2025-13817/alternative-method-for-calculating-embrittlement-for-steel-reactor-vessels",
+   "rins": [],
+   "dockets": [
+    "Docket No. PRM-50-120",
+    "NRC-2019-0180"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
+  {
+   "document_number": "2025-13271",
+   "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+   "type": "Proposed Rule",
+   "action": "Proposed rule.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Centers for Medicare & Medicaid Services"
+   ],
+   "publication_date": "2025-07-16",
+   "effective_on": null,
+   "comments_close_on": "2025-09-12",
+   "html_url": "https://www.federalregister.gov/documents/2025/07/16/2025-13271/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+   "rins": [
+    "0938-AV50"
+   ],
+   "dockets": [
+    "CMS-1832-P"
+   ],
+   "significant": true,
+   "categories": [
+    "prescription-digital-therapeutics"
+   ]
+  },
+  {
+   "document_number": "2025-09727",
+   "title": "Removal of Obsolete References to “Water Carriers”",
+   "type": "Proposed Rule",
+   "action": "Notice of proposed rulemaking (NPRM).",
+   "agencies": [
+    "Transportation Department",
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "publication_date": "2025-05-30",
+   "effective_on": null,
+   "comments_close_on": "2025-07-29",
+   "html_url": "https://www.federalregister.gov/documents/2025/05/30/2025-09727/removal-of-obsolete-references-to-water-carriers",
+   "rins": [
+    "2126-AC86"
+   ],
+   "dockets": [
+    "Docket No. FMCSA-2025-0112"
+   ],
+   "significant": false,
+   "categories": [
+    "software-freight-brokerage"
+   ]
+  },
+  {
+   "document_number": "2025-09703",
+   "title": "Civil Penalties Schedule Update",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "publication_date": "2025-05-30",
+   "effective_on": "2025-05-30",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2025/05/30/2025-09703/civil-penalties-schedule-update",
+   "rins": [
+    "2126-AC80"
+   ],
+   "dockets": [
+    "Docket No. FMCSA-2025-0106"
+   ],
+   "significant": null,
+   "categories": [
+    "software-freight-brokerage"
+   ]
+  },
+  {
+   "document_number": "2025-08676",
+   "title": "Medicare and Medicaid Programs; CY 2025 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; Medicare Prescription Drug Inflation Rebate Program; and Medicare Overpayments; and Appeal Rights for Certain Changes in Patient Status; Corrections and Correcting Amendment",
+   "type": "Rule",
+   "action": "Final rules; corrections and correcting amendment.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Centers for Medicare & Medicaid Services"
+   ],
+   "publication_date": "2025-05-16",
+   "effective_on": "2025-05-16",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2025/05/16/2025-08676/medicare-and-medicaid-programs-cy-2025-payment-policies-under-the-physician-fee-schedule-and-other",
+   "rins": [],
+   "dockets": [
+    "CMS-1807-F2 and CMS-4204-F3"
+   ],
+   "significant": null,
+   "categories": [
+    "prescription-digital-therapeutics"
+   ]
+  }
+ ],
+ "by_category": {
+  "advanced-nuclear-smr": [
+   {
+    "document_number": "2026-19568",
+    "title": "Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight",
+    "type": "Proposed Rule",
+    "action": "Proposed rule and draft regulatory guides; request for comment.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-09-24",
+    "effective_on": null,
+    "comments_close_on": "2026-11-09",
+    "html_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19568/regulatory-enhancements-for-reactor-licensing-decommissioning-and-operational-oversight",
+    "rins": [
+     "3150-AL45"
+    ],
+    "dockets": [
+     "PRM-50-110, PRM-50-116, NRC-2025-1138, NRC-2020-0036, NRC-2018-0201, and NRC-2015-0028"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-21801",
+    "title": "NRC Reviews of Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-10-26",
+    "effective_on": "2026-11-25",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21801/nrc-reviews-of-reactor-designs-previously-authorized-by-us-department-of-energy-or-department-of-war",
+    "rins": [
+     "3150-AL60"
+    ],
+    "dockets": [
+     "NRC-2025-1503"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-18504",
+    "title": "In Situ Recovery Monitoring and Decommissioning Timeliness",
+    "type": "Proposed Rule",
+    "action": "Proposed rule and draft guidance; request for comment.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-09-10",
+    "effective_on": null,
+    "comments_close_on": "2026-10-13",
+    "html_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18504/in-situ-recovery-monitoring-and-decommissioning-timeliness",
+    "rins": [
+     "3150-AL48"
+    ],
+    "dockets": [
+     "NRC-2025-1204"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-15213",
+    "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors; Correction",
+    "type": "Rule",
+    "action": "Correcting amendments.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-07-28",
+    "effective_on": "2026-07-28",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/07/28/2026-15213/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors-correction",
+    "rins": [
+     "3150-AK31"
+    ],
+    "dockets": [
+     "NRC-2019-0062"
+    ],
+    "significant": true,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-14341",
+    "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices",
+    "type": "Proposed Rule",
+    "action": "Proposed rule and guidance; request for comment.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-07-16",
+    "effective_on": null,
+    "comments_close_on": "2026-08-31",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/16/2026-14341/modernizing-reactor-licensing-safety-oversight-and-siting-practices",
+    "rins": [
+     "3150-AL44"
+    ],
+    "dockets": [
+     "NRC-2025-0975"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-14208",
+    "title": "Reforming and Modernizing the NRC's Radiation Protection Framework",
+    "type": "Proposed Rule",
+    "action": "Proposed rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-07-15",
+    "effective_on": null,
+    "comments_close_on": "2026-08-31",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/15/2026-14208/reforming-and-modernizing-the-nrcs-radiation-protection-framework",
+    "rins": [
+     "3150-AL47"
+    ],
+    "dockets": [
+     "NRC-2025-1140"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-13687",
+    "title": "Implementation of the National Environmental Policy Act",
+    "type": "Proposed Rule",
+    "action": "Proposed rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-07-07",
+    "effective_on": null,
+    "comments_close_on": "2026-08-21",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/07/2026-13687/implementation-of-the-national-environmental-policy-act",
+    "rins": [
+     "3150-AL38"
+    ],
+    "dockets": [
+     "NRC-2025-0478"
+    ],
+    "significant": true,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-13302",
+    "title": "Integrated Low-Level Radioactive Waste Disposal",
+    "type": "Proposed Rule",
+    "action": "Proposed rule and draft guidance; public meeting; request for comment.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-07-01",
+    "effective_on": null,
+    "comments_close_on": "2026-08-17",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/01/2026-13302/integrated-low-level-radioactive-waste-disposal",
+    "rins": [
+     "3150-AI92"
+    ],
+    "dockets": [
+     "NRC-2011-0012, NRC-2015-0003, and NRC-2017-0081"
+    ],
+    "significant": false,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-12989",
+    "title": "Modernizing Security Requirements",
+    "type": "Proposed Rule",
+    "action": "Proposed rule and draft guidance; request for comment.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-06-26",
+    "effective_on": null,
+    "comments_close_on": "2026-07-27",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12989/modernizing-security-requirements",
+    "rins": [
+     "3150-AL53"
+    ],
+    "dockets": [
+     "PRM-26-4",
+     "PRM-26-7",
+     "PRM-26-8",
+     "NRC-2012-0079",
+     "and NRC-2025-1303"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-12702",
+    "title": "Modernizing Materials Licensing",
+    "type": "Proposed Rule",
+    "action": "Proposed rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-06-24",
+    "effective_on": null,
+    "comments_close_on": "2026-08-10",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/24/2026-12702/modernizing-materials-licensing",
+    "rins": [
+     "3150-AL56"
+    ],
+    "dockets": [
+     "NRC-2025-1370"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-12067",
+    "title": "Fee Schedules; Fee Recovery for Fiscal Year 2026",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-06-16",
+    "effective_on": "2026-08-17",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12067/fee-schedules-fee-recovery-for-fiscal-year-2026",
+    "rins": [
+     "3150-AL12"
+    ],
+    "dockets": [
+     "NRC-2023-0212"
+    ],
+    "significant": true,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-08550",
+    "title": "Licensing Requirements for Microreactors and Other Reactors With Comparable Risk Profiles",
+    "type": "Proposed Rule",
+    "action": "Proposed rule; guidance; and request for comment.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-05-01",
+    "effective_on": null,
+    "comments_close_on": "2026-06-15",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/01/2026-08550/licensing-requirements-for-microreactors-and-other-reactors-with-comparable-risk-profiles",
+    "rins": [
+     "3150-AL36"
+    ],
+    "dockets": [
+     "NRC-2025-0379"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-08015",
+    "title": "Generic Environmental Impact Statement for Licensing of New Nuclear Reactors",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-04-24",
+    "effective_on": "2026-05-26",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/04/24/2026-08015/generic-environmental-impact-statement-for-licensing-of-new-nuclear-reactors",
+    "rins": [
+     "3150-AK55"
+    ],
+    "dockets": [
+     "NRC-2020-0101"
+    ],
+    "significant": true,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-07090",
+    "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors; Correction",
+    "type": "Rule",
+    "action": "Final rule; correction.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-04-13",
+    "effective_on": "2026-04-29",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/04/13/2026-07090/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors-correction",
+    "rins": [
+     "3150-AK31"
+    ],
+    "dockets": [
+     "NRC-2019-0062"
+    ],
+    "significant": true,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-06049",
+    "title": "Categorical Exclusions From Environmental Review",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-03-30",
+    "effective_on": "2026-04-29",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/03/30/2026-06049/categorical-exclusions-from-environmental-review",
+    "rins": [
+     "3150-AK54"
+    ],
+    "dockets": [
+     "NRC-2018-0300"
+    ],
+    "significant": false,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-06048",
+    "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-03-30",
+    "effective_on": "2026-04-29",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/03/30/2026-06048/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors",
+    "rins": [
+     "3150-AK31"
+    ],
+    "dockets": [
+     "NRC-2019-0062"
+    ],
+    "significant": true,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-04823",
+    "title": "Fee Schedules; Fee Recovery for Fiscal Year 2026",
+    "type": "Proposed Rule",
+    "action": "Proposed rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-03-12",
+    "effective_on": null,
+    "comments_close_on": "2026-04-13",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/12/2026-04823/fee-schedules-fee-recovery-for-fiscal-year-2026",
+    "rins": [
+     "3150-AL12"
+    ],
+    "dockets": [
+     "NRC-2023-0212"
+    ],
+    "significant": true,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-03865",
+    "title": "Regulatory Framework for Fusion Machines",
+    "type": "Proposed Rule",
+    "action": "Proposed rule; guidance; and request for comment.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-02-26",
+    "effective_on": null,
+    "comments_close_on": "2026-05-27",
+    "html_url": "https://www.federalregister.gov/documents/2026/02/26/2026-03865/regulatory-framework-for-fusion-machines",
+    "rins": [
+     "3150-AL00"
+    ],
+    "dockets": [
+     "NRC-2023-0071"
+    ],
+    "significant": false,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2025-21784",
+    "title": "The Sunset Rule",
+    "type": "Rule",
+    "action": "Direct final rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2025-12-03",
+    "effective_on": "2026-01-08",
+    "comments_close_on": "2026-01-02",
+    "html_url": "https://www.federalregister.gov/documents/2025/12/03/2025-21784/the-sunset-rule",
+    "rins": [
+     "3150-AL39"
+    ],
+    "dockets": [
+     "NRC-2025-0479"
+    ],
+    "significant": true,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2025-13817",
+    "title": "Alternative Method for Calculating Embrittlement for Steel Reactor Vessels",
+    "type": "Proposed Rule",
+    "action": "Petition for rulemaking; denial.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2025-07-23",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/07/23/2025-13817/alternative-method-for-calculating-embrittlement-for-steel-reactor-vessels",
+    "rins": [],
+    "dockets": [
+     "Docket No. PRM-50-120",
+     "NRC-2019-0180"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   }
+  ],
+  "driverless-trucking": [
+   {
+    "document_number": "2026-21794",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-10-26",
+    "effective_on": null,
+    "comments_close_on": "2026-11-25",
+    "html_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AM70"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-1519"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-19964",
+    "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-09-30",
+    "effective_on": "2026-11-30",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
+    "rins": [
+     "2127-AM76"
+    ],
+    "dockets": [
+     "NHTSA-2025-0491"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-15484",
+    "title": "Updating and Expanding Guidance on Safe Development and Deployment of Automated Driving Systems",
+    "type": "Notice",
+    "action": "Notice of public availability and request for public comment.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-07-31",
+    "effective_on": null,
+    "comments_close_on": "2027-07-31",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15484/updating-and-expanding-guidance-on-safe-development-and-deployment-of-automated-driving-systems",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1520"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-20516",
+    "title": "NHTSA Safety Research Portfolio Public Meeting: Fall 2026, and Automated Driving Systems Workshop",
+    "type": "Notice",
+    "action": "Notice of a public meeting.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-10-07",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20516/nhtsa-safety-research-portfolio-public-meeting-fall-2026-and-automated-driving-systems-workshop",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1618"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-19242",
+    "title": "Federal Motor Vehicle Safety Standards; Denial of a Petition for Rulemaking",
+    "type": "Proposed Rule",
+    "action": "Denial of petition for rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-09-21",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/09/21/2026-19242/federal-motor-vehicle-safety-standards-denial-of-a-petition-for-rulemaking",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-2047"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-17741",
+    "title": "AV Framework Updates and Request for Comments on Interim Guidance; Extension of Comment Period",
+    "type": "Notice",
+    "action": "Extension of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-08-31",
+    "effective_on": null,
+    "comments_close_on": "2026-09-30",
+    "html_url": "https://www.federalregister.gov/documents/2026/08/31/2026-17741/av-framework-updates-and-request-for-comments-on-interim-guidance-extension-of-comment-period",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1552"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-15485",
+    "title": "Zoox-Grant of Temporary Exemption From Portions of Various Requirements of the Federal Motor Vehicle Safety Standards for an Automated Driving System-Equipped Vehicle",
+    "type": "Notice",
+    "action": "Notice of grant of application for temporary exemption from portions of eight Federal Motor Vehicle Safety Standards (FMVSS).",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-07-31",
+    "effective_on": "2026-07-31",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15485/zoox-grant-of-temporary-exemption-from-portions-of-various-requirements-of-the-federal-motor-vehicle",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2025-0523"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-15483",
+    "title": "AV Framework Updates and Request for Comments on Interim Guidance",
+    "type": "Notice",
+    "action": "Notice of updates; request for comments.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-07-31",
+    "effective_on": null,
+    "comments_close_on": "2026-08-31",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15483/av-framework-updates-and-request-for-comments-on-interim-guidance",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1552"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-12981",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 135 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-06-26",
+    "effective_on": null,
+    "comments_close_on": "2026-07-27",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12981/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-135-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AN00"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-0728"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-12980",
+    "title": "ADS-Equipped Vehicle Safety, Transparency, and Evaluation Program; Withdrawal",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking; withdrawal.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-06-26",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12980/ads-equipped-vehicle-safety-transparency-and-evaluation-program-withdrawal",
+    "rins": [
+     "2127-AM60"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2024-0100"
+    ],
+    "significant": false,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-10363",
+    "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Incident Reporting for Automated Driving Systems (ADS) and Level 2 Advanced Driver Assistance Systems (ADAS)",
+    "type": "Notice",
+    "action": "Notice and request for comments on a reinstatement of a previously approved information collection with modifications.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-05-26",
+    "effective_on": null,
+    "comments_close_on": "2026-06-25",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/26/2026-10363/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0529"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-09849",
+    "title": "Event Data Recorders",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-05-18",
+    "effective_on": "2026-06-17",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/05/18/2026-09849/event-data-recorders",
+    "rins": [
+     "2127-AM78"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2025-0050"
+    ],
+    "significant": false,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-06254",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 110 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-04-01",
+    "effective_on": null,
+    "comments_close_on": "2026-05-01",
+    "html_url": "https://www.federalregister.gov/documents/2026/04/01/2026-06254/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-110-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AM96"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-0630"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-05024",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 102 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-03-16",
+    "effective_on": null,
+    "comments_close_on": "2026-04-15",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05024/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-102-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AM72"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-0628"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-05023",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 103 and FMVSS No. 104 To Accommodate ADS-Equipped Vehicles; Incorporation by Reference",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-03-16",
+    "effective_on": null,
+    "comments_close_on": "2026-04-15",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05023/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-103-and-fmvss-no-104-to-accommodate",
+    "rins": [
+     "2127-AM71"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-0629"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-04240",
+    "title": "Agency Information Collection Activities; Notice and Request for Comment; Incident Reporting for Automated Driving Systems (ADS) and Level 2 Advanced Driver Assistance Systems (ADAS)",
+    "type": "Notice",
+    "action": "Notice and request for comments on a request for extension of a currently approved information collection with modifications.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-03-04",
+    "effective_on": null,
+    "comments_close_on": "2026-05-04",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/04/2026-04240/agency-information-collection-activities-notice-and-request-for-comment-incident-reporting-for",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0529"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-03854",
+    "title": "Notice and Request for Comment; Proposal for a New United Nations Global Technical Regulation on Automated Driving Systems (ADS)",
+    "type": "Notice",
+    "action": "Notice and request for comments on a proposed Global Technical Regulation (GTR) for Automated Driving Systems; extension of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-02-26",
+    "effective_on": null,
+    "comments_close_on": "2026-03-10",
+    "html_url": "https://www.federalregister.gov/documents/2026/02/26/2026-03854/notice-and-request-for-comment-proposal-for-a-new-united-nations-global-technical-regulation-on",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0034"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-02503",
+    "title": "NHTSA Automated Vehicle Safety Public Meeting: March 2026",
+    "type": "Notice",
+    "action": "Notice of a public meeting.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-02-09",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/02/09/2026-02503/nhtsa-automated-vehicle-safety-public-meeting-march-2026",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0265"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-01274",
+    "title": "Notice and Request for Comment; Proposal for a New United Nations Global Technical Regulation on Automated Driving Systems (ADS)",
+    "type": "Notice",
+    "action": "Notice and request for comments on a proposed Global Technical Regulation (GTR) for Automated Driving Systems.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-01-23",
+    "effective_on": null,
+    "comments_close_on": "2026-02-23",
+    "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01274/notice-and-request-for-comment-proposal-for-a-new-united-nations-global-technical-regulation-on",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0034"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-01272",
+    "title": "Request for Comment on Vestigial Vehicle Safety Regulations",
+    "type": "Notice",
+    "action": "Request for comments (RFC).",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-01-23",
+    "effective_on": null,
+    "comments_close_on": "2026-03-24",
+    "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01272/request-for-comment-on-vestigial-vehicle-safety-regulations",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0133"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   }
+  ],
+  "supersonic-passenger-flight": [
+   {
+    "document_number": "2026-19584",
+    "title": "Flight Operations: Pilot requirements; Use of oxygen",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-09-24",
+    "effective_on": null,
+    "comments_close_on": "2026-11-23",
+    "html_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19584/flight-operations-pilot-requirements-use-of-oxygen",
+    "rins": [
+     "2120-AM24"
+    ],
+    "dockets": [
+     "Docket No. FAA-2026-12145",
+     "Notice No. 26-17"
+    ],
+    "significant": null,
+    "categories": [
+     "supersonic-passenger-flight"
+    ]
+   },
+   {
+    "document_number": "2026-13440",
+    "title": "Enabling Supersonic Overland Flight",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-07-02",
+    "effective_on": null,
+    "comments_close_on": "2026-08-17",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/02/2026-13440/enabling-supersonic-overland-flight",
+    "rins": [
+     "2120-AM15"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2026-6935",
+     "Notice No. 26-07"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery",
+     "supersonic-passenger-flight"
+    ]
+   }
+  ],
+  "evtol-air-taxis": [
+   {
+    "document_number": "2026-18776",
+    "title": "Sport Pilot Practical Test Standards Alignment",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-09-14",
+    "effective_on": "2026-09-14",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/09/14/2026-18776/sport-pilot-practical-test-standards-alignment",
+    "rins": [
+     "2120-AM12"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2025-3519",
+     "Amendment No. 61-161"
+    ],
+    "significant": false,
+    "categories": [
+     "evtol-air-taxis"
+    ]
+   },
+   {
+    "document_number": "2026-14298",
+    "title": "Accepted Consensus Standards for Light-Sport Category Aircraft: Airplane, Glider, Powered Lift, and Gyroplane",
+    "type": "Rule",
+    "action": "Notification of Availability (NOA).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-07-16",
+    "effective_on": "2026-07-16",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/07/16/2026-14298/accepted-consensus-standards-for-light-sport-category-aircraft-airplane-glider-powered-lift-and",
+    "rins": [],
+    "dockets": [
+     "Docket No. FAA-2026-6965"
+    ],
+    "significant": null,
+    "categories": [
+     "evtol-air-taxis"
+    ]
+   },
+   {
+    "document_number": "2026-01226",
+    "title": "Flight Restrictions in the Vicinity of Ronald Reagan Washington National Airport (DCA)",
+    "type": "Rule",
+    "action": "Interim final rule with request for comments.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-01-23",
+    "effective_on": "2026-01-23",
+    "comments_close_on": "2026-02-23",
+    "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01226/flight-restrictions-in-the-vicinity-of-ronald-reagan-washington-national-airport-dca",
+    "rins": [
+     "2120-AM14"
+    ],
+    "dockets": [
+     "Docket No. FAA-2026-0199",
+     "Amdt. No. 93-105"
+    ],
+    "significant": false,
+    "categories": [
+     "evtol-air-taxis"
+    ]
+   },
+   {
+    "document_number": "2026-00051",
+    "title": "Requirements for Interference-Tolerant Radio Altimeter Systems",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-01-07",
+    "effective_on": null,
+    "comments_close_on": "2026-03-09",
+    "html_url": "https://www.federalregister.gov/documents/2026/01/07/2026-00051/requirements-for-interference-tolerant-radio-altimeter-systems",
+    "rins": [
+     "2120-AM21"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2025-5666",
+     "Notice No. 26-02"
+    ],
+    "significant": null,
+    "categories": [
+     "evtol-air-taxis"
+    ]
+   },
+   {
+    "document_number": "2025-22220",
+    "title": "Sport Pilot Practical Test Standards Alignment",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2025-12-08",
+    "effective_on": null,
+    "comments_close_on": "2026-01-07",
+    "html_url": "https://www.federalregister.gov/documents/2025/12/08/2025-22220/sport-pilot-practical-test-standards-alignment",
+    "rins": [
+     "2120-AM12"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2025-3519",
+     "Notice No. 26-01"
+    ],
+    "significant": false,
+    "categories": [
+     "evtol-air-taxis"
+    ]
+   },
+   {
+    "document_number": "2025-14992",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM)",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration",
+     "Homeland Security Department",
+     "Transportation Security Administration"
+    ],
+    "publication_date": "2025-08-07",
+    "effective_on": null,
+    "comments_close_on": "2025-10-06",
+    "html_url": "https://www.federalregister.gov/documents/2025/08/07/2025-14992/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations",
+    "rins": [
+     "1652-AA80",
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-2025-1908",
+     "Notice No. 25-07"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery",
+     "evtol-air-taxis"
+    ]
+   },
+   {
+    "document_number": "2025-13972",
+    "title": "Modernization of Special Airworthiness Certification",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2025-07-24",
+    "effective_on": "2025-10-22",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/07/24/2025-13972/modernization-of-special-airworthiness-certification",
+    "rins": [
+     "2120-AL50"
+    ],
+    "dockets": [
+     "Docket No. FAA-2023-1377",
+     "Amdt. Nos. 1-80, 21-109, 22-1, 36-55, 43-63, 45-32, 61-159, 65-66, 91-381, 119-22, and 147-10"
+    ],
+    "significant": false,
+    "categories": [
+     "evtol-air-taxis"
+    ]
+   }
+  ],
+  "software-freight-brokerage": [
+   {
+    "document_number": "2026-17893",
+    "title": "Fees for the Unified Carrier Registration Plan and Agreement",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Motor Carrier Safety Administration"
+    ],
+    "publication_date": "2026-09-01",
+    "effective_on": "2026-10-01",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/09/01/2026-17893/fees-for-the-unified-carrier-registration-plan-and-agreement",
+    "rins": [
+     "2126-AC72"
+    ],
+    "dockets": [
+     "Docket No. FMCSA-2025-0655"
+    ],
+    "significant": false,
+    "categories": [
+     "software-freight-brokerage"
+    ]
+   },
+   {
+    "document_number": "2026-14701",
+    "title": "General Technical, Organizational, Conforming, and Correcting Amendments to the Federal Motor Carrier Safety Regulations",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Motor Carrier Safety Administration"
+    ],
+    "publication_date": "2026-07-21",
+    "effective_on": "2026-07-21",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/07/21/2026-14701/general-technical-organizational-conforming-and-correcting-amendments-to-the-federal-motor-carrier",
+    "rins": [
+     "2126-AC75"
+    ],
+    "dockets": [
+     "Docket No. FMCSA-2025-0754"
+    ],
+    "significant": false,
+    "categories": [
+     "software-freight-brokerage"
+    ]
+   },
+   {
+    "document_number": "2026-08498",
+    "title": "Fees for the Unified Carrier Registration Plan and Agreement",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM); extension of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Motor Carrier Safety Administration"
+    ],
+    "publication_date": "2026-05-01",
+    "effective_on": null,
+    "comments_close_on": "2026-05-26",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/01/2026-08498/fees-for-the-unified-carrier-registration-plan-and-agreement",
+    "rins": [
+     "2126-AC72"
+    ],
+    "dockets": [
+     "Docket No. FMCSA-2025-0655"
+    ],
+    "significant": false,
+    "categories": [
+     "software-freight-brokerage"
+    ]
+   },
+   {
+    "document_number": "2026-06726",
+    "title": "Fees for the Unified Carrier Registration Plan and Agreement",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Motor Carrier Safety Administration"
+    ],
+    "publication_date": "2026-04-07",
+    "effective_on": null,
+    "comments_close_on": "2026-05-07",
+    "html_url": "https://www.federalregister.gov/documents/2026/04/07/2026-06726/fees-for-the-unified-carrier-registration-plan-and-agreement",
+    "rins": [
+     "2126-AC72"
+    ],
+    "dockets": [
+     "Docket No. FMCSA-2025-0655"
+    ],
+    "significant": false,
+    "categories": [
+     "software-freight-brokerage"
+    ]
+   },
+   {
+    "document_number": "2026-03266",
+    "title": "Removal of Obsolete References to “Water Carriers”",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Motor Carrier Safety Administration"
+    ],
+    "publication_date": "2026-02-19",
+    "effective_on": "2026-03-23",
+    "comments_close_on": "2026-03-23",
+    "html_url": "https://www.federalregister.gov/documents/2026/02/19/2026-03266/removal-of-obsolete-references-to-water-carriers",
+    "rins": [
+     "2126-AC86"
+    ],
+    "dockets": [
+     "Docket No. FMCSA-2025-0112"
+    ],
+    "significant": false,
+    "categories": [
+     "software-freight-brokerage"
+    ]
+   },
+   {
+    "document_number": "2025-09727",
+    "title": "Removal of Obsolete References to “Water Carriers”",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Motor Carrier Safety Administration"
+    ],
+    "publication_date": "2025-05-30",
+    "effective_on": null,
+    "comments_close_on": "2025-07-29",
+    "html_url": "https://www.federalregister.gov/documents/2025/05/30/2025-09727/removal-of-obsolete-references-to-water-carriers",
+    "rins": [
+     "2126-AC86"
+    ],
+    "dockets": [
+     "Docket No. FMCSA-2025-0112"
+    ],
+    "significant": false,
+    "categories": [
+     "software-freight-brokerage"
+    ]
+   },
+   {
+    "document_number": "2025-09703",
+    "title": "Civil Penalties Schedule Update",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Motor Carrier Safety Administration"
+    ],
+    "publication_date": "2025-05-30",
+    "effective_on": "2025-05-30",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/05/30/2025-09703/civil-penalties-schedule-update",
+    "rins": [
+     "2126-AC80"
+    ],
+    "dockets": [
+     "Docket No. FMCSA-2025-0106"
+    ],
+    "significant": null,
+    "categories": [
+     "software-freight-brokerage"
+    ]
+   }
+  ],
+  "drone-delivery": [
+   {
+    "document_number": "2026-15585",
+    "title": "Requirements for Interference-Tolerant Radio Altimeter Systems",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-07-31",
+    "effective_on": "2026-09-29",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15585/requirements-for-interference-tolerant-radio-altimeter-systems",
+    "rins": [
+     "2120-AM21"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2025-5666",
+     "Amdt Nos. 91-384, 121-396 and 129-56"
+    ],
+    "significant": null,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2026-13440",
+    "title": "Enabling Supersonic Overland Flight",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-07-02",
+    "effective_on": null,
+    "comments_close_on": "2026-08-17",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/02/2026-13440/enabling-supersonic-overland-flight",
+    "rins": [
+     "2120-AM15"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2026-6935",
+     "Notice No. 26-07"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery",
+     "supersonic-passenger-flight"
+    ]
+   },
+   {
+    "document_number": "2026-08943",
+    "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a Fixed Site Facility",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-05-06",
+    "effective_on": null,
+    "comments_close_on": "2026-07-06",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility",
+    "rins": [
+     "2120-AL33"
+    ],
+    "dockets": [
+     "Docket No. FAA-2026-4558",
+     "Notice No. 26-03"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2026-02649",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period; Denial of Extension",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM); Reopening of comment period; Denial of extension.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-02-10",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/02/10/2026-02649/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
+    "rins": [
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-2025-1908",
+     "Notice No. 25-07C"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2026-01644",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking; reopening of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-01-28",
+    "effective_on": null,
+    "comments_close_on": "2026-02-11",
+    "html_url": "https://www.federalregister.gov/documents/2026/01/28/2026-01644/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
+    "rins": [
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-FAA-2025-1908",
+     "Notice No. 25-07B"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2025-18873",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Denial of Extension of Comment Period",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM); Denial of extension of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration",
+     "Homeland Security Department",
+     "Transportation Security Administration"
+    ],
+    "publication_date": "2025-09-29",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/09/29/2025-18873/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-denial-of-extension-of",
+    "rins": [
+     "1652-AA80",
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-2025-1908",
+     "Notice No. 25-07A"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2025-14992",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM)",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration",
+     "Homeland Security Department",
+     "Transportation Security Administration"
+    ],
+    "publication_date": "2025-08-07",
+    "effective_on": null,
+    "comments_close_on": "2025-10-06",
+    "html_url": "https://www.federalregister.gov/documents/2025/08/07/2025-14992/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations",
+    "rins": [
+     "1652-AA80",
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-2025-1908",
+     "Notice No. 25-07"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery",
+     "evtol-air-taxis"
+    ]
+   }
+  ],
+  "obesity-care-generic-semaglutide": [
+   {
+    "document_number": "2026-15285",
+    "title": "Product-Specific Guidances; Revised Draft Guidances for Industry; Availability",
+    "type": "Notice",
+    "action": "Notice of availability.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2026-07-29",
+    "effective_on": null,
+    "comments_close_on": "2026-09-28",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/29/2026-15285/product-specific-guidances-revised-draft-guidances-for-industry-availability",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2007-D-0369"
+    ],
+    "significant": null,
+    "categories": [
+     "obesity-care-generic-semaglutide"
+    ]
+   },
+   {
+    "document_number": "2026-12937",
+    "title": "List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act; Extension of Comment Period",
+    "type": "Notice",
+    "action": "Notice; extension of comment period.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2026-06-26",
+    "effective_on": null,
+    "comments_close_on": "2026-05-01",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12937/list-of-bulk-drug-substances-for-which-there-is-a-clinical-need-under-section-503b-of-the-federal",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2018-N-3240"
+    ],
+    "significant": null,
+    "categories": [
+     "obesity-care-generic-semaglutide"
+    ]
+   },
+   {
+    "document_number": "2026-08552",
+    "title": "List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act",
+    "type": "Notice",
+    "action": "Notice.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2026-05-01",
+    "effective_on": null,
+    "comments_close_on": "2026-06-30",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/01/2026-08552/list-of-bulk-drug-substances-for-which-there-is-a-clinical-need-under-section-503b-of-the-federal",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2018-N-3240"
+    ],
+    "significant": null,
+    "categories": [
+     "obesity-care-generic-semaglutide"
+    ]
+   },
+   {
+    "document_number": "2026-08435",
+    "title": "Determination That OZEMPIC (Semaglutide) Solution, 2 Milligrams Per 1.5 Milliliters Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+    "type": "Notice",
+    "action": "Notice.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2026-04-30",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/04/30/2026-08435/determination-that-ozempic-semaglutide-solution-2-milligrams-per-15-milliliters-was-not-withdrawn",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2025-P-3849"
+    ],
+    "significant": null,
+    "categories": [
+     "obesity-care-generic-semaglutide"
+    ]
+   },
+   {
+    "document_number": "2026-03963",
+    "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+    "type": "Notice",
+    "action": "Notice of availability.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2026-02-27",
+    "effective_on": null,
+    "comments_close_on": "2026-04-28",
+    "html_url": "https://www.federalregister.gov/documents/2026/02/27/2026-03963/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2007-D-0369"
+    ],
+    "significant": null,
+    "categories": [
+     "obesity-care-generic-semaglutide"
+    ]
+   },
+   {
+    "document_number": "2026-02786",
+    "title": "Jeremy Spencer Brown: Final Debarment Order",
+    "type": "Notice",
+    "action": "Notice.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2026-02-12",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/02/12/2026-02786/jeremy-spencer-brown-final-debarment-order",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2025-N-0435"
+    ],
+    "significant": null,
+    "categories": [
+     "obesity-care-generic-semaglutide"
+    ]
+   },
+   {
+    "document_number": "2025-22131",
+    "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+    "type": "Notice",
+    "action": "Notice of availability.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2025-12-05",
+    "effective_on": null,
+    "comments_close_on": "2026-02-03",
+    "html_url": "https://www.federalregister.gov/documents/2025/12/05/2025-22131/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2007-D-0369"
+    ],
+    "significant": null,
+    "categories": [
+     "obesity-care-generic-semaglutide"
+    ]
+   },
+   {
+    "document_number": "2025-19345",
+    "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+    "type": "Notice",
+    "action": "Notice of availability.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2025-10-02",
+    "effective_on": null,
+    "comments_close_on": "2025-12-01",
+    "html_url": "https://www.federalregister.gov/documents/2025/10/02/2025-19345/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2007-D-0369"
+    ],
+    "significant": null,
+    "categories": [
+     "obesity-care-generic-semaglutide"
+    ]
+   }
+  ],
+  "prescription-digital-therapeutics": [
+   {
+    "document_number": "2026-04797",
+    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program; Correction",
+    "type": "Rule",
+    "action": "Correcting amendments.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2026-03-12",
+    "effective_on": "2026-03-12",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/03/12/2026-04797/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+    "rins": [
+     "0938-AV50"
+    ],
+    "dockets": [
+     "CMS-1832-F2"
+    ],
+    "significant": true,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   },
+   {
+    "document_number": "2025-20907",
+    "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; Quality Reporting Programs; Overall Hospital Quality Star Rating; Hospital Price Transparency; and Notice of Closure of a Teaching Hospital and Opportunity To Apply for Available Slots",
+    "type": "Rule",
+    "action": "Final rule with comment period.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2025-11-25",
+    "effective_on": "2026-01-01",
+    "comments_close_on": "2026-01-20",
+    "html_url": "https://www.federalregister.gov/documents/2025/11/25/2025-20907/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+    "rins": [
+     "0938-AV51"
+    ],
+    "dockets": [
+     "CMS-1834-FC"
+    ],
+    "significant": true,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   },
+   {
+    "document_number": "2025-19787",
+    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2025-11-05",
+    "effective_on": "2026-01-01",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/11/05/2025-19787/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+    "rins": [
+     "0938-AV50"
+    ],
+    "dockets": [
+     "CMS-1832-F"
+    ],
+    "significant": true,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   },
+   {
+    "document_number": "2025-13271",
+    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+    "type": "Proposed Rule",
+    "action": "Proposed rule.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2025-07-16",
+    "effective_on": null,
+    "comments_close_on": "2025-09-12",
+    "html_url": "https://www.federalregister.gov/documents/2025/07/16/2025-13271/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+    "rins": [
+     "0938-AV50"
+    ],
+    "dockets": [
+     "CMS-1832-P"
+    ],
+    "significant": true,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   },
+   {
+    "document_number": "2025-08676",
+    "title": "Medicare and Medicaid Programs; CY 2025 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; Medicare Prescription Drug Inflation Rebate Program; and Medicare Overpayments; and Appeal Rights for Certain Changes in Patient Status; Corrections and Correcting Amendment",
+    "type": "Rule",
+    "action": "Final rules; corrections and correcting amendment.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2025-05-16",
+    "effective_on": "2025-05-16",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/05/16/2025-08676/medicare-and-medicaid-programs-cy-2025-payment-policies-under-the-physician-fee-schedule-and-other",
+    "rins": [],
+    "dockets": [
+     "CMS-1807-F2 and CMS-4204-F3"
+    ],
+    "significant": null,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   }
+  ],
+  "behind-the-meter-power-compute": [
+   {
+    "document_number": "2026-03951",
+    "title": "Combined Notice of Filings #1",
+    "type": "Notice",
+    "action": null,
+    "agencies": [
+     "Energy Department",
+     "Federal Energy Regulatory Commission"
+    ],
+    "publication_date": "2026-02-27",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/02/27/2026-03951/combined-notice-of-filings-1",
+    "rins": [],
+    "dockets": [],
+    "significant": null,
+    "categories": [
+     "behind-the-meter-power-compute"
+    ]
+   }
+  ],
+  "clinical-genetic-testing": [
+   {
+    "document_number": "2025-18239",
+    "title": "Regulation Identification Number 0910-AJ05 Medical Devices; Laboratory Developed Tests; Implementation of Vacatur",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "publication_date": "2025-09-19",
+    "effective_on": "2025-09-19",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/09/19/2025-18239/regulation-identification-number-0910-aj05-medical-devices-laboratory-developed-tests-implementation",
+    "rins": [],
+    "dockets": [
+     "Docket No. FDA-2025-N-1730"
+    ],
+    "significant": null,
+    "categories": [
+     "clinical-genetic-testing"
+    ]
+   }
+  ]
+ }
+}

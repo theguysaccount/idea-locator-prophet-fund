@@ -1,0 +1,41 @@
+{
+ "slug": "juicero",
+ "name": "Juicero",
+ "kind": "myth",
+ "title": "Was Juicero too early? No: the press was not needed",
+ "question": "Was Juicero too early?",
+ "answer": "Juicero raised $120M for an internet-connected juice press priced at $699, later $399, that squeezed proprietary packs. In 2017 reporters showed the packs could be squeezed by hand about as well, and the company shut down that September. No future enabler fixes a product the customer does not need.",
+ "verdict": "not-timing",
+ "verdict_reason": "The packs could be squeezed by hand; no enabler fixes that.",
+ "enabler": "E6",
+ "myth_test": "wrong-product",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Juicero",
+   "founded": 2013,
+   "died": 2017,
+   "raised_usd_m": 120,
+   "how": "Shut down, September 2017",
+   "source": "https://en.wikipedia.org/wiki/Juicero",
+   "conf": "M",
+   "raised_note": "$120M of venture capital"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "juicer",
+  "kitchen appliance",
+  "connected device",
+  "hardware subscription",
+  "iot"
+ ],
+ "related": [
+  "consumer-home-robots"
+ ],
+ "updated": "2026-10-25"
+}

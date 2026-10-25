@@ -1,0 +1,48 @@
+{
+ "slug": "pets-com",
+ "name": "Pets.com",
+ "kind": "myth",
+ "title": "Was Pets.com too early? No: it sold below cost",
+ "question": "Was Pets.com too early for online pet supplies?",
+ "answer": "Pets.com went public in February 2000 and liquidated in November 2000. It sold heavy, low-margin goods below cost and paid to ship them. Chewy (2011) sold the same products online without any technology that was missing in 2000, and PetSmart bought it for $3.35B in 2017. No enabler crossed in between; the economics were the problem.",
+ "verdict": "not-timing",
+ "verdict_reason": "Chewy needed no technology that Pets.com lacked.",
+ "enabler": "E6",
+ "myth_test": "unit-economics",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Pets.com",
+   "founded": 1998,
+   "died": 2000,
+   "raised_usd_m": null,
+   "how": "Liquidated, November 2000",
+   "source": "https://en.wikipedia.org/wiki/Pets.com",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Chewy",
+   "founded": 2011,
+   "note": "acquired by PetSmart for $3.35B in 2017",
+   "source": "https://en.wikipedia.org/wiki/Chewy_(company)"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "pet",
+  "pets",
+  "pet supplies",
+  "ecommerce",
+  "subscription commerce"
+ ],
+ "related": [
+  "etoys",
+  "boo-com"
+ ],
+ "updated": "2026-10-25"
+}

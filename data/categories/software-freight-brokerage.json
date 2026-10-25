@@ -1,0 +1,84 @@
+{
+ "slug": "software-freight-brokerage",
+ "name": "Software freight brokerage",
+ "kind": "live",
+ "title": "Digital freight brokerage after Convoy: is the market back?",
+ "question": "Is digital freight brokerage viable again after Convoy shut down?",
+ "answer": "Convoy automated truckload brokerage, raised hundreds of millions of dollars, and shut down in late 2023 during a long freight recession; Flexport bought its assets. The killer was the rate cycle, not the software. The board tracks the BLS producer price index for long-distance truckload freight; it rose about 18% between March and September 2026.",
+ "verdict": "pending",
+ "verdict_reason": "Rates are recovering; the call on whether the recovery holds resolves from BLS data in 2027.",
+ "enabler": "E8",
+ "constraint": {
+  "name": "The truckload rate cycle",
+  "detail": "Brokers earn the spread between shipper and carrier rates; in a long freight recession the spread and volume both collapse."
+ },
+ "crossing": {
+  "date": "pending",
+  "text": "Sustained recovery in truckload rates (resolves from BLS data)."
+ },
+ "metric": {
+  "label": "Producer price index: long-distance general freight trucking, truckload (BLS, via FRED)",
+  "short": "Truckload price index",
+  "unit": "index",
+  "direction": "up",
+  "then": "2023-10",
+  "source": {
+   "kind": "fred",
+   "series": "PCU484121484121",
+   "from": "2015-01-01"
+  },
+  "source_page": "https://fred.stlouisfed.org/series/PCU484121484121",
+  "marks": [
+   {
+    "date": "2023-10",
+    "label": "Convoy shuts"
+   }
+  ]
+ },
+ "graveyard": [
+  {
+   "name": "Convoy",
+   "founded": 2015,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Shut down in late 2023; assets and some staff acquired by Flexport",
+   "source": "https://en.wikipedia.org/wiki/Convoy_(company)",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [
+  {
+   "date": "2024-11-20",
+   "text": "FMCSA proposes 'Transparency in Property Broker Transactions' (RIN 2126-AC63).",
+   "source": "https://www.federalregister.gov/d/2024-27115",
+   "conf": "H"
+  }
+ ],
+ "fr": [
+  {
+   "term": "broker",
+   "agencies": [
+    "federal-motor-carrier-safety-administration"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE"
+   ]
+  }
+ ],
+ "keywords": [
+  "freight",
+  "freight brokerage",
+  "trucking",
+  "logistics",
+  "shipping",
+  "load board",
+  "supply chain",
+  "transportation"
+ ],
+ "related": [
+  "driverless-trucking"
+ ],
+ "updated": "2026-10-25"
+}

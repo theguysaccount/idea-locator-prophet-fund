@@ -1,0 +1,48 @@
+{
+ "slug": "quibi",
+ "name": "Quibi",
+ "kind": "myth",
+ "title": "Was Quibi too early? No: wrong product at any date",
+ "question": "Was Quibi too early for short-form premium video?",
+ "answer": "Quibi raised about $1.75B, launched paid, phone-only short shows in April 2020 and shut down in December 2020. In the same months free short video on TikTok and YouTube grew fast. Mobile video, bandwidth and demand all existed; a paid, unshareable, Hollywood-cost version of it was wrong at any date.",
+ "verdict": "not-timing",
+ "verdict_reason": "Free short video boomed in the same months.",
+ "enabler": "E6",
+ "myth_test": "wrong-product",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "Quibi",
+   "founded": 2018,
+   "died": 2020,
+   "raised_usd_m": 1750,
+   "how": "Shut down, December 2020",
+   "source": "https://en.wikipedia.org/wiki/Quibi",
+   "conf": "M",
+   "raised_note": "about $1.75B"
+  }
+ ],
+ "winners": [
+  {
+   "name": "TikTok",
+   "founded": 2016,
+   "note": "free short video; grew fastest in 2020",
+   "source": "https://en.wikipedia.org/wiki/TikTok"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "short video",
+  "streaming",
+  "mobile video",
+  "entertainment",
+  "media"
+ ],
+ "related": [
+  "online-video"
+ ],
+ "updated": "2026-10-25"
+}

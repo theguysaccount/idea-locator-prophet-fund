@@ -1,0 +1,44 @@
+{
+ "slug": "de-novo-protein-binders",
+ "name": "AI protein binder design as a service",
+ "kind": "live",
+ "title": "AI protein binder design: is the hit rate a business yet?",
+ "question": "Is AI-designed protein binders as a service a viable business now?",
+ "answer": "Computational protein design used to need screening labs because only a small share of designed binders worked. BindCraft, published in Nature in August 2025, reported one-shot designs with high experimental success rates against many targets, without high-throughput screening. The measured crossing is real; the open check is a named, funded graveyard.",
+ "verdict": "check",
+ "verdict_reason": "A peer-reviewed crossing exists; no named, funded graveyard yet.",
+ "enabler": "E7",
+ "constraint": {
+  "name": "Experimental hit rate of designed binders",
+  "detail": "When most designs fail, every project needs a screening facility; when most work, design becomes a service."
+ },
+ "crossing": {
+  "date": "2025-08-27",
+  "text": "BindCraft published in Nature: one-shot binder design with high experimental success."
+ },
+ "graveyard": [],
+ "graveyard_note": "Asserted, not enumerated: 'the 2000s-2010s computational drug-design cohort'. Named, funded companies are needed before a ripe call.",
+ "winners": [],
+ "evidence": [
+  {
+   "date": "2025-08-27",
+   "text": "Pacesa et al., 'One-shot design of functional protein binders with BindCraft', Nature.",
+   "source": "https://doi.org/10.1038/s41586-025-09429-6",
+   "conf": "H"
+  }
+ ],
+ "keywords": [
+  "protein design",
+  "drug discovery",
+  "biologics",
+  "computational biology",
+  "ai drug discovery",
+  "antibodies",
+  "binders",
+  "biotech"
+ ],
+ "related": [
+  "population-genomics"
+ ],
+ "updated": "2026-10-25"
+}

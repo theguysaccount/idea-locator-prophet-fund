@@ -1,0 +1,130 @@
+{
+ "slug": "qr-codes",
+ "name": "Scan-to-web codes",
+ "kind": "history",
+ "title": "Why the CueCat failed, and when scanning codes became normal",
+ "question": "Why did the CueCat fail, and when did scanning real-world codes become viable?",
+ "answer": "Digital:Convergence gave away millions of CueCat barcode scanners in 2000 so readers could jump from print to web pages, and shut down in 2001. Readers had to be at a computer with a cable. The idea returned once cameras were in most pockets and iOS 11 (2017) read QR codes natively in the camera app.",
+ "verdict": "formed",
+ "verdict_reason": "Camera phones in three-quarters of pockets and native QR reading (2017) made scanning effortless.",
+ "enabler": "E3",
+ "constraint": {
+  "name": "A scanner in every pocket",
+  "detail": "Scanning only works if the reader is already in your hand when you see the code."
+ },
+ "crossing": {
+  "date": "2017",
+  "text": "iOS 11 adds native QR scanning to the camera; US smartphone ownership 77%."
+ },
+ "metric": {
+  "label": "US adults who own a smartphone (Pew Research Center)",
+  "short": "US smartphone ownership",
+  "unit": "%",
+  "direction": "up",
+  "source": {
+   "kind": "manual",
+   "points": [
+    {
+     "date": "2011-05",
+     "value": "35",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2012-04",
+     "value": "46",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2013-05",
+     "value": "56",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2015-07",
+     "value": "68",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2016-11",
+     "value": "77",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2019-02",
+     "value": "81",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2021-02",
+     "value": "85",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2023-09",
+     "value": "90",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2024-06",
+     "value": "91",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2026-06",
+     "value": "91",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    }
+   ]
+  },
+  "marks": [
+   {
+    "date": "2017-09",
+    "label": "iOS 11 reads QR"
+   }
+  ],
+  "note": "Pew changed survey mode in 2023 and 2024; treat the last points as approximately comparable."
+ },
+ "graveyard": [
+  {
+   "name": "Digital:Convergence (CueCat)",
+   "founded": null,
+   "died": 2001,
+   "raised_usd_m": 185,
+   "how": "Defunct by the end of 2001",
+   "source": "https://en.wikipedia.org/wiki/CueCat",
+   "conf": "M",
+   "raised_note": "$185M invested in total"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Native QR scanning (iOS 11, Android)",
+   "founded": 2017,
+   "note": "QR codes became the default link between print and web",
+   "source": "https://en.wikipedia.org/wiki/QR_code"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "qr code",
+  "barcode",
+  "print to web",
+  "scanning",
+  "offline to online",
+  "o2o"
+ ],
+ "related": [
+  "camera-glasses"
+ ],
+ "updated": "2026-10-25"
+}

@@ -1,0 +1,47 @@
+{
+ "slug": "etoys",
+ "name": "eToys",
+ "kind": "myth",
+ "title": "Was eToys too early? No: Amazon kept selling toys",
+ "question": "Was eToys too early for online toy sales?",
+ "answer": "eToys went public in 1999 at a multi-billion-dollar valuation and filed for bankruptcy in 2001. Amazon sold toys online through the same years, from 2000 in partnership with Toys \"R\" Us. Online toy retail worked; eToys' cost structure did not.",
+ "verdict": "not-timing",
+ "verdict_reason": "Amazon sold toys online through the same period.",
+ "enabler": "E6",
+ "myth_test": "competitor",
+ "constraint": {
+  "name": "Nothing was missing",
+  "detail": "The enablers it needed already existed; something else killed it."
+ },
+ "graveyard": [
+  {
+   "name": "eToys",
+   "founded": 1997,
+   "died": 2001,
+   "raised_usd_m": null,
+   "how": "Chapter 11, March 2001",
+   "source": "https://en.wikipedia.org/wiki/EToys.com",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Amazon (toys)",
+   "founded": 1999,
+   "note": "toy store run with Toys \"R\" Us from 2000",
+   "source": "https://en.wikipedia.org/wiki/Amazon_(company)"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "toys",
+  "ecommerce",
+  "online retail",
+  "kids products"
+ ],
+ "related": [
+  "pets-com",
+  "boo-com"
+ ],
+ "updated": "2026-10-25"
+}

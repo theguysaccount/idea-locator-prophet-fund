@@ -1,0 +1,155 @@
+{
+ "slug": "on-demand-local-delivery",
+ "name": "On-demand local delivery",
+ "kind": "history",
+ "title": "Why Kozmo failed, and when on-demand delivery became viable",
+ "question": "Why did Kozmo.com fail, and when did on-demand delivery become viable?",
+ "answer": "Kozmo.com promised one-hour delivery of almost anything in 1998, raised about $250M and shut down in April 2001. DoorDash (2013) and Postmates (2011) ran the same idea with GPS dispatch to contractors paid per delivery, on phones. The binding constraint was the cost of dispatching couriers, and it crossed with smartphones.",
+ "verdict": "formed",
+ "verdict_reason": "Smartphone GPS dispatch and gig couriers arrived around 2011-2013; the winners were founded inside that window.",
+ "enabler": "E3+E4",
+ "constraint": {
+  "name": "Smartphone GPS dispatch and gig labour",
+  "detail": "Kozmo employed couriers and ran warehouses; per-delivery contractors routed by phone turned a fixed cost into a variable one."
+ },
+ "crossing": {
+  "date": "2012",
+  "text": "Smartphones pass 45% of US adults; app-based gig work scales."
+ },
+ "metric": {
+  "label": "US adults who own a smartphone (Pew Research Center)",
+  "short": "US smartphone ownership",
+  "unit": "%",
+  "direction": "up",
+  "source": {
+   "kind": "manual",
+   "points": [
+    {
+     "date": "2011-05",
+     "value": "35",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2012-04",
+     "value": "46",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2013-05",
+     "value": "56",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2015-07",
+     "value": "68",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2016-11",
+     "value": "77",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2019-02",
+     "value": "81",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2021-02",
+     "value": "85",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2023-09",
+     "value": "90",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2024-06",
+     "value": "91",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    },
+    {
+     "date": "2026-06",
+     "value": "91",
+     "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+     "source_name": "Pew Research Center mobile fact sheet"
+    }
+   ]
+  },
+  "marks": [
+   {
+    "date": "2013-01",
+    "label": "DoorDash founded"
+   }
+  ],
+  "note": "Pew changed survey mode in 2023 and 2024; treat the last points as approximately comparable."
+ },
+ "graveyard": [
+  {
+   "name": "Kozmo.com",
+   "founded": 1998,
+   "died": 2001,
+   "raised_usd_m": 250,
+   "how": "Shut down, April 2001",
+   "source": "https://en.wikipedia.org/wiki/Kozmo.com",
+   "conf": "M",
+   "raised_note": "about $250M, as widely reported"
+  },
+  {
+   "name": "Urbanfetch",
+   "founded": 1999,
+   "died": 2000,
+   "raised_usd_m": null,
+   "how": "Shut its consumer delivery service in 2000",
+   "source": "https://en.wikipedia.org/wiki/Urbanfetch",
+   "conf": "L"
+  }
+ ],
+ "winners": [
+  {
+   "name": "DoorDash",
+   "founded": 2013,
+   "note": "contractor couriers dispatched by app; IPO 2020",
+   "source": "https://en.wikipedia.org/wiki/DoorDash"
+  },
+  {
+   "name": "Postmates",
+   "founded": 2011,
+   "note": "acquired by Uber in 2020",
+   "source": "https://en.wikipedia.org/wiki/Postmates"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2013-05",
+   "text": "Pew: 56% of US adults own a smartphone.",
+   "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+   "conf": "H"
+  }
+ ],
+ "keywords": [
+  "on-demand delivery",
+  "delivery app",
+  "courier",
+  "last mile",
+  "same-day delivery",
+  "one-hour delivery",
+  "convenience delivery",
+  "food delivery"
+ ],
+ "related": [
+  "online-grocery-delivery",
+  "ultrafast-grocery-delivery"
+ ],
+ "updated": "2026-10-25"
+}

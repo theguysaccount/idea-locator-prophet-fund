@@ -1,0 +1,80 @@
+# Build the static site and publish it to GitHub Pages.
+# Runs on content and code changes, when refresh.yml dispatches it after new data, or by hand.
+# Fails safe: tests, the build or the ledger guard failing stops the job and the last good deploy stays live.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+    paths: ["il/**", "data/**", "ledger/**", "site/**", "scripts/**", ".github/workflows/deploy.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  IL_BASE_URL: ${{ vars.IL_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+  IL_REPO: ${{ github.repository }}
+  IL_GOATCOUNTER: ${{ vars.IL_GOATCOUNTER }}
+  IL_RELOOK_REPORT_URL: ${{ vars.IL_RELOOK_REPORT_URL }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Tests
+        run: python -m unittest discover -s tests -t .
+      - name: Ledger guard (never rewrite public history)
+        run: python scripts/guard_ledger.py "$IL_BASE_URL/ledger/chain.jsonl" ledger/chain.jsonl
+      - name: Build
+        run: python -m il.site
+      - name: Browser-script tests
+        run: node --test tests/js.test.mjs
+      - name: Share images
+        run: CHROME="$(command -v google-chrome || command -v chromium-browser || true)" python scripts/og.py dist
+      - name: Custom domain
+        if: ${{ vars.IL_CUSTOM_DOMAIN != '' }}
+        run: echo "${{ vars.IL_CUSTOM_DOMAIN }}" > dist/CNAME
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urls
+          path: dist/urls.txt
+          retention-days: 7
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: urls
+      - name: Tell IndexNow about every page
+        run: python3 scripts/indexnow.py urls.txt "$IL_BASE_URL"

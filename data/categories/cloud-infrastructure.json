@@ -1,0 +1,61 @@
+{
+ "slug": "cloud-infrastructure",
+ "name": "Cloud infrastructure (utility computing)",
+ "kind": "history",
+ "title": "Why Loudcloud failed, and when cloud computing became viable",
+ "question": "Why did Loudcloud's utility computing fail, and when did the cloud become viable?",
+ "answer": "Loudcloud (1999) sold managed hosting as utility computing, went public in March 2001 and sold its hosting business to EDS in 2002, keeping the software (Opsware, bought by HP for $1.65B in 2007). Every customer still meant dedicated hardware. AWS (2006) sold the same promise on virtualised, shared servers, which Xen (2003) and VMware made cheap.",
+ "verdict": "formed",
+ "verdict_reason": "Hardware virtualisation matured in 2003; AWS launched S3 and EC2 in 2006.",
+ "enabler": "E7",
+ "constraint": {
+  "name": "Hardware virtualisation",
+  "detail": "Without slicing one server among many customers, 'utility' computing was outsourced dedicated hosting with a utility's price promise."
+ },
+ "crossing": {
+  "date": "2003",
+  "text": "Xen hypervisor released (2003); VMware ESX in production use."
+ },
+ "graveyard": [
+  {
+   "name": "Loudcloud",
+   "founded": 1999,
+   "died": 2002,
+   "raised_usd_m": null,
+   "how": "Sold its managed-hosting business to EDS in 2002; renamed Opsware",
+   "source": "https://en.wikipedia.org/wiki/Opsware",
+   "conf": "M",
+   "note": "Opsware (the software) sold to HP for $1.65B in 2007"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Amazon Web Services",
+   "founded": 2006,
+   "note": "S3 (March 2006) and EC2 (August 2006)",
+   "source": "https://en.wikipedia.org/wiki/Amazon_Web_Services"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2003",
+   "text": "Xen, the open-source hypervisor later used by EC2, was first released in 2003.",
+   "source": "https://en.wikipedia.org/wiki/Xen",
+   "conf": "M"
+  }
+ ],
+ "keywords": [
+  "cloud",
+  "hosting",
+  "infrastructure",
+  "utility computing",
+  "data center",
+  "servers",
+  "managed hosting",
+  "iaas"
+ ],
+ "related": [
+  "behind-the-meter-power-compute"
+ ],
+ "updated": "2026-10-25"
+}

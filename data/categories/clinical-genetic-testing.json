@@ -1,0 +1,67 @@
+{
+ "slug": "clinical-genetic-testing",
+ "name": "Broad clinical genetic testing",
+ "kind": "live",
+ "title": "Clinical genetic testing after Invitae: blocked on a check",
+ "question": "Is broad clinical genetic testing viable again after Invitae went bankrupt?",
+ "answer": "Invitae sold broad genetic test panels at low prices, grew volume quickly, and filed for bankruptcy in February 2024; Labcorp bought its assets. Sequencing kept getting cheaper; what failed was getting paid, with insurers denying many claims. Whether payer coverage for broad panels has improved since 2024 is the check that decides this.",
+ "verdict": "check",
+ "verdict_reason": "Cost keeps falling; the binding constraint, reimbursement, has no public series yet.",
+ "enabler": "E5+E1",
+ "constraint": {
+  "name": "Insurer reimbursement for broad panels",
+  "detail": "Volume grew, but revenue per test stayed low because payers denied or underpaid claims."
+ },
+ "graveyard": [
+  {
+   "name": "Invitae",
+   "founded": 2010,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "Chapter 11, February 2024; assets bought by Labcorp",
+   "source": "https://en.wikipedia.org/wiki/Invitae",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [
+  {
+   "date": "2024-05-06",
+   "text": "FDA's laboratory-developed tests rule is published (later vacated by a court in 2025).",
+   "source": "https://www.federalregister.gov/d/2024-08935",
+   "conf": "H"
+  },
+  {
+   "date": "2025-09-19",
+   "text": "FDA removes the LDT rule's provisions to implement the court's vacatur.",
+   "source": "https://www.federalregister.gov/d/2025-18239",
+   "conf": "H"
+  }
+ ],
+ "fr": [
+  {
+   "term": "\"laboratory developed tests\"",
+   "agencies": [
+    "food-and-drug-administration"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE"
+   ]
+  }
+ ],
+ "keywords": [
+  "genetic testing",
+  "diagnostics",
+  "lab testing",
+  "genomic testing",
+  "hereditary testing",
+  "precision medicine",
+  "molecular diagnostics"
+ ],
+ "related": [
+  "consumer-genomics-subscriptions",
+  "population-genomics"
+ ],
+ "updated": "2026-10-25"
+}

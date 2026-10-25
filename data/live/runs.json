@@ -1,0 +1,35 @@
+{
+ "last_run": "2026-10-25T21:44:10Z",
+ "offline": false,
+ "resolvers": [
+  {
+   "call": "C12-faa-bvlos-final-rule",
+   "status": "open"
+  },
+  {
+   "call": "C13-supersonic-final-rule",
+   "status": "open"
+  },
+  {
+   "call": "C14-medicare-dmht-codes-2027",
+   "status": "open"
+  },
+  {
+   "call": "C15-electricity-keeps-rising",
+   "status": "open"
+  },
+  {
+   "call": "C16-truckload-recovery-holds",
+   "status": "open"
+  },
+  {
+   "call": "C17-zero-rates-return",
+   "status": "open"
+  },
+  {
+   "call": "C18-bci-pivotal-trial",
+   "status": "open"
+  }
+ ],
+ "stale_over_28_days": []
+}

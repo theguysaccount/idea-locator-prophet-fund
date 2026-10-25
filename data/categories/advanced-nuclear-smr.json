@@ -1,0 +1,74 @@
+{
+ "slug": "advanced-nuclear-smr",
+ "name": "Small modular nuclear reactors",
+ "kind": "live",
+ "title": "Small modular reactors: NRC Part 53 is final, power is not",
+ "question": "Is small modular nuclear power viable now that the NRC's new licensing rule is final?",
+ "answer": "The NRC's technology-inclusive licensing rule, Part 53, was published on 30 March 2026 and took effect on 29 April 2026: the regulatory precondition has crossed. NuScale's first planned plant, the UAMPS Carbon Free Power Project, was cancelled in 2023 on cost. Commercial power from a new small reactor in the US is the trigger still pending.",
+ "verdict": "pending",
+ "verdict_reason": "Licensing has crossed; first-of-a-kind cost and commercial operation have not.",
+ "enabler": "E5+E1",
+ "constraint": {
+  "name": "Licensing path and first-of-a-kind cost",
+  "detail": "Advanced reactors needed a licensing framework built for them, then a first plant that delivers power at a price utilities accept."
+ },
+ "crossing": {
+  "date": "2026-04-29",
+  "text": "10 CFR part 53 takes effect (licensing crossed); commercial operation pending."
+ },
+ "graveyard": [
+  {
+   "name": "Transatomic Power",
+   "founded": 2011,
+   "died": 2018,
+   "raised_usd_m": null,
+   "how": "Shut down, September 2018",
+   "source": "https://en.wikipedia.org/wiki/Transatomic_Power",
+   "conf": "M"
+  },
+  {
+   "name": "UAMPS Carbon Free Power Project (NuScale)",
+   "founded": null,
+   "died": 2023,
+   "raised_usd_m": null,
+   "how": "Cancelled, November 2023, after cost estimates rose",
+   "source": "https://en.wikipedia.org/wiki/NuScale_Power",
+   "conf": "M",
+   "note": "a project, not a company"
+  }
+ ],
+ "winners": [],
+ "evidence": [
+  {
+   "date": "2026-03-30",
+   "text": "NRC final rule: Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors (part 53), effective 29 April 2026.",
+   "source": "https://www.federalregister.gov/d/2026-06048",
+   "conf": "H"
+  }
+ ],
+ "fr": [
+  {
+   "term": "\"advanced reactors\"",
+   "agencies": [
+    "nuclear-regulatory-commission"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE"
+   ]
+  }
+ ],
+ "keywords": [
+  "nuclear",
+  "smr",
+  "small modular reactor",
+  "fission",
+  "advanced reactor",
+  "microreactor",
+  "clean firm power"
+ ],
+ "related": [
+  "behind-the-meter-power-compute"
+ ],
+ "updated": "2026-10-25"
+}

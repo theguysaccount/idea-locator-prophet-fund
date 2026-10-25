@@ -1,0 +1,96 @@
+{
+ "slug": "ultrafast-grocery-delivery",
+ "name": "15-minute grocery delivery",
+ "kind": "live",
+ "title": "15-minute grocery delivery: no-go while money costs this much",
+ "question": "Is 15-minute grocery delivery coming back?",
+ "answer": "Gorillas, Getir, Buyk and Fridge No More raised large rounds in 2020-22 to deliver groceries in 15 minutes from dark stores. Buyk and Fridge No More collapsed in March 2022 when their funding was cut off, Gorillas sold itself to Getir that December, and Getir left the US, UK and Germany in 2024. Each order lost money and only cheap, plentiful capital covered it. The board's live metric is the fed funds rate, which is nowhere near its 2021 level.",
+ "verdict": "nogo",
+ "verdict_reason": "The blocker was the price of money, and the fed funds rate is still above 3.5%.",
+ "enabler": "E8",
+ "constraint": {
+  "name": "Near-zero cost of capital",
+  "detail": "Dark stores and couriers on standby lose money per order at small basket sizes; the model only survived while capital was nearly free."
+ },
+ "metric": {
+  "label": "Effective federal funds rate (Federal Reserve, via FRED)",
+  "short": "Fed funds rate",
+  "unit": "%",
+  "direction": "down",
+  "then": "2021-12",
+  "source": {
+   "kind": "fred",
+   "series": "FEDFUNDS",
+   "from": "2015-01-01"
+  },
+  "source_page": "https://fred.stlouisfed.org/series/FEDFUNDS",
+  "threshold": {
+   "value": "1.0",
+   "label": "below 1%: the zero-rate era"
+  },
+  "marks": [
+   {
+    "date": "2022-03",
+    "label": "Buyk, Fridge No More fold"
+   },
+   {
+    "date": "2024-04",
+    "label": "Getir retreats"
+   }
+  ]
+ },
+ "graveyard": [
+  {
+   "name": "Buyk",
+   "founded": null,
+   "died": 2022,
+   "raised_usd_m": null,
+   "how": "Ceased operations and filed Chapter 11, March 2022, after its founders' funding was cut off by sanctions",
+   "source": "https://www.grocerydive.com/news/us-rapid-grocery-delivery-space-consolidates-further/620603/",
+   "conf": "M"
+  },
+  {
+   "name": "Fridge No More",
+   "founded": null,
+   "died": 2022,
+   "raised_usd_m": null,
+   "how": "Shut down, March 2022, after a sale of its assets fell through",
+   "source": "https://www.grocerydive.com/news/us-rapid-grocery-delivery-space-consolidates-further/620603/",
+   "conf": "M"
+  },
+  {
+   "name": "Gorillas",
+   "founded": 2020,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "Acquired by Getir in December 2022; brand ended in 2024",
+   "source": "https://en.wikipedia.org/wiki/Gorillas_(company)",
+   "conf": "M"
+  },
+  {
+   "name": "Getir (US, UK, Germany)",
+   "founded": 2015,
+   "died": 2024,
+   "raised_usd_m": null,
+   "how": "Announced in April 2024 it was leaving the US, UK and Germany",
+   "source": "https://en.wikipedia.org/wiki/Getir",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "quick commerce",
+  "q-commerce",
+  "15-minute delivery",
+  "instant delivery",
+  "dark store",
+  "rapid delivery",
+  "grocery delivery"
+ ],
+ "related": [
+  "online-grocery-delivery",
+  "on-demand-local-delivery"
+ ],
+ "updated": "2026-10-25"
+}

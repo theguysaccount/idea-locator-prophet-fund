@@ -1,0 +1,56 @@
+{
+ "slug": "digital-cash",
+ "name": "Digital cash",
+ "kind": "history",
+ "title": "Why DigiCash failed, and when digital cash became viable",
+ "question": "Why did DigiCash fail, and when did digital cash become viable?",
+ "answer": "DigiCash (1989) built private, cryptographic electronic cash and filed for bankruptcy in 1998 after few banks adopted it. Its design needed a trusted issuer that banks would not become. Bitcoin (2009) removed the issuer with proof-of-work consensus, a protocol invention nobody could have scheduled; dollar stablecoins such as USDC (2018) later combined the two ideas.",
+ "verdict": "formed",
+ "verdict_reason": "Decentralised consensus (2009) removed the need for an issuing bank.",
+ "enabler": "E9",
+ "constraint": {
+  "name": "Issuer-free consensus",
+  "detail": "Digital cash needed someone to prevent double-spending; until 2009 that had to be a bank."
+ },
+ "crossing": {
+  "date": "2009",
+  "text": "Bitcoin's network launches in January 2009."
+ },
+ "graveyard": [
+  {
+   "name": "DigiCash",
+   "founded": 1989,
+   "died": 1998,
+   "raised_usd_m": null,
+   "how": "Bankruptcy, 1998",
+   "source": "https://en.wikipedia.org/wiki/DigiCash",
+   "conf": "M"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Bitcoin",
+   "founded": 2009,
+   "note": "proof-of-work consensus",
+   "source": "https://en.wikipedia.org/wiki/Bitcoin"
+  },
+  {
+   "name": "USDC (Circle)",
+   "founded": 2018,
+   "note": "dollar stablecoin",
+   "source": "https://en.wikipedia.org/wiki/USD_Coin"
+  }
+ ],
+ "evidence": [],
+ "keywords": [
+  "digital cash",
+  "e-cash",
+  "cryptocurrency",
+  "payments",
+  "stablecoin",
+  "digital currency",
+  "micropayments"
+ ],
+ "related": [],
+ "updated": "2026-10-25"
+}

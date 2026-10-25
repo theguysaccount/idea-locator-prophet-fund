@@ -1,0 +1,41 @@
+{
+ "slug": "consumer-home-robots",
+ "name": "Consumer home robots",
+ "kind": "live",
+ "title": "Consumer home robots after Anki and Jibo: still a no-go",
+ "question": "Are consumer home robots viable again after Anki and Jibo?",
+ "answer": "Anki, maker of the Cozmo and Vector robots, went bankrupt in April 2019 after losing a critical funding round. Jibo, a social home robot co-founded in 2012, was also gone by then. Hardware with thin margins needs patient capital and a reason to keep using the robot after the novelty fades. Neither constraint has measurably moved.",
+ "verdict": "nogo",
+ "verdict_reason": "Neither the capital constraint nor the engagement problem has measurably changed.",
+ "enabler": "E8",
+ "constraint": {
+  "name": "Hardware margins and lasting use",
+  "detail": "Consumer robots sell on novelty, cost real money to build and support, and struggle to stay in daily use."
+ },
+ "graveyard": [
+  {
+   "name": "Anki",
+   "founded": 2010,
+   "died": 2019,
+   "raised_usd_m": null,
+   "how": "Bankrupt in April 2019 after losing a critical funding round",
+   "source": "https://en.wikipedia.org/wiki/Anki_(American_company)",
+   "conf": "M"
+  }
+ ],
+ "winners": [],
+ "evidence": [],
+ "keywords": [
+  "home robot",
+  "consumer robotics",
+  "social robot",
+  "robot companion",
+  "household robot",
+  "robotics",
+  "toy robot"
+ ],
+ "related": [
+  "juicero"
+ ],
+ "updated": "2026-10-25"
+}

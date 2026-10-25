@@ -1,0 +1,60 @@
+# Weekly self-test: the live site answers and matches the repository, cited sources still resolve,
+# the test suite passes on main, and the scheduled workflows stay enabled.
+name: Self-test
+
+on:
+  schedule:
+    - cron: "41 5 * * 4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  IL_BASE_URL: ${{ vars.IL_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tests on main
+        run: python -m unittest discover -s tests -t .
+      - name: Live site health and ledger match
+        run: python scripts/health.py live "$IL_BASE_URL"
+      - name: Cited sources still resolve
+        run: python scripts/health.py links
+
+  keepalive:
+    # GitHub disables scheduled workflows in public repos after 60 days without repository activity.
+    # Re-enable them through the API, and push a heartbeat commit if the repo has been quiet for 40+ days.
+    runs-on: ubuntu-latest
+    if: always()
+    needs: live
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Keep scheduled workflows enabled
+        run: |
+          for wf in refresh.yml selftest.yml deploy.yml ci.yml; do
+            gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$wf/enable" && echo "enabled $wf" || echo "could not enable $wf"
+          done
+      - name: Heartbeat commit after 40 quiet days
+        run: |
+          last=$(git log -1 --format=%ct)
+          days=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "last commit $days days ago"
+          if [ "$days" -ge 40 ]; then
+            date -u +%Y-%m-%dT%H:%M:%SZ > .github/heartbeat
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .github/heartbeat
+            git commit -m "Keep-alive heartbeat"
+            git push
+          fi

@@ -1,0 +1,178 @@
+{
+ "status": "ok",
+ "fetched": "2026-10-25T21:44:09Z",
+ "errors": [],
+ "by_category": {
+  "implantable-bci": [
+   {
+    "nct": "NCT07543367",
+    "title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
+    "official_title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
+    "status": "RECRUITING",
+    "sponsor": "Synchron, Inc.",
+    "first_posted": "2026-04-21",
+    "start": "2026-05-07",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT07533903",
+    "title": "Functional Outcomes and Control Using Synchron BCI - Australia",
+    "official_title": "Functional Outcomes and Control Using Synchron BCI - Australia (FOCUS-AUS)",
+    "status": "RECRUITING",
+    "sponsor": "Synchron, Inc.",
+    "first_posted": "2026-04-16",
+    "start": "2026-05-22",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT07446114",
+    "title": "Functional Outcomes and Control Using Synchron BCI - Canada",
+    "official_title": "Functional Outcomes and Control Using Synchron BCI - Canada",
+    "status": "RECRUITING",
+    "sponsor": "Synchron, Inc.",
+    "first_posted": "2026-03-03",
+    "start": "2026-03-18",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT07357428",
+    "title": "Connect-One: Early Feasibility Study of Connexus® Brain-Computer Interface (BCI)",
+    "official_title": "Connect-One: Early Feasibility Study of Connexus® Brain-Computer Interface (BCI) to Provide Human Connection Through Communication",
+    "status": "RECRUITING",
+    "sponsor": "Paradromics",
+    "first_posted": "2026-01-22",
+    "start": "2026-03-31",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT07224256",
+    "title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration",
+    "official_title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration",
+    "status": "RECRUITING",
+    "sponsor": "Neuralink Corp",
+    "first_posted": "2025-11-04",
+    "start": "2025-10-03",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT07127172",
+    "title": "GB-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "official_title": "GB-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "status": "RECRUITING",
+    "sponsor": "Neuralink Corp",
+    "first_posted": "2025-08-17",
+    "start": "2025-07-31",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT06992596",
+    "title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "official_title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "status": "RECRUITING",
+    "sponsor": "Neuralink Corp",
+    "first_posted": "2025-05-28",
+    "start": "2025-05-09",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT06710626",
+    "title": "Control of Assistive Devices Via Brain-Computer Interface Technology",
+    "official_title": "CONVOY: An Early Feasibility Study of Neural Control of Assistive Devices Via Brain-Computer Interface Technology",
+    "status": "ENROLLING_BY_INVITATION",
+    "sponsor": "Neuralink Corp",
+    "first_posted": "2024-11-29",
+    "start": "2024-11-25",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT06700304",
+    "title": "CAN-PRIME: Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "official_title": "CAN-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "status": "RECRUITING",
+    "sponsor": "Neuralink Corp",
+    "first_posted": "2024-11-21",
+    "start": "2024-11-20",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT06429735",
+    "title": "Precise Robotically IMplanted Brain-Computer InterfacE",
+    "official_title": "PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "status": "RECRUITING",
+    "sponsor": "Neuralink Corp",
+    "first_posted": "2024-05-28",
+    "start": "2024-01-09",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT05041114",
+    "title": "SWITCH II Early Feasibility Study: Implantable BCI to Control a Digital Device for People With Paralysis",
+    "official_title": "Stentrode With Thought-controlled Digital Switch: An Early Feasibility Study of the Safety of an Endovascular Motor Neuroprosthesis in Participants With Severe Upper Limb Impairment.",
+    "status": "WITHDRAWN",
+    "sponsor": "Synchron Medical, Inc.",
+    "first_posted": "2021-09-10",
+    "start": "2022-04-21",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT05035823",
+    "title": "COMMAND Early Feasibility Study: Implantable BCI to Control a Digital Device for People With Paralysis",
+    "official_title": "Motor NeuroProsthesis to Restore Motor Control for the COMMAND of Digital Devices: An Early Feasibility Study (EFS) of Safety in Subjects With Severe Quadriparesis",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Synchron Medical, Inc.",
+    "first_posted": "2021-09-05",
+    "start": "2022-04-27",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
+   {
+    "nct": "NCT03834857",
+    "title": "SWITCH: Stentrode First-in-Human Study of Implantable BCI for Control of a Digital Device",
+    "official_title": "Stentrode With Thought-controlled Digital Switch: An Early Feasibility Study (EFS) of the Safety of the Stentrode Device in Participants With Loss of Motor Function Due to Paralysis",
+    "status": "COMPLETED",
+    "sponsor": "Synchron Australia Pty Ltd.",
+    "first_posted": "2019-02-08",
+    "start": "2019-05-27",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "slug": "supersonic-passenger-flight",
+ "name": "Supersonic passenger flight",
+ "kind": "live",
+ "title": "Supersonic passenger jets: is the overland ban about to go?",
+ "question": "Is supersonic passenger flight viable again now the US overland ban may be lifted?",
+ "answer": "Concorde retired in 2003 and Aerion Supersonic shut down in 2021 after failing to raise production money. Since 1973 US rules have banned civil supersonic flight over land, which removes most routes. A June 2025 executive order told the FAA to lift the ban, and the FAA proposed doing so on 2 July 2026 (RIN 2120-AM15). A final rule is the trigger.",
+ "verdict": "pending",
+ "verdict_reason": "The rule that would reopen overland routes is proposed, not final.",
+ "enabler": "E5",
+ "constraint": {
+  "name": "US ban on civil supersonic flight over land",
+  "detail": "14 CFR 91.817 limits civil aircraft to below Mach 1 over the US, so a supersonic jet can only fly fast over water."
+ },
+ "crossing": {
+  "date": "pending",
+  "text": "FAA proposed rule 'Enabling Supersonic Overland Flight' (2 July 2026); final rule not yet published."
+ },
+ "graveyard": [
+  {
+   "name": "Aerion Supersonic",
+   "founded": 2003,
+   "died": 2021,
+   "raised_usd_m": null,
+   "how": "Shut down in May 2021 after failing to secure production funding",
+   "source": "https://en.wikipedia.org/wiki/Aerion",
+   "conf": "M"
+  },
+  {
+   "name": "Concorde (BAC/Aerospatiale)",
+   "founded": 1976,
+   "died": 2003,
+   "raised_usd_m": null,
+   "how": "Retired in 2003",
+   "source": "https://en.wikipedia.org/wiki/Concorde",
+   "conf": "H",
+   "note": "state-backed programme, not a startup"
+  }
+ ],
+ "winners": [
+  {
+   "name": "Boom Supersonic",
+   "founded": 2014,
+   "note": "developing the Overture airliner",
+   "source": "https://en.wikipedia.org/wiki/Boom_Technology"
+  }
+ ],
+ "evidence": [
+  {
+   "date": "2025-06-11",
+   "text": "Executive Order 14304, Leading the World in Supersonic Flight, directs the FAA to repeal the overland ban.",
+   "source": "https://www.federalregister.gov/d/2025-10800",
+   "conf": "H"
+  },
+  {
+   "date": "2026-07-02",
+   "text": "FAA proposed rule 'Enabling Supersonic Overland Flight' (RIN 2120-AM15).",
+   "source": "https://www.federalregister.gov/d/2026-13440",
+   "conf": "H"
+  }
+ ],
+ "fr": [
+  {
+   "term": "supersonic",
+   "agencies": [
+    "federal-aviation-administration"
+   ],
+   "types": [
+    "RULE",
+    "PRORULE"
+   ]
+  }
+ ],
+ "keywords": [
+  "supersonic",
+  "aviation",
+  "airliner",
+  "aerospace",
+  "air travel",
+  "business jet"
+ ],
+ "related": [
+  "drone-delivery",
+  "evtol-air-taxis"
+ ],
+ "updated": "2026-10-25"
+}
