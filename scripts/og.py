@@ -9,6 +9,7 @@ import os
 import shutil
 import subprocess
 import sys
+import tempfile
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,12 +30,17 @@ def chrome():
 
 
 def shoot(binary, html, png):
-    cmd = [binary, "--headless=new", "--disable-gpu", "--no-sandbox", "--hide-scrollbars", "--force-device-scale-factor=1",
-           "--window-size=1200,630", "--virtual-time-budget=2000", "--screenshot=" + png, "file://" + html]
+    # Each Chrome gets its own profile: parallel instances sharing one profile fail on Linux runners.
+    profile = tempfile.mkdtemp(prefix="il-og-")
+    cmd = [binary, "--headless=new", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage", "--hide-scrollbars",
+           "--force-device-scale-factor=1", "--user-data-dir=" + profile, "--window-size=1200,630",
+           "--virtual-time-budget=2000", "--screenshot=" + png, "file://" + html]
     try:
-        subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=60, check=False)
+        subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=90, check=False)
     except subprocess.TimeoutExpired:
         pass
+    finally:
+        shutil.rmtree(profile, ignore_errors=True)
     return os.path.exists(png) and os.path.getsize(png) > 1000
 
 
