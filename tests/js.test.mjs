@@ -61,3 +61,18 @@ test("re-look matcher maps descriptions to categories", (t) => {
   const since = ilRelook.since(deals[1], ilRelook.match(deals[1]).cat);
   assert.match(since, /worse/);
 });
+
+test("re-look matcher handles plurals and prefers the more specific category", (t) => {
+  const relookPath = path.join(root, "dist/data/relook.json");
+  if (!existsSync(relookPath)) {
+    t.skip("build first: python3 -m il.site");
+    return;
+  }
+  const { ilRelook } = load("site/assets/relook.js");
+  ilRelook.setBoard(JSON.parse(readFileSync(relookPath, "utf8")));
+  const [quick, kozmo] = ilRelook.parseDeals("Quick basket, 2021, 15-minute grocery delivery from dark stores\nKozmo, 2000, one-hour delivery of convenience items");
+  assert.equal(ilRelook.match(quick).cat.slug, "ultrafast-grocery-delivery");
+  const k = ilRelook.match(kozmo);
+  assert.equal(k.cat.slug, "on-demand-local-delivery");
+  assert.match(ilRelook.since(kozmo, k.cat), /35% \(2011, earliest data\)/);
+});

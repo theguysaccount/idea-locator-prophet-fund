@@ -50,28 +50,38 @@
     return deals.slice(0, 500);
   }
 
-  function norm(s) { return " " + String(s).toLowerCase().replace(/[^a-z0-9]+/g, " ") + " "; }
+  // Lower-case, split on non-alphanumerics, and drop a plural "s" so "dark stores" matches "dark store".
+  function norm(s) {
+    var words = String(s).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().split(" ").map(function (w) {
+      return w.length > 3 && /[^s]s$/.test(w) ? w.slice(0, -1) : w;
+    });
+    return " " + words.join(" ") + " ";
+  }
 
   function match(deal) {
     var text = norm(deal.desc + " " + deal.company);
-    var best = null, bestScore = 0;
+    var best = null, bestScore = 0, bestHits = 0;
     board.categories.forEach(function (c) {
-      var score = 0;
+      var score = 0, hits = 0;
       c.keywords.forEach(function (k) {
         var kk = norm(k);
-        if (text.indexOf(kk) !== -1) score += kk.trim().split(" ").length * 2 - 1;
+        if (text.indexOf(kk) !== -1) { score += kk.trim().split(" ").length * 2 - 1; hits++; }
       });
-      if (score > bestScore) { bestScore = score; best = c; }
+      if (score > bestScore || (score === bestScore && hits > bestHits)) { bestScore = score; bestHits = hits; best = c; }
     });
     return bestScore > 0 ? { cat: best, score: bestScore } : null;
   }
 
-  function fmt(v) {
-    var a = Math.abs(v);
-    if (a >= 1e6) return (v / 1e6).toPrecision(3) + "M";
-    if (a >= 1000) return Math.round(v).toLocaleString();
-    if (a >= 1) return (Math.round(v * 100) / 100).toString();
-    return (Math.round(v * 1000) / 1000).toString();
+  function fmt(v, unit) {
+    var a = Math.abs(v), s;
+    if (a >= 1e6) s = (v / 1e6).toPrecision(3) + "M";
+    else if (a >= 1000) s = Math.round(v).toLocaleString("en-US");
+    else if (a >= 1) s = (Math.round(v * 100) / 100).toString();
+    else s = (Math.round(v * 1000) / 1000).toString();
+    unit = unit || "";
+    if (unit.charAt(0) === "$") return "$" + s + unit.slice(1);
+    if (unit === "%") return s + "%";
+    return unit ? s + " " + unit : s;
   }
 
   function since(deal, c) {
@@ -79,16 +89,18 @@
     if (c.verdict === "unknown") return "I don't know: the board abstains on this category (the named blocker crossed, or never moved, without deciding it).";
     var bits = [];
     if (c.series && c.series.points.length && deal.year) {
-      var pts = c.series.points, then = null;
+      var pts = c.series.points, then = null, unit = c.series.unit;
       for (var i = 0; i < pts.length; i++) if (pts[i][0] <= deal.year) then = pts[i];
       var now = pts[pts.length - 1];
+      var earliest = !then;
       if (!then) then = pts[0];
       if (then && now && then[0] !== now[0]) {
         var ratio = now[1] / then[1];
         var better = c.series.direction === "up" ? ratio : 1 / ratio;
-        var moved = better >= 1.25 ? (better >= 100 ? Math.round(better).toLocaleString() : better.toFixed(1)) + "× better" :
-          better <= 0.8 ? (1 / better).toFixed(1) + "× worse" : "barely moved";
-        bits.push(c.series.label.replace(/ \(.*\)$/, "") + ": " + fmt(then[1]) + " (" + then[0] + ") → " + fmt(now[1]) + " (" + now[0] + "), " + moved + ".");
+        var moved = better >= 1.25 ? (better >= 100 ? Math.round(better).toLocaleString("en-US") : better.toFixed(1)) + "\u00d7 better" :
+          better <= 0.8 ? (1 / better).toFixed(1) + "\u00d7 worse" : "barely moved";
+        bits.push(c.series.label.replace(/ \(.*\)$/, "") + ": " + fmt(then[1], unit) + " (" + then[0] + (earliest ? ", earliest data" : "") +
+          ") \u2192 " + fmt(now[1], unit) + " (" + now[0] + "), " + moved + ".");
       }
     }
     var cy = c.crossing ? parseInt(c.crossing, 10) : NaN;
