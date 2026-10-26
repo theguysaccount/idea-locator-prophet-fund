@@ -1,7 +1,7 @@
 {
  "fred:APU000072610": {
   "status": "ok",
-  "fetched": "2026-10-25T21:51:56Z",
+  "fetched": "2026-10-26T13:04:11Z",
   "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=APU000072610",
   "points": [
    [
@@ -2300,7 +2300,7 @@
  },
  "fred:FEDFUNDS": {
   "status": "ok",
-  "fetched": "2026-10-25T21:51:57Z",
+  "fetched": "2026-10-26T13:04:12Z",
   "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS",
   "points": [
    [
@@ -5775,7 +5775,7 @@
  },
  "fred:PCU484121484121": {
   "status": "ok",
-  "fetched": "2026-10-25T21:51:57Z",
+  "fetched": "2026-10-26T13:04:12Z",
   "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCU484121484121",
   "points": [
    [
@@ -6878,7 +6878,7 @@
  },
  "owid:cost-of-sequencing-a-full-human-genome:cost_per_genome:World": {
   "status": "ok",
-  "fetched": "2026-10-25T21:51:58Z",
+  "fetched": "2026-10-26T13:04:13Z",
   "url": "https://ourworldindata.org/grapher/cost-of-sequencing-a-full-human-genome.csv?v=1&csvType=full&useColumnShortNames=true",
   "points": [
    [
@@ -6973,7 +6973,7 @@
  },
  "owid:electric-car-sales:ev_sales:World": {
   "status": "ok",
-  "fetched": "2026-10-25T21:51:59Z",
+  "fetched": "2026-10-26T13:04:14Z",
   "url": "https://ourworldindata.org/grapher/electric-car-sales.csv?v=1&csvType=full&useColumnShortNames=true",
   "points": [
    [
@@ -7044,7 +7044,7 @@
  },
  "worldbank:USA:IT.NET.BBND.P2": {
   "status": "ok",
-  "fetched": "2026-10-25T21:52:00Z",
+  "fetched": "2026-10-26T13:04:58Z",
   "url": "https://api.worldbank.org/v2/country/USA/indicator/IT.NET.BBND.P2?format=json&per_page=200",
   "points": [
    [
