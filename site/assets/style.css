@@ -124,6 +124,7 @@ ul.evidence time { font-family: var(--mono); font-size: 0.82rem; color: var(--mu
 .call dt { color: var(--muted); }
 .call dd { margin: 0; }
 .call .hash { margin: 10px 0 0; font-size: 0.82rem; color: var(--muted); }
+.call .resolution { margin: 10px 0 0; padding: 8px 10px; border-left: 3px solid var(--line); font-size: 0.92rem; overflow-wrap: anywhere; }
 .st { font-weight: 600; }
 .st-open { color: var(--muted); } .st-due { color: var(--warn); } .st-yes { color: var(--ripe); } .st-no { color: var(--nogo); } .st-void { color: var(--unknown); }
 .share-row { display: flex; flex-wrap: wrap; gap: 4px; margin: 0 0 10px; }
@@ -134,6 +135,8 @@ textarea.code { font-size: 0.8rem; margin: 4px 0 10px; }
 .verify-out { font-family: var(--mono); font-size: 0.9rem; min-height: 1.4em; }
 .verify-out.ok { color: var(--ripe); } .verify-out.bad { color: var(--nogo); }
 table.ledger td:nth-child(1), table.ledger td:nth-child(2) { white-space: nowrap; font-family: var(--mono); font-size: 0.82rem; }
+table.resolved td:nth-child(2), table.resolved td:nth-child(4) { white-space: nowrap; font-family: var(--mono); }
+table.resolved td:nth-child(5) { overflow-wrap: anywhere; min-width: 14ch; }
 table.ledger tr:target { background: color-mix(in srgb, var(--link) 12%, transparent); }
 table.relook td { font-size: 0.9rem; }
 .money { border-color: var(--ripe); }
@@ -147,6 +150,11 @@ footer.site p { margin: 0 0 8px; max-width: 860px; }
   .call dt { margin-top: 6px; }
   header.site .wrap { gap: 6px 14px; padding-top: 8px; padding-bottom: 8px; }
   .cards { grid-template-columns: 1fr; }
+  table.resolved thead { display: none; }
+  table.resolved tr { display: grid; grid-template-columns: auto auto 1fr; gap: 6px 16px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  table.resolved td { display: block; border: 0; padding: 0; min-width: 0; }
+  table.resolved td:first-child, table.resolved td:last-child { grid-column: 1 / -1; }
+  table.resolved td[data-label]::before { content: attr(data-label); display: block; font: 600 0.7rem var(--sans); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
 }
 /* embed */
 body.embed { background: transparent; margin: 0; }

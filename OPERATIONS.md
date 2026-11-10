@@ -5,24 +5,27 @@ Everything that runs, how each job fails safely, what to watch, and the keys a h
 ## Automated jobs
 
 ### `refresh.yml`: weekly data refresh and call resolution (Mondays 06:17 UTC, or by hand)
-1. `python -m il.refresh` fetches each source independently, with three retries:
+1. `python -m il.refresh` fetches each source independently:
    - FRED series (electricity price, truckload PPI, fed funds rate);
    - the World Bank (US broadband);
    - Our World in Data (genome cost, EV sales);
    - Federal Register documents matched to categories;
    - ClinicalTrials.gov studies for tracked sponsors.
+
+   Each request gets three attempts, each with a 30-second socket timeout and a 90-second cap on the whole response. The waits between attempts are about 2 and 4 seconds. Client errors other than 408, 425 and 429 are not retried. The fetch phase has a 15-minute budget (`IL_FETCH_BUDGET_S`), and the resolvers have their own 4-minute budget. The log names every failed attempt and how long it took.
 2. Automatic resolvers run on every unresolved call:
    - Federal Register: a final rule under a RIN, or a full-text term plus title.
    - FRED: a dated observation or a monthly average versus a threshold, using first published values.
    - ClinicalTrials.gov: sponsor, title term and first-posted window.
 
    A resolution is appended to the ledger only when the rule is decided by data actually retrieved. "Yes" can come early; "no" only after the date.
-3. The tests run, including ledger integrity and the check that the ledger matches `data/`.
+3. The tests run, including ledger integrity and the check that the ledger matches `data/`. The site tests build two temporary chains, one with no resolutions and one with yes, no and void resolutions. They check the ledger page, category pages, cards, embeds and share cards in both states, so a call resolving never fails them.
 4. `data/live/` and `ledger/chain.jsonl` are committed and `deploy.yml` is dispatched.
 5. `scripts/health.py stale` fails the run if any source has failed for more than 28 days. This happens after the deploy, so the site stays up and GitHub emails the repo owner.
 
 **Fails safe:**
-- A failed source keeps its last good data, marked `stale` with the error and the date it started failing. The page then says "the last fetch failed; showing the last good values".
+- A failed source keeps its last good data, marked `stale` with the error and the date it started failing. The page then says "the last fetch failed; showing the last good values". `runs.json` lists every source that is stale now (`stale_now`), and the run still succeeds.
+- A slow source cannot stall the run. Once the time budget is spent, sources not yet fetched keep their last good data too, so the job finishes well inside its 30-minute timeout.
 - A failing test stops the run before the commit.
 - A broken ledger stops `il.refresh` before it writes anything.
 
@@ -59,12 +62,12 @@ Python 3.9 and 3.12, the build, and the Node tests of the browser scripts.
 | Workflow runs | Actions tab; failure emails go to the repo owner | Refresh and self-test green weekly |
 | Data freshness | `data/live/runs.json` (`last_run`, resolver log, stale sources) and "last fetched" on each chart | Under 9 days old; no source stale over 28 days |
 | Resolutions | `/calls/` and new `resolution` entries in `ledger/chain.jsonl` | Automatic calls resolve on schedule; due manual calls are listed by `python -m il.resolve --due` |
-| Score | `/calls/` (Brier score once calls resolve) | First automatic call due 2027-01-31 (C14) |
+| Score | `/calls/`: mean Brier score and a table of resolved calls with their evidence | Every yes or no resolution is scored; void ones are listed but not scored |
 | Corrections | Issues labelled `correction` | Reviewed by the scheduled routine |
 | Reach | Bing indexing; GoatCounter once the key is set (`relook_match`, `share`, `ledger_verify`) | Growing |
 
 Calendar of resolutions:
-- 2027-01-31: C14 (Medicare codes), automatic
+- C14 (Medicare codes), due 2027-01-31: **resolved YES on 2026-11-10**, early and automatically. The CY 2027 Physician Fee Schedule final rule (FR doc 2026-22743) was published on 2026-11-09.
 - 2027-04-30: C16 (truckload index), automatic, as soon as March 2027 data is published
 - 2027-06-30: C12 (FAA BVLOS rule), automatic
 - 2027-10-31: C15 (electricity price), automatic
@@ -100,7 +103,15 @@ Without the routine, the automatic parts keep running: 8 of 13 calls resolve the
 
 ## Failure playbook
 
-- **Refresh failed:** open the run. A source error is usually upstream (FRED or World Bank maintenance); the site keeps the last data. If a source moved, fix its URL or parser in `il/refresh.py` and run `gh workflow run refresh.yml`.
+- **Refresh failed:** open the run. A source error alone never turns the run red: the source goes stale and the run continues. A red run means one of four things:
+  - a failing test;
+  - a broken ledger;
+  - a push conflict;
+  - a source stale for more than 28 days (usually upstream, for example FRED or World Bank maintenance; if the source moved, fix its URL or parser in `il/refresh.py`).
+
+  Fix the cause, then run `gh workflow run refresh.yml`. Until then the site keeps the last good deploy.
+
+  Example: the 2026-11-09 run failed because a test asserted launch-day text ("No call has resolved yet") on the day C14 resolved. The tests now check both ledger states.
 - **Deploy refused by the ledger guard:** someone rewrote public history. Restore `ledger/chain.jsonl` from the last deployed commit; add changes as new entries only.
 - **Self-test link failures:** replace dead sources in `data/` with archived or primary copies (the run summary lists each URL and page).
 - **Schedules disabled anyway:** run any workflow by hand from the Actions tab, or push any commit; the keep-alive resumes.

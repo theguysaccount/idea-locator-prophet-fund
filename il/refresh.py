@@ -3,15 +3,21 @@
     python3 -m il.refresh            # fetch everything, resolve, write data/live/*.json and append resolutions
     python3 -m il.refresh --offline  # resolve against the data already on disk (no network)
 
-Every source is fetched independently. A failed fetch keeps the last good data, marks it stale with the
-error and the date it started failing, and never blocks the others. Resolutions are appended to the ledger
-only when the rule in the call decides it from data actually retrieved.
+Every source is fetched independently. A slow or failing source is retried a bounded number of times
+(growing waits, a socket timeout and a wall-clock cap per attempt), then keeps its last good data, marked
+stale with the error and the date it started failing, and never blocks the others. The whole network phase
+has a time budget (IL_FETCH_BUDGET_S, default 900 s), so slow sources cannot push the run past the job's
+timeout: once it is spent, sources not yet fetched keep their last good data too. Resolutions are appended to
+the ledger only when the rule in the call decides it from data actually retrieved.
 """
 import csv
 import io
 import json
+import os
+import random
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
@@ -24,23 +30,75 @@ CT_API = "https://clinicaltrials.gov/api/v2/studies"
 FR_FIELDS = ["title", "type", "abstract", "action", "agencies", "publication_date", "effective_on", "comments_close_on",
              "document_number", "html_url", "regulation_id_numbers", "docket_ids", "significant"]
 STALE_ALERT_DAYS = 28
+ATTEMPT_TIMEOUT_S = 30     # socket timeout for one attempt (connect, and each read)
+ATTEMPTS = 3
+FETCH_BUDGET_S = 900       # all metrics, calendar and trial queries together
+RESOLVE_BUDGET_S = 240     # resolver look-ups, on their own budget so a slow fetch phase cannot starve them
+
+
+class Budget:
+    """Wall-clock allowance shared by many requests. Requests stop starting once it is spent."""
+
+    def __init__(self, seconds, clock=time.monotonic):
+        self.clock = clock
+        self.deadline = clock() + seconds
+
+    def left(self):
+        return self.deadline - self.clock()
 
 
 def now_ts():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def http_get(url, tries=3, timeout=40):
-    last = None
-    for attempt in range(tries):
+def _read_capped(resp, deadline):
+    """Read the whole body, but give up once the deadline passes (a server trickling bytes defeats socket timeouts)."""
+    chunks = []
+    while True:
+        if time.monotonic() > deadline:
+            raise TimeoutError("response still arriving at the per-attempt time cap")
+        chunk = resp.read(65536)
+        if not chunk:
+            return b"".join(chunks)
+        chunks.append(chunk)
+
+
+def _retryable(exc):
+    if isinstance(exc, urllib.error.HTTPError):
+        return exc.code in (408, 425, 429) or exc.code >= 500
+    return True  # timeouts, resets, DNS hiccups, truncated bodies
+
+
+def http_get(url, tries=ATTEMPTS, timeout=ATTEMPT_TIMEOUT_S, budget=None, sleep=time.sleep):
+    """GET a URL as text with bounded retries.
+
+    Each attempt has a socket timeout and a wall-clock cap (three times the timeout). Between attempts it waits
+    2 s, then 4 s (plus jitter). Client errors other than 408/425/429 are not retried. With a Budget, no attempt
+    starts once the budget is spent and no attempt or wait outlasts it. Raises RuntimeError listing every attempt."""
+    errors = []
+    host = urllib.parse.urlsplit(url).netloc
+    for attempt in range(1, tries + 1):
+        left = budget.left() if budget is not None else None
+        if left is not None and left < 5:
+            errors.append("not attempted: the run's time budget is used up")
+            break
+        t = timeout if left is None else max(5.0, min(timeout, left))
+        start = time.monotonic()
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return resp.read().decode("utf-8")
-        except Exception as exc:  # network, HTTP and decode errors are all retried, then reported
-            last = exc
-            time.sleep(1.5 * (attempt + 1))
-    raise RuntimeError("GET %s failed: %s" % (url, last))
+            with urllib.request.urlopen(req, timeout=t) as resp:
+                return _read_capped(resp, start + 3 * t).decode("utf-8")
+        except Exception as exc:  # network, HTTP and decode errors: report each, retry the transient ones
+            took = time.monotonic() - start
+            errors.append("attempt %d (%.0fs): %s" % (attempt, took, exc))
+            print("    %s attempt %d/%d failed after %.0fs: %s" % (host, attempt, tries, took, exc))
+            if attempt == tries or not _retryable(exc):
+                break
+            wait = 2 ** attempt + random.uniform(0, 1)
+            if budget is not None:
+                wait = min(wait, max(0.0, budget.left()))
+            sleep(wait)
+    raise RuntimeError("GET %s failed: %s" % (url, "; ".join(errors)))
 
 
 def num_str(v):
@@ -99,18 +157,26 @@ def parse_worldbank(text):
     return sorted(pts)
 
 
-def fetch_series(src):
+def fetch_series(src, getter=http_get):
     kind = src["kind"]
     if kind == "fred":
         url = fred_url(src["series"])
-        return url, parse_fred(http_get(url))
+        return url, parse_fred(getter(url))
     if kind == "owid":
         url = owid_url(src["slug"])
-        return url, parse_owid(http_get(url), src["column"], src.get("entity", "World"))
+        return url, parse_owid(getter(url), src["column"], src.get("entity", "World"))
     if kind == "worldbank":
         url = worldbank_url(src["country"], src["indicator"])
-        return url, parse_worldbank(http_get(url))
+        return url, parse_worldbank(getter(url))
     raise ValueError("not a fetchable source: %s" % kind)
+
+
+def keeping(rec):
+    """How much last-good data a stale record still serves, for the log."""
+    pts = (rec or {}).get("points") or []
+    if pts:
+        return "keeping %d points last fetched %s" % (len(pts), ((rec or {}).get("fetched") or "?")[:10])
+    return "no earlier data to keep"
 
 
 def mark_stale(rec, err, today):
@@ -121,7 +187,7 @@ def mark_stale(rec, err, today):
     return rec
 
 
-def refresh_metrics(cats, old, today, extra_sources=()):
+def refresh_metrics(cats, old, today, extra_sources=(), getter=http_get):
     out = {}
     sources = {}
     for c in cats:
@@ -132,12 +198,12 @@ def refresh_metrics(cats, old, today, extra_sources=()):
         sources[data.series_key(src)] = src
     for key, src in sorted(sources.items()):
         try:
-            url, pts = fetch_series(src)
+            url, pts = fetch_series(src, getter)
             out[key] = {"status": "ok", "fetched": now_ts(), "url": url, "points": pts}
             print("  ok   %s (%d points, last %s)" % (key, len(pts), pts[-1][0]))
         except Exception as exc:
             out[key] = mark_stale(old.get(key), exc, today)
-            print("  FAIL %s: %s" % (key, exc))
+            print("  FAIL %s: %s; %s, stale since %s" % (key, exc, keeping(old.get(key)), out[key]["failing_since"]))
         time.sleep(0.3)
     return out
 
@@ -174,7 +240,7 @@ def slim_doc(d):
     }
 
 
-def refresh_calendar(cats, old, today):
+def refresh_calendar(cats, old, today, getter=http_get):
     since = (date.fromisoformat(today) - timedelta(days=540)).isoformat()
     docs = {}
     errors = []
@@ -182,7 +248,7 @@ def refresh_calendar(cats, old, today):
         for q in c.get("fr", []):
             try:
                 url = fr_query_url(q, since=since)
-                res = json.loads(http_get(url)).get("results", [])
+                res = json.loads(getter(url)).get("results", [])
                 for d in res:
                     s = slim_doc(d)
                     cur = docs.setdefault(s["document_number"], s)
@@ -240,7 +306,7 @@ def parse_ct(text):
     return out
 
 
-def refresh_trials(cats, old, today):
+def refresh_trials(cats, old, today, getter=http_get):
     by_cat, errors = {}, []
     for c in cats:
         t = c.get("trials")
@@ -249,7 +315,7 @@ def refresh_trials(cats, old, today):
         found = []
         for sp in t.get("sponsors", []):
             try:
-                rows = parse_ct(http_get(ct_url(sp)))
+                rows = parse_ct(getter(ct_url(sp)))
                 found += [r for r in rows if sp.lower() in r["sponsor"].lower()]
             except Exception as exc:
                 errors.append("%s: %s" % (sp, exc))
@@ -410,9 +476,16 @@ def stale_sources(live, today, days=STALE_ALERT_DAYS):
     return out
 
 
-def main(argv):
+def main(argv, today=None, fetch_budget_s=None, resolve_budget_s=RESOLVE_BUDGET_S, getter=None):
+    """Fetch, resolve and write. Returns 0 even when sources fail (they go stale); 1 only for a broken ledger."""
+    try:
+        sys.stdout.reconfigure(line_buffering=True)  # timings in the Actions log are real, not all at exit
+    except (AttributeError, ValueError):
+        pass
     offline = "--offline" in argv
-    today = date.today().isoformat()
+    today = today or date.today().isoformat()
+    if fetch_budget_s is None:
+        fetch_budget_s = int(os.environ.get("IL_FETCH_BUDGET_S", FETCH_BUDGET_S))
     cats = data.load_categories()
     live = data.load_live()
     entries = ledger.load(data.LEDGER)
@@ -420,32 +493,40 @@ def main(argv):
     if problems:
         print("ledger is broken, refusing to touch it:\n  " + "\n  ".join(problems))
         return 1
+    started = time.monotonic()
     if not offline:
-        print("metrics:")
+        fetch_budget = Budget(fetch_budget_s)
+        fetch = getter or (lambda url: http_get(url, budget=fetch_budget))
+        print("metrics (time budget %ds):" % fetch_budget_s)
         extra = []
         for e in ledger.View(entries).calls.values():
             r = e["body"]["resolver"]
             if r["kind"] == "fred":
                 extra.append({"kind": "fred", "series": r["series"]})
-        live["metrics"] = refresh_metrics(cats, live["metrics"], today, extra)
+        live["metrics"] = refresh_metrics(cats, live["metrics"], today, extra, getter=fetch)
         print("calendar:")
-        live["calendar"] = refresh_calendar(cats, live["calendar"], today)
+        live["calendar"] = refresh_calendar(cats, live["calendar"], today, getter=fetch)
         print("trials:")
-        live["trials"] = refresh_trials(cats, live["trials"], today)
+        live["trials"] = refresh_trials(cats, live["trials"], today, getter=fetch)
         data.write_json(data.LIVE + "/metrics.json", live["metrics"])
         data.write_json(data.LIVE + "/calendar.json", live["calendar"])
         data.write_json(data.LIVE + "/trials.json", live["trials"])
     print("resolvers:")
-    getter = http_get
+    resolve_budget = Budget(resolve_budget_s)
+    resolve = getter or (lambda url: http_get(url, budget=resolve_budget))
     if offline:
-        def getter(url):
+        def resolve(url):
             raise RuntimeError("offline")
-    log = run_resolvers(entries, live["metrics"], today, getter=getter, write_path=data.LEDGER)
+    log = run_resolvers(entries, live["metrics"], today, getter=resolve, write_path=data.LEDGER)
     stale = stale_sources(live, today)
-    runs = {"last_run": now_ts(), "offline": offline, "resolvers": log, "stale_over_%d_days" % STALE_ALERT_DAYS: stale}
+    failing = sorted(k for k, rec in live.get("metrics", {}).items() if (rec or {}).get("status") == "stale")
+    failing += [n for n in ("calendar", "trials") if (live.get(n) or {}).get("status") == "stale"]
+    runs = {"last_run": now_ts(), "offline": offline, "resolvers": log, "stale_now": failing,
+            "stale_over_%d_days" % STALE_ALERT_DAYS: stale}
     data.write_json(data.LIVE + "/runs.json", runs)
     for row in log:
         print("  %s %s" % (row["call"], row["status"]))
+    print("done in %.0fs; stale sources (kept their last good data): %s" % (time.monotonic() - started, ", ".join(failing) or "none"))
     return 0
 
 

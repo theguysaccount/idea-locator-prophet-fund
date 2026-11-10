@@ -17,7 +17,20 @@
 - The re-look screen; 44 Python and 3 Node tests; weekly refresh, deploy and self-test workflows with keep-alive.
 
 **Known gaps:**
-- No call resolves before January 2027, so there is no score yet.
+- (Closed 2026-11-10.) No call was due to resolve before January 2027, so there was no score. See the update below.
 - Five graveyards are unenumerated, and capital is disclosed for only some companies.
 - Analytics are off until a GoatCounter key is set.
 - There is no custom domain, and Google Search Console is not set up.
+
+## Update: 2026-11-10
+
+- **First resolution.** C14 (CMS publishes the CY 2027 Physician Fee Schedule final rule referencing G0552 by 2027-01-31, said at 92%) resolved **YES** early. The final rule was published on 2026-11-09 (FR doc 2026-22743), and the resolver found it.
+  - The ledger now reports a mean Brier score: 0.006 over one call.
+  - `/calls/` lists resolved calls with their evidence. Category pages, cards, embeds and share cards show the outcome.
+- **Why the 2026-11-09 refresh failed.** A test asserted the launch-day sentence "No call has resolved yet", so the run stopped before committing and the site stopped refreshing (the last deploy stayed live).
+  - The tests now build temporary chains with and without resolutions, and assert on whatever the real ledger holds.
+  - The relook tests derive their expectations from the data instead of fixed figures.
+- **Slow sources.** The same run logged a World Bank read timeout, which was already marked stale without failing the run.
+  - Requests now use growing waits, a per-attempt time cap, no retries on client errors, and a run-wide time budget.
+  - A test runs a full refresh with the World Bank timing out on every attempt. It checks that the run succeeds, the World Bank keeps its last good values, and every other source refreshes.
+- **Tests:** 56 Python and 4 Node, up from 44 Python and 3 Node at launch.

@@ -58,8 +58,16 @@ test("re-look matcher maps descriptions to categories", (t) => {
   assert.equal(ilRelook.match(deals[1]).cat.slug, "indoor-vertical-farming");
   assert.equal(ilRelook.match(deals[2]), null);
   assert.equal(ilRelook.match(deals[3]).cat.slug, "prescription-digital-therapeutics");
-  const since = ilRelook.since(deals[1], ilRelook.match(deals[1]).cat);
-  assert.match(since, /worse/);
+  // The wording follows the live series, so derive the expected direction from the same data.
+  const farm = ilRelook.match(deals[1]).cat;
+  const since = ilRelook.since(deals[1], farm);
+  const pts = farm.series.points;
+  const then = pts.filter((p) => p[0] <= 2020).pop() || pts[0];
+  const now = pts[pts.length - 1];
+  const better = farm.series.direction === "up" ? now[1] / then[1] : then[1] / now[1];
+  const word = better >= 1.25 ? /\u00d7 better\./ : better <= 0.8 ? /\u00d7 worse\./ : /barely moved\./;
+  assert.match(since, word);
+  assert.match(since, new RegExp("\\(" + then[0] + "\\) \u2192 .+ \\(" + now[0] + "\\)"));
 });
 
 test("re-look matcher handles plurals and prefers the more specific category", (t) => {
@@ -74,5 +82,8 @@ test("re-look matcher handles plurals and prefers the more specific category", (
   assert.equal(ilRelook.match(quick).cat.slug, "ultrafast-grocery-delivery");
   const k = ilRelook.match(kozmo);
   assert.equal(k.cat.slug, "on-demand-local-delivery");
-  assert.match(ilRelook.since(kozmo, k.cat), /35% \(2011, earliest data\)/);
+  // A deal older than the series falls back to its first point, whatever that point is.
+  const first = k.cat.series.points[0];
+  assert.ok(first[0] > 2000);
+  assert.ok(ilRelook.since(kozmo, k.cat).includes("(" + first[0] + ", earliest data)"));
 });

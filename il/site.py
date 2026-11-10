@@ -52,6 +52,10 @@ def short(h, n=10):
     return h[:n]
 
 
+def plural(n, one, many=None):
+    return "%d %s" % (n, one if n == 1 else (many or one + "s"))
+
+
 class Ctx:
     """Per-build configuration and derived data shared by all pages."""
 
@@ -90,6 +94,8 @@ def derive(ctx, cats, entries, live, slips):
     by_slug = {c["slug"]: c for c in cats}
     for c in cats:
         c["_calls"] = sorted(view.calls_for(c["slug"]), key=lambda e: e["seq"])
+        c["_call_states"] = [call_state(view, e, ctx.today) for e in c["_calls"]]
+        c["_lead_call"] = lead_call(c["_call_states"])
         v = view.verdicts.get(c["slug"])
         c["_verdict_entry"] = v
         c["_verdict"] = v["body"]["verdict"] if v else c["verdict"]
@@ -131,6 +137,54 @@ def call_status(view, cid, today):
         r = view.resolutions[cid]["body"]
         return "resolved", r["outcome"]
     return s, None
+
+
+def call_state(view, e, today):
+    """One call as a reader sees it: open, due, or resolved with its outcome, resolution entry and Brier score."""
+    st, outcome = call_status(view, e["body"]["id"], today)
+    out = {"entry": e, "status": st, "outcome": outcome, "resolution": None, "brier": None}
+    if st == "resolved":
+        out["resolution"] = view.resolutions[e["body"]["id"]]
+        if outcome in ("yes", "no"):
+            p = e["body"]["p_pct"] / 100.0
+            out["brier"] = (p - (1.0 if outcome == "yes" else 0.0)) ** 2
+    return out
+
+
+def lead_call(states):
+    """The call a card, embed or share image shows: the first still-open one, else the most recently resolved."""
+    for s in states:
+        if s["status"] != "resolved":
+            return s
+    if states:
+        return max(states, key=lambda s: s["resolution"]["seq"])
+    return None
+
+
+def call_brief(s):
+    """Plain-text state of a call, for cards, embeds and share images."""
+    b = s["entry"]["body"]
+    if s["status"] == "resolved":
+        r = s["resolution"]["body"]
+        if s["outcome"] == "void":
+            return "voided %s" % r["resolved_on"]
+        return "resolved %s %s" % (s["outcome"].upper(), r["resolved_on"])
+    if s["status"] == "due":
+        return "due %s, awaiting resolution" % b["resolves_on"]
+    return "resolves %s" % b["resolves_on"]
+
+
+METHODS = {"auto:federal_register": "automatic Federal Register check", "auto:fred": "automatic FRED check",
+           "auto:clinicaltrials": "automatic ClinicalTrials.gov check", "manual": "manual review"}
+
+
+def evidence_html(items, n=None):
+    out = []
+    for x in items:
+        text = esc(clip(x.get("text", ""), n) if n else x.get("text", ""))
+        url = x.get("url") or ""
+        out.append('<a href="%s" rel="nofollow noopener">%s</a>' % (esc(url), text) if url.startswith("https://") else text)
+    return "; ".join(out)
 
 
 def resolver_text(res):
@@ -330,22 +384,31 @@ def calls_block(pg, c, view):
     if not c["_calls"]:
         return ""
     items = []
-    for e in c["_calls"]:
+    for s in c["_call_states"]:
+        e = s["entry"]
         b = e["body"]
-        st, outcome = call_status(view, b["id"], pg.ctx.today)
+        st, outcome = s["status"], s["outcome"]
+        resolution = ""
         if st == "resolved":
             status = '<span class="st st-%s">Resolved: %s</span>' % (esc(outcome), esc(outcome.upper()))
+            r = s["resolution"]
+            rb = r["body"]
+            scored = ("Brier score for this call: <b>%.3f</b>." % s["brier"]) if s["brier"] is not None else "Void calls are not scored."
+            resolution = ('<p class="resolution">Resolved <b class="st-%s">%s</b> on %s by %s. Evidence: %s. %s '
+                          '<a href="%s">ledger #%d</a></p>'
+                          % (esc(outcome), esc(outcome.upper()), esc(rb["resolved_on"]), esc(METHODS.get(rb["method"], rb["method"])),
+                             evidence_html(rb.get("evidence", [])) or "none recorded", scored, pg.u("calls/#e%d" % r["seq"]), r["seq"]))
         elif st == "due":
             status = '<span class="st st-due">Due, awaiting resolution</span>'
         else:
             status = '<span class="st st-open">Open</span>'
         items.append(
             '<article class="call" id="%s"><header><span class="pp">%d%%</span><div><h3>%s</h3><p class="fine">%s · '
-            "resolves %s · registered %s%s</p></div></header>"
+            "resolves %s · registered %s%s</p></div></header>%s"
             "<dl><dt>Resolver</dt><dd>%s</dd><dt>Falsified if</dt><dd>%s</dd><dt>Why this probability</dt><dd>%s</dd></dl>"
             '<p class="hash">ledger #%d · <code title="%s">%s…</code> · <a href="%s">verify</a></p></article>'
             % (esc(b["id"]), b["p_pct"], esc(b["statement"]), status, esc(b["resolves_on"]), esc(e["ts"][:10]),
-               (" · first stated %s" % esc(b["first_stated"])) if b.get("first_stated") else "",
+               (" · first stated %s" % esc(b["first_stated"])) if b.get("first_stated") else "", resolution,
                esc(resolver_text(b["resolver"])), esc(b["falsifier"]), esc(b["rationale"]),
                e["seq"], esc(e["hash"]), esc(short(e["hash"], 16)), pg.u("calls/#e%d" % e["seq"])))
     return ('<section class="panel" id="calls"><h2>Dated calls</h2><p class="lede">Each call is written to an append-only, '
@@ -495,9 +558,10 @@ def embed_page(ctx, c):
     pg = Page(ctx, "embed/%s/" % c["slug"])
     target = "%s/category/%s/" % (ctx.base, c["slug"])
     callbit = ""
-    if c["_calls"]:
-        b = c["_calls"][0]["body"]
-        callbit = '<p class="ecall"><b>%d%%</b> %s <span>resolves %s</span></p>' % (b["p_pct"], esc(b["statement"]), esc(b["resolves_on"]))
+    s = c["_lead_call"]
+    if s:
+        b = s["entry"]["body"]
+        callbit = '<p class="ecall"><b>%d%%</b> %s <span>%s</span></p>' % (b["p_pct"], esc(b["statement"]), esc(call_brief(s)))
     html = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<meta name="robots" content="noindex"><title>%s</title><link rel="canonical" href="%s">'
             '<link rel="stylesheet" href="%s"></head><body class="embed"><a class="ecard" href="%s" target="_blank" rel="noopener">'
@@ -511,10 +575,11 @@ def og_card(ctx, c):
     """HTML for the 1200x630 share image, screenshotted by scripts/og.py."""
     v = c["_verdict"]
     callbit = ""
-    if c["_calls"]:
-        b = c["_calls"][0]["body"]
-        callbit = '<div class="ogcall"><b>%d%%</b><span>%s<br><i>resolves %s</i></span></div>' % (
-            b["p_pct"], esc(clip(b["statement"], 150)), esc(b["resolves_on"]))
+    s = c["_lead_call"]
+    if s:
+        b = s["entry"]["body"]
+        callbit = '<div class="ogcall"><b>%d%%</b><span>%s<br><i>%s</i></span></div>' % (
+            b["p_pct"], esc(clip(b["statement"], 150)), esc(call_brief(s)))
     metric = ""
     info = c.get("_metric")
     if info and info.get("then") and info.get("now"):
@@ -540,9 +605,13 @@ def card(pg, c, mini=False):
                                                                   esc(charts.fmt_value(info["now"][1], m["unit"]))))
     if c["_capital"] and not mini:
         bits.append('<span class="cg">graveyard %s</span>' % money_m(c["_capital"]))
-    if c["_calls"] and not mini:
-        b = c["_calls"][0]["body"]
-        bits.append('<span class="cc">call: %d%% by %s</span>' % (b["p_pct"], esc(b["resolves_on"])))
+    s = c["_lead_call"]
+    if s and not mini:
+        b = s["entry"]["body"]
+        if s["status"] == "resolved":
+            bits.append('<span class="cc">call: %d%%, <b class="st-%s">%s</b></span>' % (b["p_pct"], esc(s["outcome"]), esc(call_brief(s))))
+        else:
+            bits.append('<span class="cc">call: %d%% by %s</span>' % (b["p_pct"], esc(b["resolves_on"])))
     meta = ('<p class="meta">%s</p>' % " · ".join(bits)) if bits else ""
     return ('<li class="card v-%s"><a href="%s"><span class="cn">%s</span>%s<span class="cq">%s</span>'
             '<span class="ck">Killed by: %s</span>%s</a></li>'
@@ -574,9 +643,10 @@ def home_page(ctx, cats, view):
     next_due = sorted(open_calls, key=lambda e: e["body"]["resolves_on"])
     nd = next_due[0]["body"] if next_due else None
     total_dead = sum(c["_capital"] for c in cats)
-    stats = ('<ul class="stats"><li><b>%d</b> live categories</li><li><b>%d</b> dated calls, %d resolved</li>'
+    stats = ('<ul class="stats"><li><b>%d</b> live categories</li><li><b>%d</b> dated %s, %d resolved</li>'
              '<li><b>%s</b> of disclosed capital in the graveyard</li><li>next call due <b>%s</b></li></ul>'
-             % (len(live), len(view.calls), resolved, money_m(total_dead), esc(nd["resolves_on"]) if nd else "—"))
+             % (len(live), len(view.calls), "call" if len(view.calls) == 1 else "calls", resolved, money_m(total_dead),
+                esc(nd["resolves_on"]) if nd else "—"))
     body = (
         '<section class="hero"><h1>Which dead startup categories are worth trying again?</h1>'
         '<p class="sub">Each call names what killed the category, the metric that has moved since, the funded companies that died '
@@ -629,9 +699,46 @@ def entry_summary(e, by_slug):
         return 'Verdict: <a href="../category/%s/">%s</a> is <b>%s</b>%s. %s' % (
             esc(b["category"]), esc(name), esc(data.VERDICTS[b["verdict"]][0]), prev, esc(b.get("reason", "")))
     if t == "resolution":
-        return "Resolution: <b>%s</b> resolved <b>%s</b> on %s (%s)." % (esc(b["call"]), esc(b["outcome"].upper()),
-                                                                      esc(b["resolved_on"]), esc(b["method"]))
+        ev = evidence_html(b.get("evidence", []), 140)
+        return "Resolution: <b>%s</b> resolved <b>%s</b> on %s (%s).%s" % (esc(b["call"]), esc(b["outcome"].upper()),
+                                                                        esc(b["resolved_on"]), esc(b["method"]),
+                                                                        (" Evidence: %s." % ev) if ev else "")
     return esc(b.get("text", ""))
+
+
+def score_section(pg, view, by_slug):
+    """The ledger's track record. Correct with no resolutions, with only void ones, and once calls score."""
+    today = pg.ctx.today
+    scored = view.scored()
+    voided = sorted(cid for cid, r in view.resolutions.items() if r["body"]["outcome"] == "void")
+    waiting = sorted(e["body"]["resolves_on"] for cid, e in view.calls.items() if cid not in view.resolutions)
+    if not waiting:
+        nxt = "Every registered call has resolved."
+    elif waiting[0] <= today:
+        nxt = "The next call fell due on <b>%s</b> and is waiting for its data." % esc(waiting[0])
+    else:
+        nxt = "The next call is due <b>%s</b>." % esc(waiting[0])
+    void_txt = (" %s resolved void, which is not scored." % plural(len(voided), "call")) if voided else ""
+    if not scored:
+        lead = ("No call has resolved yet" if not view.resolutions else
+                "%s resolved void, which is not scored, and no call has resolved yes or no yet" % plural(len(voided), "call"))
+        return ("<p>%s, so there is no score to report, and reporting one would be the lie. %s Until one does, what exists is "
+                "tamper-evidence.</p>" % (lead, nxt))
+    brier = sum(r["brier"] for r in scored) / len(scored)
+    rows = []
+    for r in sorted(scored, key=lambda r: view.resolutions[r["call"]]["seq"]):
+        call = view.calls[r["call"]]["body"]
+        res = view.resolutions[r["call"]]
+        cat = call.get("category")
+        where = pg.u("category/%s/" % cat) + "#" + call["id"] if cat in by_slug else pg.u("calls/") + "#e%d" % view.calls[r["call"]]["seq"]
+        rows.append('<tr><td><a href="%s">%s</a></td><td data-label="Said">%d%%</td><td data-label="Outcome"><b class="st-%s">%s</b> %s</td>'
+                    '<td data-label="Brier">%.3f</td><td data-label="Evidence">%s</td></tr>'
+                    % (esc(where), esc(clip(call["statement"], 110)), call["p_pct"], esc(r["outcome"]), esc(r["outcome"].upper()),
+                       esc(res["body"]["resolved_on"]), r["brier"], evidence_html(res["body"].get("evidence", []), 90) or "—"))
+    return ("<p><b>%s</b> resolved yes or no. Mean Brier score <b>%.3f</b> (0 is perfect; always saying 50%% scores 0.250).%s %s</p>"
+            '<div class="scroll"><table class="resolved"><thead><tr><th>Call</th><th>Said</th><th>Outcome</th><th>Brier</th>'
+            "<th>Evidence</th></tr></thead><tbody>%s</tbody></table></div>"
+            % (plural(len(scored), "call"), brier, void_txt, nxt, "".join(rows)))
 
 
 def calls_page(ctx, entries, view, by_slug):
@@ -639,14 +746,7 @@ def calls_page(ctx, entries, view, by_slug):
     rows = "".join('<tr id="e%d"><td>%d</td><td><time>%s</time></td><td>%s</td><td>%s</td><td><code title="%s">%s…</code></td></tr>'
                    % (e["seq"], e["seq"], esc(e["ts"][:10]), esc(e["type"]), entry_summary(e, by_slug), esc(e["hash"]),
                       esc(short(e["hash"], 12))) for e in reversed(entries))
-    scored = view.scored()
-    if scored:
-        brier = sum(r["brier"] for r in scored) / len(scored)
-        score = "<p><b>%d</b> calls resolved yes/no. Mean Brier score <b>%.3f</b> (0 is perfect; always saying 50%% scores 0.250).</p>" % (len(scored), brier)
-    else:
-        first_due = min((e["body"]["resolves_on"] for e in view.calls.values()), default="—")
-        score = ("<p>No call has resolved yet, so there is no score to report, and reporting one would be the lie. The first call "
-                 "is due <b>%s</b>. Until then, what exists is tamper-evidence.</p>" % esc(first_due))
+    score = score_section(pg, view, by_slug)
     body = (
         '<h1>The ledger</h1><p class="sub">Every call, verdict and resolution, in order. Each entry carries the SHA-256 hash of '
         "the entry before it, so changing any past entry breaks every hash after it. The deploy job refuses to publish a ledger "
@@ -938,12 +1038,13 @@ def asset_version():
     return h.hexdigest()[:10]
 
 
-def build(out=None, today=None, quiet=False):
+def build(out=None, today=None, quiet=False, ledger_path=None):
+    ledger_path = ledger_path or data.LEDGER
     ctx = Ctx(out=out, today=today)
     cats = data.load_categories()
     calls = data.load_calls()
     problems = data.validate(cats, calls)
-    entries = ledger.load(data.LEDGER)
+    entries = ledger.load(ledger_path)
     problems += ["ledger: " + p for p in ledger.verify(entries)]
     if problems:
         raise SystemExit("Refusing to build:\n  " + "\n  ".join(problems))
@@ -992,13 +1093,14 @@ def build(out=None, today=None, quiet=False):
     write(ctx, "data/slips.csv", data.to_csv(slips["rows"], ["class", "commitment", "announced", "actual", "outcome",
                                                              "slip_months", "moves", "conf", "source", "note"]))
     os.makedirs(os.path.join(ctx.out, "ledger"), exist_ok=True)
-    shutil.copy(data.LEDGER, os.path.join(ctx.out, "ledger", "chain.jsonl"))
+    shutil.copy(ledger_path, os.path.join(ctx.out, "ledger", "chain.jsonl"))
     write(ctx, "ledger/HEAD", view.head + "\n")
 
     # discovery
     key_path = os.path.join(ROOT, "site", "indexnow-key.txt")
     if os.path.exists(key_path):
-        key = open(key_path).read().strip()
+        with open(key_path) as fh:
+            key = fh.read().strip()
         write(ctx, "%s.txt" % key, key)
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc, lastmod in ctx.urls:
