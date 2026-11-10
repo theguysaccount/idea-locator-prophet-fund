@@ -1,6 +1,6 @@
 {
  "status": "ok",
- "fetched": "2026-11-02T15:53:59Z",
+ "fetched": "2026-11-10T07:22:18Z",
  "errors": [],
  "by_category": {
   "implantable-bci": [
@@ -8,7 +8,7 @@
     "nct": "NCT07543367",
     "title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
     "official_title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
-    "status": "RECRUITING",
+    "status": "ACTIVE_NOT_RECRUITING",
     "sponsor": "Synchron, Inc.",
     "first_posted": "2026-04-21",
     "start": "2026-05-07",
@@ -21,7 +21,7 @@
     "nct": "NCT07533903",
     "title": "Functional Outcomes and Control Using Synchron BCI - Australia",
     "official_title": "Functional Outcomes and Control Using Synchron BCI - Australia (FOCUS-AUS)",
-    "status": "RECRUITING",
+    "status": "ACTIVE_NOT_RECRUITING",
     "sponsor": "Synchron, Inc.",
     "first_posted": "2026-04-16",
     "start": "2026-05-22",
@@ -34,7 +34,7 @@
     "nct": "NCT07446114",
     "title": "Functional Outcomes and Control Using Synchron BCI - Canada",
     "official_title": "Functional Outcomes and Control Using Synchron BCI - Canada",
-    "status": "RECRUITING",
+    "status": "TERMINATED",
     "sponsor": "Synchron, Inc.",
     "first_posted": "2026-03-03",
     "start": "2026-03-18",

@@ -1,8 +1,79 @@
 {
  "status": "ok",
- "fetched": "2026-11-02T15:53:58Z",
+ "fetched": "2026-11-10T07:22:16Z",
  "errors": [],
  "items": [
+  {
+   "document_number": "2026-22743",
+   "title": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Centers for Medicare & Medicaid Services"
+   ],
+   "publication_date": "2026-11-09",
+   "effective_on": "2027-01-01",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22743/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
+   "rins": [
+    "0938-AV82"
+   ],
+   "dockets": [
+    "CMS-1848-F"
+   ],
+   "significant": null,
+   "categories": [
+    "prescription-digital-therapeutics"
+   ]
+  },
+  {
+   "document_number": "2026-22739",
+   "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+   "type": "Rule",
+   "action": "Final rule with comment period.",
+   "agencies": [
+    "Health and Human Services Department",
+    "Centers for Medicare & Medicaid Services"
+   ],
+   "publication_date": "2026-11-06",
+   "effective_on": "2027-01-01",
+   "comments_close_on": "2027-01-04",
+   "html_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+   "rins": [
+    "0938-AV83"
+   ],
+   "dockets": [
+    "CMS-1850-FC"
+   ],
+   "significant": null,
+   "categories": [
+    "prescription-digital-therapeutics"
+   ]
+  },
+  {
+   "document_number": "2026-22443",
+   "title": "Streamlining Contested Adjudications in Licensing Proceedings",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Nuclear Regulatory Commission"
+   ],
+   "publication_date": "2026-11-03",
+   "effective_on": "2026-12-03",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22443/streamlining-contested-adjudications-in-licensing-proceedings",
+   "rins": [
+    "3150-AL58"
+   ],
+   "dockets": [
+    "NRC-2025-1501"
+   ],
+   "significant": null,
+   "categories": [
+    "advanced-nuclear-smr"
+   ]
+  },
   {
    "document_number": "2026-21801",
    "title": "NRC Reviews of Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War",
@@ -1666,28 +1737,6 @@
    ]
   },
   {
-   "document_number": "2025-13817",
-   "title": "Alternative Method for Calculating Embrittlement for Steel Reactor Vessels",
-   "type": "Proposed Rule",
-   "action": "Petition for rulemaking; denial.",
-   "agencies": [
-    "Nuclear Regulatory Commission"
-   ],
-   "publication_date": "2025-07-23",
-   "effective_on": null,
-   "comments_close_on": null,
-   "html_url": "https://www.federalregister.gov/documents/2025/07/23/2025-13817/alternative-method-for-calculating-embrittlement-for-steel-reactor-vessels",
-   "rins": [],
-   "dockets": [
-    "Docket No. PRM-50-120",
-    "NRC-2019-0180"
-   ],
-   "significant": null,
-   "categories": [
-    "advanced-nuclear-smr"
-   ]
-  },
-  {
    "document_number": "2025-13271",
    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
    "type": "Proposed Rule",
@@ -1758,55 +1807,156 @@
    "categories": [
     "software-freight-brokerage"
    ]
-  },
-  {
-   "document_number": "2025-08676",
-   "title": "Medicare and Medicaid Programs; CY 2025 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; Medicare Prescription Drug Inflation Rebate Program; and Medicare Overpayments; and Appeal Rights for Certain Changes in Patient Status; Corrections and Correcting Amendment",
-   "type": "Rule",
-   "action": "Final rules; corrections and correcting amendment.",
-   "agencies": [
-    "Health and Human Services Department",
-    "Centers for Medicare & Medicaid Services"
-   ],
-   "publication_date": "2025-05-16",
-   "effective_on": "2025-05-16",
-   "comments_close_on": null,
-   "html_url": "https://www.federalregister.gov/documents/2025/05/16/2025-08676/medicare-and-medicaid-programs-cy-2025-payment-policies-under-the-physician-fee-schedule-and-other",
-   "rins": [],
-   "dockets": [
-    "CMS-1807-F2 and CMS-4204-F3"
-   ],
-   "significant": null,
-   "categories": [
-    "prescription-digital-therapeutics"
-   ]
   }
  ],
  "by_category": {
-  "advanced-nuclear-smr": [
+  "prescription-digital-therapeutics": [
    {
-    "document_number": "2026-19568",
-    "title": "Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight",
-    "type": "Proposed Rule",
-    "action": "Proposed rule and draft regulatory guides; request for comment.",
+    "document_number": "2026-22743",
+    "title": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+    "type": "Rule",
+    "action": "Final rule.",
     "agencies": [
-     "Nuclear Regulatory Commission"
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
     ],
-    "publication_date": "2026-09-24",
-    "effective_on": null,
-    "comments_close_on": "2026-11-09",
-    "html_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19568/regulatory-enhancements-for-reactor-licensing-decommissioning-and-operational-oversight",
+    "publication_date": "2026-11-09",
+    "effective_on": "2027-01-01",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22743/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
     "rins": [
-     "3150-AL45"
+     "0938-AV82"
     ],
     "dockets": [
-     "PRM-50-110, PRM-50-116, NRC-2025-1138, NRC-2020-0036, NRC-2018-0201, and NRC-2015-0028"
+     "CMS-1848-F"
     ],
     "significant": null,
     "categories": [
-     "advanced-nuclear-smr"
+     "prescription-digital-therapeutics"
     ]
    },
+   {
+    "document_number": "2026-22739",
+    "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+    "type": "Rule",
+    "action": "Final rule with comment period.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2026-11-06",
+    "effective_on": "2027-01-01",
+    "comments_close_on": "2027-01-04",
+    "html_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+    "rins": [
+     "0938-AV83"
+    ],
+    "dockets": [
+     "CMS-1850-FC"
+    ],
+    "significant": null,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   },
+   {
+    "document_number": "2026-04797",
+    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program; Correction",
+    "type": "Rule",
+    "action": "Correcting amendments.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2026-03-12",
+    "effective_on": "2026-03-12",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/03/12/2026-04797/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+    "rins": [
+     "0938-AV50"
+    ],
+    "dockets": [
+     "CMS-1832-F2"
+    ],
+    "significant": true,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   },
+   {
+    "document_number": "2025-20907",
+    "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; Quality Reporting Programs; Overall Hospital Quality Star Rating; Hospital Price Transparency; and Notice of Closure of a Teaching Hospital and Opportunity To Apply for Available Slots",
+    "type": "Rule",
+    "action": "Final rule with comment period.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2025-11-25",
+    "effective_on": "2026-01-01",
+    "comments_close_on": "2026-01-20",
+    "html_url": "https://www.federalregister.gov/documents/2025/11/25/2025-20907/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+    "rins": [
+     "0938-AV51"
+    ],
+    "dockets": [
+     "CMS-1834-FC"
+    ],
+    "significant": true,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   },
+   {
+    "document_number": "2025-19787",
+    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2025-11-05",
+    "effective_on": "2026-01-01",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/11/05/2025-19787/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+    "rins": [
+     "0938-AV50"
+    ],
+    "dockets": [
+     "CMS-1832-F"
+    ],
+    "significant": true,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   },
+   {
+    "document_number": "2025-13271",
+    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+    "type": "Proposed Rule",
+    "action": "Proposed rule.",
+    "agencies": [
+     "Health and Human Services Department",
+     "Centers for Medicare & Medicaid Services"
+    ],
+    "publication_date": "2025-07-16",
+    "effective_on": null,
+    "comments_close_on": "2025-09-12",
+    "html_url": "https://www.federalregister.gov/documents/2025/07/16/2025-13271/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
+    "rins": [
+     "0938-AV50"
+    ],
+    "dockets": [
+     "CMS-1832-P"
+    ],
+    "significant": true,
+    "categories": [
+     "prescription-digital-therapeutics"
+    ]
+   }
+  ],
+  "advanced-nuclear-smr": [
    {
     "document_number": "2026-21801",
     "title": "NRC Reviews of Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War",
@@ -1824,6 +1974,52 @@
     ],
     "dockets": [
      "NRC-2025-1503"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-22443",
+    "title": "Streamlining Contested Adjudications in Licensing Proceedings",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-11-03",
+    "effective_on": "2026-12-03",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22443/streamlining-contested-adjudications-in-licensing-proceedings",
+    "rins": [
+     "3150-AL58"
+    ],
+    "dockets": [
+     "NRC-2025-1501"
+    ],
+    "significant": null,
+    "categories": [
+     "advanced-nuclear-smr"
+    ]
+   },
+   {
+    "document_number": "2026-19568",
+    "title": "Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight",
+    "type": "Proposed Rule",
+    "action": "Proposed rule and draft regulatory guides; request for comment.",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "publication_date": "2026-09-24",
+    "effective_on": null,
+    "comments_close_on": "2026-11-09",
+    "html_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19568/regulatory-enhancements-for-reactor-licensing-decommissioning-and-operational-oversight",
+    "rins": [
+     "3150-AL45"
+    ],
+    "dockets": [
+     "PRM-50-110, PRM-50-116, NRC-2025-1138, NRC-2020-0036, NRC-2018-0201, and NRC-2015-0028"
     ],
     "significant": null,
     "categories": [
@@ -2221,28 +2417,6 @@
      "NRC-2025-0479"
     ],
     "significant": true,
-    "categories": [
-     "advanced-nuclear-smr"
-    ]
-   },
-   {
-    "document_number": "2025-13817",
-    "title": "Alternative Method for Calculating Embrittlement for Steel Reactor Vessels",
-    "type": "Proposed Rule",
-    "action": "Petition for rulemaking; denial.",
-    "agencies": [
-     "Nuclear Regulatory Commission"
-    ],
-    "publication_date": "2025-07-23",
-    "effective_on": null,
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2025/07/23/2025-13817/alternative-method-for-calculating-embrittlement-for-steel-reactor-vessels",
-    "rins": [],
-    "dockets": [
-     "Docket No. PRM-50-120",
-     "NRC-2019-0180"
-    ],
-    "significant": null,
     "categories": [
      "advanced-nuclear-smr"
     ]
@@ -3467,126 +3641,6 @@
     "significant": null,
     "categories": [
      "obesity-care-generic-semaglutide"
-    ]
-   }
-  ],
-  "prescription-digital-therapeutics": [
-   {
-    "document_number": "2026-04797",
-    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program; Correction",
-    "type": "Rule",
-    "action": "Correcting amendments.",
-    "agencies": [
-     "Health and Human Services Department",
-     "Centers for Medicare & Medicaid Services"
-    ],
-    "publication_date": "2026-03-12",
-    "effective_on": "2026-03-12",
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/03/12/2026-04797/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
-    "rins": [
-     "0938-AV50"
-    ],
-    "dockets": [
-     "CMS-1832-F2"
-    ],
-    "significant": true,
-    "categories": [
-     "prescription-digital-therapeutics"
-    ]
-   },
-   {
-    "document_number": "2025-20907",
-    "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; Quality Reporting Programs; Overall Hospital Quality Star Rating; Hospital Price Transparency; and Notice of Closure of a Teaching Hospital and Opportunity To Apply for Available Slots",
-    "type": "Rule",
-    "action": "Final rule with comment period.",
-    "agencies": [
-     "Health and Human Services Department",
-     "Centers for Medicare & Medicaid Services"
-    ],
-    "publication_date": "2025-11-25",
-    "effective_on": "2026-01-01",
-    "comments_close_on": "2026-01-20",
-    "html_url": "https://www.federalregister.gov/documents/2025/11/25/2025-20907/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-    "rins": [
-     "0938-AV51"
-    ],
-    "dockets": [
-     "CMS-1834-FC"
-    ],
-    "significant": true,
-    "categories": [
-     "prescription-digital-therapeutics"
-    ]
-   },
-   {
-    "document_number": "2025-19787",
-    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
-    "type": "Rule",
-    "action": "Final rule.",
-    "agencies": [
-     "Health and Human Services Department",
-     "Centers for Medicare & Medicaid Services"
-    ],
-    "publication_date": "2025-11-05",
-    "effective_on": "2026-01-01",
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2025/11/05/2025-19787/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
-    "rins": [
-     "0938-AV50"
-    ],
-    "dockets": [
-     "CMS-1832-F"
-    ],
-    "significant": true,
-    "categories": [
-     "prescription-digital-therapeutics"
-    ]
-   },
-   {
-    "document_number": "2025-13271",
-    "title": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
-    "type": "Proposed Rule",
-    "action": "Proposed rule.",
-    "agencies": [
-     "Health and Human Services Department",
-     "Centers for Medicare & Medicaid Services"
-    ],
-    "publication_date": "2025-07-16",
-    "effective_on": null,
-    "comments_close_on": "2025-09-12",
-    "html_url": "https://www.federalregister.gov/documents/2025/07/16/2025-13271/medicare-and-medicaid-programs-cy-2026-payment-policies-under-the-physician-fee-schedule-and-other",
-    "rins": [
-     "0938-AV50"
-    ],
-    "dockets": [
-     "CMS-1832-P"
-    ],
-    "significant": true,
-    "categories": [
-     "prescription-digital-therapeutics"
-    ]
-   },
-   {
-    "document_number": "2025-08676",
-    "title": "Medicare and Medicaid Programs; CY 2025 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; Medicare Prescription Drug Inflation Rebate Program; and Medicare Overpayments; and Appeal Rights for Certain Changes in Patient Status; Corrections and Correcting Amendment",
-    "type": "Rule",
-    "action": "Final rules; corrections and correcting amendment.",
-    "agencies": [
-     "Health and Human Services Department",
-     "Centers for Medicare & Medicaid Services"
-    ],
-    "publication_date": "2025-05-16",
-    "effective_on": "2025-05-16",
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2025/05/16/2025-08676/medicare-and-medicaid-programs-cy-2025-payment-policies-under-the-physician-fee-schedule-and-other",
-    "rins": [],
-    "dockets": [
-     "CMS-1807-F2 and CMS-4204-F3"
-    ],
-    "significant": null,
-    "categories": [
-     "prescription-digital-therapeutics"
     ]
    }
   ],
