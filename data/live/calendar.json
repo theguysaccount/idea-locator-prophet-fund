@@ -1,8 +1,78 @@
 {
  "status": "ok",
- "fetched": "2026-11-10T07:22:16Z",
+ "fetched": "2026-11-16T15:48:01Z",
  "errors": [],
  "items": [
+  {
+   "document_number": "2026-23239",
+   "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
+   "type": "Proposed Rule",
+   "action": "Extension of comment period.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-11-16",
+   "effective_on": "2026-10-26",
+   "comments_close_on": "2026-12-10",
+   "html_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23239/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+   "rins": [
+    "2127-AM70"
+   ],
+   "dockets": [
+    "Docket No. NHTSA-2026-1519"
+   ],
+   "significant": true,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-23238",
+   "title": "Agency Information Collection Activities; Notice and Request for Comment; 49 CFR Part 555, Temporary Exemption From Motor Vehicle Safety and Bumper Standards",
+   "type": "Notice",
+   "action": "Notice and request for comments on a request for approval of a new information collection.",
+   "agencies": [
+    "Transportation Department",
+    "National Highway Traffic Safety Administration"
+   ],
+   "publication_date": "2026-11-16",
+   "effective_on": null,
+   "comments_close_on": "2027-01-15",
+   "html_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23238/agency-information-collection-activities-notice-and-request-for-comment-49-cfr-part-555-temporary",
+   "rins": [],
+   "dockets": [
+    "Docket No. NHTSA-2026-1453"
+   ],
+   "significant": null,
+   "categories": [
+    "driverless-trucking"
+   ]
+  },
+  {
+   "document_number": "2026-22953",
+   "title": "Inspection Programs for Single-Engine Turbine-Powered Airplanes and Unmanned Aircraft; and Miscellaneous Maintenance-Related Updates",
+   "type": "Rule",
+   "action": "Final rule.",
+   "agencies": [
+    "Transportation Department",
+    "Federal Aviation Administration"
+   ],
+   "publication_date": "2026-11-10",
+   "effective_on": "2027-01-11",
+   "comments_close_on": null,
+   "html_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22953/inspection-programs-for-single-engine-turbine-powered-airplanes-and-unmanned-aircraft-and",
+   "rins": [
+    "2120-AL20"
+   ],
+   "dockets": [
+    "Docket No.: FAA-2024-0025 Amdt. Nos. 91-385, 125-78, 135-150, 137-18, and 145-34"
+   ],
+   "significant": false,
+   "categories": [
+    "drone-delivery"
+   ]
+  },
   {
    "document_number": "2026-22743",
    "title": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
@@ -1399,50 +1469,6 @@
    ]
   },
   {
-   "document_number": "2026-01274",
-   "title": "Notice and Request for Comment; Proposal for a New United Nations Global Technical Regulation on Automated Driving Systems (ADS)",
-   "type": "Notice",
-   "action": "Notice and request for comments on a proposed Global Technical Regulation (GTR) for Automated Driving Systems.",
-   "agencies": [
-    "Transportation Department",
-    "National Highway Traffic Safety Administration"
-   ],
-   "publication_date": "2026-01-23",
-   "effective_on": null,
-   "comments_close_on": "2026-02-23",
-   "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01274/notice-and-request-for-comment-proposal-for-a-new-united-nations-global-technical-regulation-on",
-   "rins": [],
-   "dockets": [
-    "Docket No. NHTSA-2026-0034"
-   ],
-   "significant": null,
-   "categories": [
-    "driverless-trucking"
-   ]
-  },
-  {
-   "document_number": "2026-01272",
-   "title": "Request for Comment on Vestigial Vehicle Safety Regulations",
-   "type": "Notice",
-   "action": "Request for comments (RFC).",
-   "agencies": [
-    "Transportation Department",
-    "National Highway Traffic Safety Administration"
-   ],
-   "publication_date": "2026-01-23",
-   "effective_on": null,
-   "comments_close_on": "2026-03-24",
-   "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01272/request-for-comment-on-vestigial-vehicle-safety-regulations",
-   "rins": [],
-   "dockets": [
-    "Docket No. NHTSA-2026-0133"
-   ],
-   "significant": null,
-   "categories": [
-    "driverless-trucking"
-   ]
-  },
-  {
    "document_number": "2026-01226",
    "title": "Flight Restrictions in the Vicinity of Ronald Reagan Washington National Airport (DCA)",
    "type": "Rule",
@@ -1810,6 +1836,675 @@
   }
  ],
  "by_category": {
+  "driverless-trucking": [
+   {
+    "document_number": "2026-21794",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-10-26",
+    "effective_on": null,
+    "comments_close_on": "2026-11-25",
+    "html_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AM70"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-1519"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-19964",
+    "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-09-30",
+    "effective_on": "2026-11-30",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
+    "rins": [
+     "2127-AM76"
+    ],
+    "dockets": [
+     "NHTSA-2025-0491"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-23239",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Extension of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-11-16",
+    "effective_on": "2026-10-26",
+    "comments_close_on": "2026-12-10",
+    "html_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23239/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AM70"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-1519"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-23238",
+    "title": "Agency Information Collection Activities; Notice and Request for Comment; 49 CFR Part 555, Temporary Exemption From Motor Vehicle Safety and Bumper Standards",
+    "type": "Notice",
+    "action": "Notice and request for comments on a request for approval of a new information collection.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-11-16",
+    "effective_on": null,
+    "comments_close_on": "2027-01-15",
+    "html_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23238/agency-information-collection-activities-notice-and-request-for-comment-49-cfr-part-555-temporary",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1453"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-15484",
+    "title": "Updating and Expanding Guidance on Safe Development and Deployment of Automated Driving Systems",
+    "type": "Notice",
+    "action": "Notice of public availability and request for public comment.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-07-31",
+    "effective_on": null,
+    "comments_close_on": "2027-07-31",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15484/updating-and-expanding-guidance-on-safe-development-and-deployment-of-automated-driving-systems",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1520"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-20516",
+    "title": "NHTSA Safety Research Portfolio Public Meeting: Fall 2026, and Automated Driving Systems Workshop",
+    "type": "Notice",
+    "action": "Notice of a public meeting.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-10-07",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20516/nhtsa-safety-research-portfolio-public-meeting-fall-2026-and-automated-driving-systems-workshop",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1618"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-19242",
+    "title": "Federal Motor Vehicle Safety Standards; Denial of a Petition for Rulemaking",
+    "type": "Proposed Rule",
+    "action": "Denial of petition for rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-09-21",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/09/21/2026-19242/federal-motor-vehicle-safety-standards-denial-of-a-petition-for-rulemaking",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-2047"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-17741",
+    "title": "AV Framework Updates and Request for Comments on Interim Guidance; Extension of Comment Period",
+    "type": "Notice",
+    "action": "Extension of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-08-31",
+    "effective_on": null,
+    "comments_close_on": "2026-09-30",
+    "html_url": "https://www.federalregister.gov/documents/2026/08/31/2026-17741/av-framework-updates-and-request-for-comments-on-interim-guidance-extension-of-comment-period",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1552"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-15485",
+    "title": "Zoox-Grant of Temporary Exemption From Portions of Various Requirements of the Federal Motor Vehicle Safety Standards for an Automated Driving System-Equipped Vehicle",
+    "type": "Notice",
+    "action": "Notice of grant of application for temporary exemption from portions of eight Federal Motor Vehicle Safety Standards (FMVSS).",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-07-31",
+    "effective_on": "2026-07-31",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15485/zoox-grant-of-temporary-exemption-from-portions-of-various-requirements-of-the-federal-motor-vehicle",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2025-0523"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-15483",
+    "title": "AV Framework Updates and Request for Comments on Interim Guidance",
+    "type": "Notice",
+    "action": "Notice of updates; request for comments.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-07-31",
+    "effective_on": null,
+    "comments_close_on": "2026-08-31",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15483/av-framework-updates-and-request-for-comments-on-interim-guidance",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-1552"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-12981",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 135 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-06-26",
+    "effective_on": null,
+    "comments_close_on": "2026-07-27",
+    "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12981/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-135-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AN00"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-0728"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-12980",
+    "title": "ADS-Equipped Vehicle Safety, Transparency, and Evaluation Program; Withdrawal",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking; withdrawal.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-06-26",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12980/ads-equipped-vehicle-safety-transparency-and-evaluation-program-withdrawal",
+    "rins": [
+     "2127-AM60"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2024-0100"
+    ],
+    "significant": false,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-10363",
+    "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Incident Reporting for Automated Driving Systems (ADS) and Level 2 Advanced Driver Assistance Systems (ADAS)",
+    "type": "Notice",
+    "action": "Notice and request for comments on a reinstatement of a previously approved information collection with modifications.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-05-26",
+    "effective_on": null,
+    "comments_close_on": "2026-06-25",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/26/2026-10363/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0529"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-09849",
+    "title": "Event Data Recorders",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-05-18",
+    "effective_on": "2026-06-17",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/05/18/2026-09849/event-data-recorders",
+    "rins": [
+     "2127-AM78"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2025-0050"
+    ],
+    "significant": false,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-06254",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 110 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-04-01",
+    "effective_on": null,
+    "comments_close_on": "2026-05-01",
+    "html_url": "https://www.federalregister.gov/documents/2026/04/01/2026-06254/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-110-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AM96"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-0630"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-05024",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 102 To Accommodate ADS-Equipped Vehicles",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-03-16",
+    "effective_on": null,
+    "comments_close_on": "2026-04-15",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05024/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-102-to-accommodate-ads-equipped",
+    "rins": [
+     "2127-AM72"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-0628"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-05023",
+    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 103 and FMVSS No. 104 To Accommodate ADS-Equipped Vehicles; Incorporation by Reference",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-03-16",
+    "effective_on": null,
+    "comments_close_on": "2026-04-15",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05023/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-103-and-fmvss-no-104-to-accommodate",
+    "rins": [
+     "2127-AM71"
+    ],
+    "dockets": [
+     "Docket No. NHTSA-2026-0629"
+    ],
+    "significant": true,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-04240",
+    "title": "Agency Information Collection Activities; Notice and Request for Comment; Incident Reporting for Automated Driving Systems (ADS) and Level 2 Advanced Driver Assistance Systems (ADAS)",
+    "type": "Notice",
+    "action": "Notice and request for comments on a request for extension of a currently approved information collection with modifications.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-03-04",
+    "effective_on": null,
+    "comments_close_on": "2026-05-04",
+    "html_url": "https://www.federalregister.gov/documents/2026/03/04/2026-04240/agency-information-collection-activities-notice-and-request-for-comment-incident-reporting-for",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0529"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-03854",
+    "title": "Notice and Request for Comment; Proposal for a New United Nations Global Technical Regulation on Automated Driving Systems (ADS)",
+    "type": "Notice",
+    "action": "Notice and request for comments on a proposed Global Technical Regulation (GTR) for Automated Driving Systems; extension of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-02-26",
+    "effective_on": null,
+    "comments_close_on": "2026-03-10",
+    "html_url": "https://www.federalregister.gov/documents/2026/02/26/2026-03854/notice-and-request-for-comment-proposal-for-a-new-united-nations-global-technical-regulation-on",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0034"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   },
+   {
+    "document_number": "2026-02503",
+    "title": "NHTSA Automated Vehicle Safety Public Meeting: March 2026",
+    "type": "Notice",
+    "action": "Notice of a public meeting.",
+    "agencies": [
+     "Transportation Department",
+     "National Highway Traffic Safety Administration"
+    ],
+    "publication_date": "2026-02-09",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/02/09/2026-02503/nhtsa-automated-vehicle-safety-public-meeting-march-2026",
+    "rins": [],
+    "dockets": [
+     "Docket No. NHTSA-2026-0265"
+    ],
+    "significant": null,
+    "categories": [
+     "driverless-trucking"
+    ]
+   }
+  ],
+  "drone-delivery": [
+   {
+    "document_number": "2026-22953",
+    "title": "Inspection Programs for Single-Engine Turbine-Powered Airplanes and Unmanned Aircraft; and Miscellaneous Maintenance-Related Updates",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-11-10",
+    "effective_on": "2027-01-11",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22953/inspection-programs-for-single-engine-turbine-powered-airplanes-and-unmanned-aircraft-and",
+    "rins": [
+     "2120-AL20"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2024-0025 Amdt. Nos. 91-385, 125-78, 135-150, 137-18, and 145-34"
+    ],
+    "significant": false,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2026-15585",
+    "title": "Requirements for Interference-Tolerant Radio Altimeter Systems",
+    "type": "Rule",
+    "action": "Final rule.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-07-31",
+    "effective_on": "2026-09-29",
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15585/requirements-for-interference-tolerant-radio-altimeter-systems",
+    "rins": [
+     "2120-AM21"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2025-5666",
+     "Amdt Nos. 91-384, 121-396 and 129-56"
+    ],
+    "significant": null,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2026-13440",
+    "title": "Enabling Supersonic Overland Flight",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-07-02",
+    "effective_on": null,
+    "comments_close_on": "2026-08-17",
+    "html_url": "https://www.federalregister.gov/documents/2026/07/02/2026-13440/enabling-supersonic-overland-flight",
+    "rins": [
+     "2120-AM15"
+    ],
+    "dockets": [
+     "Docket No.: FAA-2026-6935",
+     "Notice No. 26-07"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery",
+     "supersonic-passenger-flight"
+    ]
+   },
+   {
+    "document_number": "2026-08943",
+    "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a Fixed Site Facility",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM).",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-05-06",
+    "effective_on": null,
+    "comments_close_on": "2026-07-06",
+    "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility",
+    "rins": [
+     "2120-AL33"
+    ],
+    "dockets": [
+     "Docket No. FAA-2026-4558",
+     "Notice No. 26-03"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2026-02649",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period; Denial of Extension",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM); Reopening of comment period; Denial of extension.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-02-10",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2026/02/10/2026-02649/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
+    "rins": [
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-2025-1908",
+     "Notice No. 25-07C"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2026-01644",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking; reopening of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration"
+    ],
+    "publication_date": "2026-01-28",
+    "effective_on": null,
+    "comments_close_on": "2026-02-11",
+    "html_url": "https://www.federalregister.gov/documents/2026/01/28/2026-01644/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
+    "rins": [
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-FAA-2025-1908",
+     "Notice No. 25-07B"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2025-18873",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Denial of Extension of Comment Period",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM); Denial of extension of comment period.",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration",
+     "Homeland Security Department",
+     "Transportation Security Administration"
+    ],
+    "publication_date": "2025-09-29",
+    "effective_on": null,
+    "comments_close_on": null,
+    "html_url": "https://www.federalregister.gov/documents/2025/09/29/2025-18873/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-denial-of-extension-of",
+    "rins": [
+     "1652-AA80",
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-2025-1908",
+     "Notice No. 25-07A"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery"
+    ]
+   },
+   {
+    "document_number": "2025-14992",
+    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations",
+    "type": "Proposed Rule",
+    "action": "Notice of proposed rulemaking (NPRM)",
+    "agencies": [
+     "Transportation Department",
+     "Federal Aviation Administration",
+     "Homeland Security Department",
+     "Transportation Security Administration"
+    ],
+    "publication_date": "2025-08-07",
+    "effective_on": null,
+    "comments_close_on": "2025-10-06",
+    "html_url": "https://www.federalregister.gov/documents/2025/08/07/2025-14992/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations",
+    "rins": [
+     "1652-AA80",
+     "2120-AL82"
+    ],
+    "dockets": [
+     "Docket No. FAA-2025-1908",
+     "Notice No. 25-07"
+    ],
+    "significant": true,
+    "categories": [
+     "drone-delivery",
+     "evtol-air-taxis"
+    ]
+   }
+  ],
   "prescription-digital-therapeutics": [
    {
     "document_number": "2026-22743",
@@ -2422,464 +3117,6 @@
     ]
    }
   ],
-  "driverless-trucking": [
-   {
-    "document_number": "2026-21794",
-    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-10-26",
-    "effective_on": null,
-    "comments_close_on": "2026-11-25",
-    "html_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
-    "rins": [
-     "2127-AM70"
-    ],
-    "dockets": [
-     "Docket No. NHTSA-2026-1519"
-    ],
-    "significant": true,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-19964",
-    "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
-    "type": "Rule",
-    "action": "Final rule.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-09-30",
-    "effective_on": "2026-11-30",
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
-    "rins": [
-     "2127-AM76"
-    ],
-    "dockets": [
-     "NHTSA-2025-0491"
-    ],
-    "significant": true,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-15484",
-    "title": "Updating and Expanding Guidance on Safe Development and Deployment of Automated Driving Systems",
-    "type": "Notice",
-    "action": "Notice of public availability and request for public comment.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-07-31",
-    "effective_on": null,
-    "comments_close_on": "2027-07-31",
-    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15484/updating-and-expanding-guidance-on-safe-development-and-deployment-of-automated-driving-systems",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-1520"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-20516",
-    "title": "NHTSA Safety Research Portfolio Public Meeting: Fall 2026, and Automated Driving Systems Workshop",
-    "type": "Notice",
-    "action": "Notice of a public meeting.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-10-07",
-    "effective_on": null,
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20516/nhtsa-safety-research-portfolio-public-meeting-fall-2026-and-automated-driving-systems-workshop",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-1618"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-19242",
-    "title": "Federal Motor Vehicle Safety Standards; Denial of a Petition for Rulemaking",
-    "type": "Proposed Rule",
-    "action": "Denial of petition for rulemaking.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-09-21",
-    "effective_on": null,
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/09/21/2026-19242/federal-motor-vehicle-safety-standards-denial-of-a-petition-for-rulemaking",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-2047"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-17741",
-    "title": "AV Framework Updates and Request for Comments on Interim Guidance; Extension of Comment Period",
-    "type": "Notice",
-    "action": "Extension of comment period.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-08-31",
-    "effective_on": null,
-    "comments_close_on": "2026-09-30",
-    "html_url": "https://www.federalregister.gov/documents/2026/08/31/2026-17741/av-framework-updates-and-request-for-comments-on-interim-guidance-extension-of-comment-period",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-1552"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-15485",
-    "title": "Zoox-Grant of Temporary Exemption From Portions of Various Requirements of the Federal Motor Vehicle Safety Standards for an Automated Driving System-Equipped Vehicle",
-    "type": "Notice",
-    "action": "Notice of grant of application for temporary exemption from portions of eight Federal Motor Vehicle Safety Standards (FMVSS).",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-07-31",
-    "effective_on": "2026-07-31",
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15485/zoox-grant-of-temporary-exemption-from-portions-of-various-requirements-of-the-federal-motor-vehicle",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2025-0523"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-15483",
-    "title": "AV Framework Updates and Request for Comments on Interim Guidance",
-    "type": "Notice",
-    "action": "Notice of updates; request for comments.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-07-31",
-    "effective_on": null,
-    "comments_close_on": "2026-08-31",
-    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15483/av-framework-updates-and-request-for-comments-on-interim-guidance",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-1552"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-12981",
-    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 135 To Accommodate ADS-Equipped Vehicles",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-06-26",
-    "effective_on": null,
-    "comments_close_on": "2026-07-27",
-    "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12981/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-135-to-accommodate-ads-equipped",
-    "rins": [
-     "2127-AN00"
-    ],
-    "dockets": [
-     "Docket No. NHTSA-2026-0728"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-12980",
-    "title": "ADS-Equipped Vehicle Safety, Transparency, and Evaluation Program; Withdrawal",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking; withdrawal.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-06-26",
-    "effective_on": null,
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12980/ads-equipped-vehicle-safety-transparency-and-evaluation-program-withdrawal",
-    "rins": [
-     "2127-AM60"
-    ],
-    "dockets": [
-     "Docket No. NHTSA-2024-0100"
-    ],
-    "significant": false,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-10363",
-    "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Incident Reporting for Automated Driving Systems (ADS) and Level 2 Advanced Driver Assistance Systems (ADAS)",
-    "type": "Notice",
-    "action": "Notice and request for comments on a reinstatement of a previously approved information collection with modifications.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-05-26",
-    "effective_on": null,
-    "comments_close_on": "2026-06-25",
-    "html_url": "https://www.federalregister.gov/documents/2026/05/26/2026-10363/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-0529"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-09849",
-    "title": "Event Data Recorders",
-    "type": "Rule",
-    "action": "Final rule.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-05-18",
-    "effective_on": "2026-06-17",
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/05/18/2026-09849/event-data-recorders",
-    "rins": [
-     "2127-AM78"
-    ],
-    "dockets": [
-     "Docket No. NHTSA-2025-0050"
-    ],
-    "significant": false,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-06254",
-    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 110 To Accommodate ADS-Equipped Vehicles",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-04-01",
-    "effective_on": null,
-    "comments_close_on": "2026-05-01",
-    "html_url": "https://www.federalregister.gov/documents/2026/04/01/2026-06254/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-110-to-accommodate-ads-equipped",
-    "rins": [
-     "2127-AM96"
-    ],
-    "dockets": [
-     "Docket No. NHTSA-2026-0630"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-05024",
-    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 102 To Accommodate ADS-Equipped Vehicles",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-03-16",
-    "effective_on": null,
-    "comments_close_on": "2026-04-15",
-    "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05024/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-102-to-accommodate-ads-equipped",
-    "rins": [
-     "2127-AM72"
-    ],
-    "dockets": [
-     "Docket No. NHTSA-2026-0628"
-    ],
-    "significant": true,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-05023",
-    "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 103 and FMVSS No. 104 To Accommodate ADS-Equipped Vehicles; Incorporation by Reference",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-03-16",
-    "effective_on": null,
-    "comments_close_on": "2026-04-15",
-    "html_url": "https://www.federalregister.gov/documents/2026/03/16/2026-05023/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-103-and-fmvss-no-104-to-accommodate",
-    "rins": [
-     "2127-AM71"
-    ],
-    "dockets": [
-     "Docket No. NHTSA-2026-0629"
-    ],
-    "significant": true,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-04240",
-    "title": "Agency Information Collection Activities; Notice and Request for Comment; Incident Reporting for Automated Driving Systems (ADS) and Level 2 Advanced Driver Assistance Systems (ADAS)",
-    "type": "Notice",
-    "action": "Notice and request for comments on a request for extension of a currently approved information collection with modifications.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-03-04",
-    "effective_on": null,
-    "comments_close_on": "2026-05-04",
-    "html_url": "https://www.federalregister.gov/documents/2026/03/04/2026-04240/agency-information-collection-activities-notice-and-request-for-comment-incident-reporting-for",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-0529"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-03854",
-    "title": "Notice and Request for Comment; Proposal for a New United Nations Global Technical Regulation on Automated Driving Systems (ADS)",
-    "type": "Notice",
-    "action": "Notice and request for comments on a proposed Global Technical Regulation (GTR) for Automated Driving Systems; extension of comment period.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-02-26",
-    "effective_on": null,
-    "comments_close_on": "2026-03-10",
-    "html_url": "https://www.federalregister.gov/documents/2026/02/26/2026-03854/notice-and-request-for-comment-proposal-for-a-new-united-nations-global-technical-regulation-on",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-0034"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-02503",
-    "title": "NHTSA Automated Vehicle Safety Public Meeting: March 2026",
-    "type": "Notice",
-    "action": "Notice of a public meeting.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-02-09",
-    "effective_on": null,
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/02/09/2026-02503/nhtsa-automated-vehicle-safety-public-meeting-march-2026",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-0265"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-01274",
-    "title": "Notice and Request for Comment; Proposal for a New United Nations Global Technical Regulation on Automated Driving Systems (ADS)",
-    "type": "Notice",
-    "action": "Notice and request for comments on a proposed Global Technical Regulation (GTR) for Automated Driving Systems.",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-01-23",
-    "effective_on": null,
-    "comments_close_on": "2026-02-23",
-    "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01274/notice-and-request-for-comment-proposal-for-a-new-united-nations-global-technical-regulation-on",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-0034"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   },
-   {
-    "document_number": "2026-01272",
-    "title": "Request for Comment on Vestigial Vehicle Safety Regulations",
-    "type": "Notice",
-    "action": "Request for comments (RFC).",
-    "agencies": [
-     "Transportation Department",
-     "National Highway Traffic Safety Administration"
-    ],
-    "publication_date": "2026-01-23",
-    "effective_on": null,
-    "comments_close_on": "2026-03-24",
-    "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01272/request-for-comment-on-vestigial-vehicle-safety-regulations",
-    "rins": [],
-    "dockets": [
-     "Docket No. NHTSA-2026-0133"
-    ],
-    "significant": null,
-    "categories": [
-     "driverless-trucking"
-    ]
-   }
-  ],
   "supersonic-passenger-flight": [
    {
     "document_number": "2026-19584",
@@ -3278,191 +3515,6 @@
     "significant": null,
     "categories": [
      "software-freight-brokerage"
-    ]
-   }
-  ],
-  "drone-delivery": [
-   {
-    "document_number": "2026-15585",
-    "title": "Requirements for Interference-Tolerant Radio Altimeter Systems",
-    "type": "Rule",
-    "action": "Final rule.",
-    "agencies": [
-     "Transportation Department",
-     "Federal Aviation Administration"
-    ],
-    "publication_date": "2026-07-31",
-    "effective_on": "2026-09-29",
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15585/requirements-for-interference-tolerant-radio-altimeter-systems",
-    "rins": [
-     "2120-AM21"
-    ],
-    "dockets": [
-     "Docket No.: FAA-2025-5666",
-     "Amdt Nos. 91-384, 121-396 and 129-56"
-    ],
-    "significant": null,
-    "categories": [
-     "drone-delivery"
-    ]
-   },
-   {
-    "document_number": "2026-13440",
-    "title": "Enabling Supersonic Overland Flight",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking (NPRM).",
-    "agencies": [
-     "Transportation Department",
-     "Federal Aviation Administration"
-    ],
-    "publication_date": "2026-07-02",
-    "effective_on": null,
-    "comments_close_on": "2026-08-17",
-    "html_url": "https://www.federalregister.gov/documents/2026/07/02/2026-13440/enabling-supersonic-overland-flight",
-    "rins": [
-     "2120-AM15"
-    ],
-    "dockets": [
-     "Docket No.: FAA-2026-6935",
-     "Notice No. 26-07"
-    ],
-    "significant": true,
-    "categories": [
-     "drone-delivery",
-     "supersonic-passenger-flight"
-    ]
-   },
-   {
-    "document_number": "2026-08943",
-    "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a Fixed Site Facility",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking (NPRM).",
-    "agencies": [
-     "Transportation Department",
-     "Federal Aviation Administration"
-    ],
-    "publication_date": "2026-05-06",
-    "effective_on": null,
-    "comments_close_on": "2026-07-06",
-    "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility",
-    "rins": [
-     "2120-AL33"
-    ],
-    "dockets": [
-     "Docket No. FAA-2026-4558",
-     "Notice No. 26-03"
-    ],
-    "significant": true,
-    "categories": [
-     "drone-delivery"
-    ]
-   },
-   {
-    "document_number": "2026-02649",
-    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period; Denial of Extension",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking (NPRM); Reopening of comment period; Denial of extension.",
-    "agencies": [
-     "Transportation Department",
-     "Federal Aviation Administration"
-    ],
-    "publication_date": "2026-02-10",
-    "effective_on": null,
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2026/02/10/2026-02649/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
-    "rins": [
-     "2120-AL82"
-    ],
-    "dockets": [
-     "Docket No. FAA-2025-1908",
-     "Notice No. 25-07C"
-    ],
-    "significant": true,
-    "categories": [
-     "drone-delivery"
-    ]
-   },
-   {
-    "document_number": "2026-01644",
-    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Reopening of Comment Period",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking; reopening of comment period.",
-    "agencies": [
-     "Transportation Department",
-     "Federal Aviation Administration"
-    ],
-    "publication_date": "2026-01-28",
-    "effective_on": null,
-    "comments_close_on": "2026-02-11",
-    "html_url": "https://www.federalregister.gov/documents/2026/01/28/2026-01644/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
-    "rins": [
-     "2120-AL82"
-    ],
-    "dockets": [
-     "Docket No. FAA-FAA-2025-1908",
-     "Notice No. 25-07B"
-    ],
-    "significant": true,
-    "categories": [
-     "drone-delivery"
-    ]
-   },
-   {
-    "document_number": "2025-18873",
-    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations; Denial of Extension of Comment Period",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking (NPRM); Denial of extension of comment period.",
-    "agencies": [
-     "Transportation Department",
-     "Federal Aviation Administration",
-     "Homeland Security Department",
-     "Transportation Security Administration"
-    ],
-    "publication_date": "2025-09-29",
-    "effective_on": null,
-    "comments_close_on": null,
-    "html_url": "https://www.federalregister.gov/documents/2025/09/29/2025-18873/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-denial-of-extension-of",
-    "rins": [
-     "1652-AA80",
-     "2120-AL82"
-    ],
-    "dockets": [
-     "Docket No. FAA-2025-1908",
-     "Notice No. 25-07A"
-    ],
-    "significant": true,
-    "categories": [
-     "drone-delivery"
-    ]
-   },
-   {
-    "document_number": "2025-14992",
-    "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations",
-    "type": "Proposed Rule",
-    "action": "Notice of proposed rulemaking (NPRM)",
-    "agencies": [
-     "Transportation Department",
-     "Federal Aviation Administration",
-     "Homeland Security Department",
-     "Transportation Security Administration"
-    ],
-    "publication_date": "2025-08-07",
-    "effective_on": null,
-    "comments_close_on": "2025-10-06",
-    "html_url": "https://www.federalregister.gov/documents/2025/08/07/2025-14992/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations",
-    "rins": [
-     "1652-AA80",
-     "2120-AL82"
-    ],
-    "dockets": [
-     "Docket No. FAA-2025-1908",
-     "Notice No. 25-07"
-    ],
-    "significant": true,
-    "categories": [
-     "drone-delivery",
-     "evtol-air-taxis"
     ]
    }
   ],

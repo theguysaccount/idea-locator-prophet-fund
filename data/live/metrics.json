@@ -1,7 +1,7 @@
 {
  "fred:APU000072610": {
   "status": "ok",
-  "fetched": "2026-11-10T07:22:10Z",
+  "fetched": "2026-11-16T15:47:45Z",
   "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=APU000072610",
   "points": [
    [
@@ -2295,12 +2295,16 @@
    [
     "2026-09-01",
     "0.196"
+   ],
+   [
+    "2026-10-01",
+    "0.19"
    ]
   ]
  },
  "fred:FEDFUNDS": {
   "status": "ok",
-  "fetched": "2026-11-10T07:22:10Z",
+  "fetched": "2026-11-16T15:47:46Z",
   "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS",
   "points": [
    [
@@ -5779,7 +5783,7 @@
  },
  "fred:PCU484121484121": {
   "status": "ok",
-  "fetched": "2026-11-10T07:22:10Z",
+  "fetched": "2026-11-16T15:47:46Z",
   "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCU484121484121",
   "points": [
    [
@@ -6876,13 +6880,17 @@
    ],
    [
     "2026-09-01",
-    "219.384"
+    "218.727"
+   ],
+   [
+    "2026-10-01",
+    "230.994"
    ]
   ]
  },
  "owid:cost-of-sequencing-a-full-human-genome:cost_per_genome:World": {
   "status": "ok",
-  "fetched": "2026-11-10T07:22:11Z",
+  "fetched": "2026-11-16T15:47:47Z",
   "url": "https://ourworldindata.org/grapher/cost-of-sequencing-a-full-human-genome.csv?v=1&csvType=full&useColumnShortNames=true",
   "points": [
    [
@@ -6977,7 +6985,7 @@
  },
  "owid:electric-car-sales:ev_sales:World": {
   "status": "ok",
-  "fetched": "2026-11-10T07:22:11Z",
+  "fetched": "2026-11-16T15:47:48Z",
   "url": "https://ourworldindata.org/grapher/electric-car-sales.csv?v=1&csvType=full&useColumnShortNames=true",
   "points": [
    [
@@ -7047,7 +7055,7 @@
   ]
  },
  "worldbank:USA:IT.NET.BBND.P2": {
-  "status": "ok",
+  "status": "stale",
   "fetched": "2026-11-10T07:22:11Z",
   "url": "https://api.worldbank.org/v2/country/USA/indicator/IT.NET.BBND.P2?format=json&per_page=200",
   "points": [
@@ -7159,6 +7167,8 @@
     "2024",
     "38.8571729185246"
    ]
-  ]
+  ],
+  "error": "GET https://api.worldbank.org/v2/country/USA/indicator/IT.NET.BBND.P2?format=json&per_page=200 failed: attempt 1 (0s): HTTP Error 502: Bad Gateway; attempt 2 (0s): HTTP Error 502: Bad Gateway; attempt 3 (0s): HTTP Error 502: Bad Gateway",
+  "failing_since": "2026-11-16"
  }
 }

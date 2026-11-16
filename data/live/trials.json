@@ -1,9 +1,22 @@
 {
  "status": "ok",
- "fetched": "2026-11-10T07:22:18Z",
+ "fetched": "2026-11-16T15:48:02Z",
  "errors": [],
  "by_category": {
   "implantable-bci": [
+   {
+    "nct": "NCT07929792",
+    "title": "An Early Feasibility Study of a Robotically Implanted Brain-Computer Interface for Neural Control of External Devices in Spinal Cord Injury, Amyotrophic Lateral Sclerosis, and Chronic Ischemic Stroke",
+    "official_title": "An Early Feasibility Study of a Robotically Implanted Brain-Computer Interface for Neural Control of External Devices in Spinal Cord Injury, Amyotrophic Lateral Sclerosis, and Chronic Ischemic Stroke",
+    "status": "RECRUITING",
+    "sponsor": "Neuralink Corp",
+    "first_posted": "2026-11-10",
+    "start": "2026-11",
+    "type": "INTERVENTIONAL",
+    "phases": [
+     "NA"
+    ]
+   },
    {
     "nct": "NCT07543367",
     "title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
